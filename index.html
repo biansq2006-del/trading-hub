@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="统一访问交易数据看板、左侧交易策略和主升浪交易策略。"
+    />
+    <title>交易工具台</title>
+    <link rel="preload" href="assets/trading-workbench.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-label="交易工具台总览">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Trading Workspace</p>
+          <h1>交易工具台</h1>
+          <p class="hero-copy">
+            统一进入数据看板、左侧交易策略和主升浪交易策略。后续可以在这里继续接入登录、账户配置、自选股和策略管理。
+          </p>
+          <div class="hero-actions" aria-label="主要入口">
+            <a class="primary-link" href="https://biansq2006-del.github.io/stock_daily/">
+              打开交易数据看板
+            </a>
+            <a class="secondary-link" href="#tools">查看全部工具</a>
+          </div>
+        </div>
+        <aside class="status-panel" aria-label="工具状态">
+          <div>
+            <span class="status-dot"></span>
+            <span>3 个工具在线</span>
+          </div>
+          <strong>GitHub Pages</strong>
+        </aside>
+      </section>
+
+      <section class="tools-section" id="tools" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <p class="eyebrow">Launch Center</p>
+          <h2 id="tools-title">选择要进入的页面</h2>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-card">
+            <div class="tool-topline">
+              <span class="tool-icon" aria-hidden="true">01</span>
+              <span class="tool-state">在线</span>
+            </div>
+            <h3>交易数据看板</h3>
+            <p>查看交易数据、行情指标和每日复盘相关内容。</p>
+            <a href="https://biansq2006-del.github.io/stock_daily/">进入看板</a>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-topline">
+              <span class="tool-icon" aria-hidden="true">02</span>
+              <span class="tool-state">在线</span>
+            </div>
+            <h3>左侧交易策略</h3>
+            <p>进入左侧交易策略页面，查看策略逻辑与操作辅助信息。</p>
+            <a href="https://biansq2006-del.github.io/left-side-trading/left_index.html">
+              进入策略
+            </a>
+          </article>
+
+          <article class="tool-card">
+            <div class="tool-topline">
+              <span class="tool-icon" aria-hidden="true">03</span>
+              <span class="tool-state">在线</span>
+            </div>
+            <h3>主升浪交易策略</h3>
+            <p>进入主升浪策略与模拟交易页面，跟踪策略演练过程。</p>
+            <a href="https://biansq2006-del.github.io/paper-trading/">进入策略</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="roadmap" aria-labelledby="roadmap-title">
+        <div>
+          <p class="eyebrow">Next</p>
+          <h2 id="roadmap-title">后续扩展方向</h2>
+        </div>
+        <div class="roadmap-grid">
+          <p>统一登录</p>
+          <p>自选股</p>
+          <p>策略参数</p>
+          <p>交易记录</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
