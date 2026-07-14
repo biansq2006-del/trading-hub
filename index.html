@@ -1,95 +1,61 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="统一访问交易数据看板、左侧交易策略和主升浪交易策略。"
-    />
-    <title>交易工具台</title>
-    <link rel="preload" href="assets/trading-workbench.png" as="image" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="shell">
-      <section class="hero" aria-label="交易工具台总览">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Trading Workspace</p>
-          <h1>交易工具台</h1>
-          <p class="hero-copy">
-            统一进入数据看板、左侧交易策略和主升浪交易策略。后续可以在这里继续接入登录、账户配置、自选股和策略管理。
-          </p>
-          <div class="hero-actions" aria-label="主要入口">
-            <a class="primary-link" href="https://biansq2006-del.github.io/stock_daily/">
-              打开交易数据看板
-            </a>
-            <a class="secondary-link" href="#tools">查看全部工具</a>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>今日决策 | 交易策略中控台</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">TS</span><span><strong>交易策略中控台</strong><small>legacy_v1 + unified_v2</small></span></a>
+    <nav><a class="nav-link active" href="index.html">今日决策</a><a class="nav-link " href="stocks.html">新旧选股</a><a class="nav-link " href="right.html">右侧账户</a><a class="nav-link " href="left.html">左侧账户</a><a class="nav-link " href="quality.html">质量因子</a><a class="nav-link " href="hybrid.html">混合策略</a><a class="nav-link " href="system.html">运行状态</a></nav>
+    <div class="sidebar-foot"><span class="status-dot ok"></span>本地预览<br><small>真实持仓不会公开</small></div>
+  </aside>
+  <main class="workspace">
+    <header class="topbar">
+      <button class="icon-button" id="menuButton" aria-label="打开导航" title="打开导航">☰</button>
+      <div><h1>今日决策</h1><p>先判断市场环境，再选择策略与仓位</p></div>
+      <div class="timestamp">生成时间<br><strong>2026-07-14 17:47:43</strong></div>
+    </header>
+    <div class="content">
+    <section class="decision-band regime-defensive">
+      <div><span class="eyebrow">今日模型判断</span><h2>防守</h2><p>短期下跌扩散明显，不把下跌加速误判为左侧机会。</p></div>
+      <dl><div><dt>首选</dt><dd>质量选股</dd></div><div><dt>备选</dt><dd>现金管理</dd></div><div><dt>模型仓位</dt><dd>10% - 25%</dd></div></dl>
+    </section>
+    <section class="metric-strip">
+      <div><span>1个月上涨宽度</span><strong>33.2%</strong><small>808只样本</small></div>
+      <div><span>3个月上涨宽度</span><strong>30.2%</strong><small>中期扩散</small></div>
+      <div><span>1个月中位涨幅</span><strong class="negative">-4.1%</strong><small>横截面中位数</small></div>
+      <div><span>质量入选</span><strong>41</strong><small>覆盖率≥80%</small></div>
+      <div><span>旧策略信号</span><strong>559</strong><small>行情缓存日口径</small></div>
+    </section>
+    
+    <section class="two-column">
+      <div class="panel"><div class="panel-head"><div><span class="eyebrow">策略队列</span><h3>六套新版策略</h3></div><a href="stocks.html">全部对照</a></div>
+        <div class="table-scroll"><table><thead><tr><th>策略</th><th>方向</th><th class="numeric">信号</th><th>账户</th><th></th></tr></thead><tbody><tr><td><strong>质量选股</strong><small>估值、盈利、成长、筹码、预告和资金流综合评分</small></td><td><span class="side-tag">基本面</span></td>
+            <td class="numeric">41</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=quality_v2">查看股票</a></td></tr><tr><td><strong>主升浪</strong><small>趋势角度、多头排列、放量动能与MACD确认</small></td><td><span class="side-tag">右侧</span></td>
+            <td class="numeric">6</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=main_wave_v2">查看股票</a></td></tr><tr><td><strong>左侧反转</strong><small>旧大底或XMA超跌信号叠加止跌确认</small></td><td><span class="side-tag">左侧</span></td>
+            <td class="numeric">204</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=left_reversal_v2">查看股票</a></td></tr><tr><td><strong>质量主升浪</strong><small>质量入选股票与主升浪信号交集</small></td><td><span class="side-tag">右侧增强</span></td>
+            <td class="numeric">0</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=quality_main_wave_v2">查看股票</a></td></tr><tr><td><strong>质量左侧</strong><small>质量入选股票与左侧反转信号交集</small></td><td><span class="side-tag">左侧增强</span></td>
+            <td class="numeric">1</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=quality_left_v2">查看股票</a></td></tr><tr><td><strong>混合策略</strong><small>按市场环境组合质量、动量、波动与盈利</small></td><td><span class="side-tag">环境自适应</span></td>
+            <td class="numeric">20</td><td><span class="status-chip pending">待启用</span><small>¥1,000,000 · 0只</small></td>
+            <td><a class="table-link" href="stocks.html?strategy=hybrid_v2">查看股票</a></td></tr></tbody></table></div>
+      </div>
+      <div class="panel"><div class="panel-head"><div><span class="eyebrow">旧账户快照</span><h3>资金历史不重置</h3></div></div>
+        <div class="account-compare">
+          <a href="right.html"><span>旧右侧 legacy_v1</span><strong class="negative">-9.47%</strong><small>7只持仓 · ¥905,285</small></a>
+          <a href="left.html"><span>旧左侧 legacy_v1</span><strong class="positive">5.36%</strong><small>17只持仓 · ¥1,053,636</small></a>
         </div>
-        <aside class="status-panel" aria-label="工具状态">
-          <div>
-            <span class="status-dot"></span>
-            <span>3 个工具在线</span>
-          </div>
-          <strong>GitHub Pages</strong>
-        </aside>
-      </section>
-
-      <section class="tools-section" id="tools" aria-labelledby="tools-title">
-        <div class="section-heading">
-          <p class="eyebrow">Launch Center</p>
-          <h2 id="tools-title">选择要进入的页面</h2>
-        </div>
-
-        <div class="tool-grid">
-          <article class="tool-card">
-            <div class="tool-topline">
-              <span class="tool-icon" aria-hidden="true">01</span>
-              <span class="tool-state">在线</span>
-            </div>
-            <h3>交易数据看板</h3>
-            <p>查看交易数据、行情指标和每日复盘相关内容。</p>
-            <a href="https://biansq2006-del.github.io/stock_daily/">进入看板</a>
-          </article>
-
-          <article class="tool-card">
-            <div class="tool-topline">
-              <span class="tool-icon" aria-hidden="true">02</span>
-              <span class="tool-state">在线</span>
-            </div>
-            <h3>左侧交易策略</h3>
-            <p>进入左侧交易策略页面，查看策略逻辑与操作辅助信息。</p>
-            <a href="https://biansq2006-del.github.io/left-side-trading/left_index.html">
-              进入策略
-            </a>
-          </article>
-
-          <article class="tool-card">
-            <div class="tool-topline">
-              <span class="tool-icon" aria-hidden="true">03</span>
-              <span class="tool-state">在线</span>
-            </div>
-            <h3>主升浪交易策略</h3>
-            <p>进入主升浪策略与模拟交易页面，跟踪策略演练过程。</p>
-            <a href="https://biansq2006-del.github.io/paper-trading/">进入策略</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="roadmap" aria-labelledby="roadmap-title">
-        <div>
-          <p class="eyebrow">Next</p>
-          <h2 id="roadmap-title">后续扩展方向</h2>
-        </div>
-        <div class="roadmap-grid">
-          <p>统一登录</p>
-          <p>自选股</p>
-          <p>策略参数</p>
-          <p>交易记录</p>
-        </div>
-      </section>
-    </main>
-  </body>
+        <div class="notice warning"><strong>当前需要注意</strong><p>旧右侧曾因漏跑出现止损延迟；旧左侧持仓数量偏多。自动化前先保留原账户，新增账户从启用日独立记账。</p></div>
+      </div>
+    </section></div>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
 </html>

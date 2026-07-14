@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>运行状态 | 交易策略中控台</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">TS</span><span><strong>交易策略中控台</strong><small>legacy_v1 + unified_v2</small></span></a>
+    <nav><a class="nav-link " href="index.html">今日决策</a><a class="nav-link " href="stocks.html">新旧选股</a><a class="nav-link " href="right.html">右侧账户</a><a class="nav-link " href="left.html">左侧账户</a><a class="nav-link " href="quality.html">质量因子</a><a class="nav-link " href="hybrid.html">混合策略</a><a class="nav-link active" href="system.html">运行状态</a></nav>
+    <div class="sidebar-foot"><span class="status-dot ok"></span>本地预览<br><small>真实持仓不会公开</small></div>
+  </aside>
+  <main class="workspace">
+    <header class="topbar">
+      <button class="icon-button" id="menuButton" aria-label="打开导航" title="打开导航">☰</button>
+      <div><h1>运行状态</h1><p>看得见数据日期、来源状态和迁移阶段</p></div>
+      <div class="timestamp">生成时间<br><strong>2026-07-14 17:47:43</strong></div>
+    </header>
+    <div class="content">
+    <section class="metric-strip compact"><div><span>质量数据日</span><strong>20260714</strong></div><div><span>旧行情缓存日</span><strong>2026-07-14</strong></div><div><span>股票总数</span><strong>808</strong></div><div><span>自动任务</span><strong class="positive">正常</strong><small>daily</small></div><div><span>交易日历</span><strong>已核验</strong></div></section>
+    <section class="panel"><div class="panel-head"><h3>源文件状态</h3><span>只读接入，未修改旧项目</span></div><div class="table-scroll"><table><thead><tr><th>用途</th><th>状态</th><th>路径</th><th>修改时间</th></tr></thead><tbody><tr><td>quality_xlsx</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">stock_selector_web/output/all_scored_stocks.xlsx</td><td>2026-07-14 17:38</td></tr><tr><td>quality_selected_xlsx</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">stock_selector_web/output/selected_stocks.xlsx</td><td>2026-07-14 17:38</td></tr><tr><td>source_health_xlsx</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">stock_selector_web/output/data_source_health.xlsx</td><td>2026-07-14 17:38</td></tr><tr><td>history_dir</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">Desktop/stock/history_data</td><td>2026-07-14 17:40</td></tr><tr><td>right_portfolio_json</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">Desktop/paper-trading/portfolio.json</td><td>2026-07-14 17:46</td></tr><tr><td>right_html</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">Desktop/paper-trading/index.html</td><td>2026-07-14 17:46</td></tr><tr><td>left_portfolio_json</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">Desktop/left-side-trading/left_portfolio.json</td><td>2026-07-14 17:47</td></tr><tr><td>left_html</td><td><span class="status-chip ok">可读</span></td><td class="path-cell">Desktop/left-side-trading/left_index.html</td><td>2026-07-14 17:47</td></tr></tbody></table></div></section>
+    <section class="panel"><div class="panel-head"><h3>迁移阶段</h3><span>最近任务：2026-07-14T17:47:42</span></div><ol class="timeline"><li class="done"><strong>预览整合</strong><span>统一页面读取旧账户和现有评分</span></li><li class="done"><strong>并行运行</strong><span>旧程序继续，新账户从启用日开始</span></li><li class="done"><strong>自动任务</strong><span>交易日检查、进程锁、补跑和发布重试</span></li><li><strong>正式切换</strong><span>收盘联网全跑验证后启用新版模拟账户</span></li></ol></section>
+    <div class="notice"><strong>当前运行边界</strong><p>新版六个账户在收盘联网全跑通过前不产生模拟成交；旧行情缓存日期与质量数据日期不同，因此两类信号明确分栏，不冒充同一时点。</p></div></div>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>

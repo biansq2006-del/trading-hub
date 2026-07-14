@@ -1,0 +1,523 @@
+{
+  "generated_at": "2026-07-14 17:47:43",
+  "stock_count": 808,
+  "regime": {
+    "state": "防守",
+    "code": "defensive",
+    "primary": "质量选股",
+    "secondary": "现金管理",
+    "exposure": "10% - 25%",
+    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
+    "breadth_1m": 0.3316831683168317,
+    "breadth_3m": 0.30198019801980197,
+    "median_1m": -0.04076479076479084,
+    "median_3m": -0.10687488660628315,
+    "median_vol": 0.5030770240841966
+  },
+  "strategy_counts": {
+    "quality_v2": 41,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 204,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 1,
+    "hybrid_v2": 20,
+    "legacy_bottom": 201,
+    "legacy_xma": 349,
+    "legacy_main_wave": 9
+  },
+  "legacy_accounts": {
+    "right": {
+      "initial": 1000000.0,
+      "cash": 705.9475199999879,
+      "pnl": -94715.05,
+      "return": -0.0947,
+      "equity": 905284.95,
+      "holdings": [
+        {
+          "code": "300759",
+          "name": "康龙化成",
+          "shares": 5400,
+          "buy_price": 36.93,
+          "buy_date": "2026-07-14",
+          "cost": 199473.85,
+          "defense": null
+        },
+        {
+          "code": "002821",
+          "name": "凯莱英",
+          "shares": 1100,
+          "buy_price": 177.95,
+          "buy_date": "2026-07-14",
+          "cost": 195795.89,
+          "defense": null
+        },
+        {
+          "code": "002185",
+          "name": "华天科技",
+          "shares": 7700,
+          "buy_price": 25.68,
+          "buy_date": "2026-07-14",
+          "cost": 197787.41,
+          "defense": null
+        },
+        {
+          "code": "002422",
+          "name": "科伦药业",
+          "shares": 4100,
+          "buy_price": 48.5,
+          "buy_date": "2026-07-14",
+          "cost": 198901.7,
+          "defense": null
+        },
+        {
+          "code": "603259",
+          "name": "药明康德",
+          "shares": 800,
+          "buy_price": 127.51,
+          "buy_date": "2026-07-14",
+          "cost": 102034.52,
+          "defense": null
+        },
+        {
+          "code": "603087",
+          "name": "甘李药业",
+          "shares": 100,
+          "buy_price": 70.0,
+          "buy_date": "2026-07-14",
+          "cost": 7005.07,
+          "defense": null
+        },
+        {
+          "code": "000739",
+          "name": "普洛药业",
+          "shares": 200,
+          "buy_price": 19.09,
+          "buy_date": "2026-07-14",
+          "cost": 3823.04,
+          "defense": null
+        }
+      ],
+      "holding_count": 7,
+      "transactions": [
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "000739",
+          "name": "普洛药业",
+          "price": 19.09,
+          "shares": 200,
+          "fees": 5.04,
+          "reason": "主升浪捕捉 (斜率:37.5°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "603087",
+          "name": "甘李药业",
+          "price": 70.0,
+          "shares": 100,
+          "fees": 5.07,
+          "reason": "主升浪捕捉 (斜率:48.7°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "603259",
+          "name": "药明康德",
+          "price": 127.51,
+          "shares": 800,
+          "fees": 26.52,
+          "reason": "主升浪捕捉 (斜率:50.7°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "002422",
+          "name": "科伦药业",
+          "price": 48.5,
+          "shares": 4100,
+          "fees": 51.7,
+          "reason": "主升浪捕捉 (斜率:56.1°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "002185",
+          "name": "华天科技",
+          "price": 25.68,
+          "shares": 7700,
+          "fees": 51.41,
+          "reason": "主升浪捕捉 (斜率:63.7°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "002821",
+          "name": "凯莱英",
+          "price": 177.95,
+          "shares": 1100,
+          "fees": 50.89,
+          "reason": "主升浪捕捉 (斜率:65.2°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "BUY",
+          "code": "300759",
+          "name": "康龙化成",
+          "price": 36.93,
+          "shares": 5400,
+          "fees": 51.85,
+          "reason": "主升浪捕捉 (斜率:69.2°)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "SELL",
+          "code": "002600",
+          "name": "领益智造",
+          "price": 12.97,
+          "shares": 100,
+          "fees": 5.66,
+          "pnl": -515.6780200000001,
+          "reason": "硬止损 (-28.0%)"
+        },
+        {
+          "time": "2026-07-14 16:05:56",
+          "action": "SELL",
+          "code": "600176",
+          "name": "中国巨石",
+          "price": 54.52,
+          "shares": 2800,
+          "fees": 116.02,
+          "pnl": -46031.63520000002,
+          "reason": "硬止损 (-23.1%)"
+        },
+        {
+          "time": "2026-07-13 14:20:14",
+          "action": "SELL",
+          "code": "002422",
+          "name": "科伦药业",
+          "price": 45.1,
+          "shares": 200,
+          "fees": 9.6002,
+          "pnl": -590.6961600000013,
+          "reason": "硬止损 (-6.0%)"
+        },
+        {
+          "time": "2026-07-13 14:20:14",
+          "action": "SELL",
+          "code": "688266",
+          "name": "泽璟制药",
+          "price": 144.46,
+          "shares": 800,
+          "fees": 87.83168,
+          "pnl": 1050.424319999991,
+          "reason": "持仓超时 (10天)"
+        },
+        {
+          "time": "2026-07-13 14:20:14",
+          "action": "SELL",
+          "code": "601211",
+          "name": "国泰海通",
+          "price": 18.29,
+          "shares": 100,
+          "fees": 5.932790000000001,
+          "pnl": -93.95191,
+          "reason": "硬止损 (-4.3%)"
+        }
+      ],
+      "transaction_count": 231,
+      "updated_at": "2026-07-14 17:46:13"
+    },
+    "left": {
+      "initial": 1000000.0,
+      "cash": 69.43563000027638,
+      "pnl": 53636.44,
+      "return": 0.0536,
+      "equity": 1053636.44,
+      "holdings": [
+        {
+          "code": "688180",
+          "name": "君实生物",
+          "shares": 6600,
+          "buy_price": 30.17,
+          "buy_date": "2026-03-05",
+          "cost": 199173.77172,
+          "defense": 29.63
+        },
+        {
+          "code": "600745",
+          "name": "闻泰科技",
+          "shares": 700,
+          "buy_price": 31.25,
+          "buy_date": "2026-03-05",
+          "cost": 21880.6875,
+          "defense": 30.89
+        },
+        {
+          "code": "600141",
+          "name": "兴发集团",
+          "shares": 6200,
+          "buy_price": 32.05,
+          "buy_date": "2026-03-23",
+          "cost": 198761.66459999996,
+          "defense": 30.81
+        },
+        {
+          "code": "000831",
+          "name": "中国稀土",
+          "shares": 2700,
+          "buy_price": 46.32,
+          "buy_date": "2026-03-23",
+          "cost": 125096.51664,
+          "defense": 44.98
+        },
+        {
+          "code": "601899",
+          "name": "紫金矿业",
+          "shares": 100,
+          "buy_price": 30.59,
+          "buy_date": "2026-03-23",
+          "cost": 3064.03059,
+          "defense": 29.8
+        },
+        {
+          "code": "600219",
+          "name": "南山铝业",
+          "shares": 100,
+          "buy_price": 5.9,
+          "buy_date": "2026-03-27",
+          "cost": 595.0059,
+          "defense": 5.76
+        },
+        {
+          "code": "000039",
+          "name": "中集集团",
+          "shares": 100,
+          "buy_price": 10.72,
+          "buy_date": "2026-04-03",
+          "cost": 1077.01072,
+          "defense": 10.33
+        },
+        {
+          "code": "002145",
+          "name": "钛能化学",
+          "shares": 100,
+          "buy_price": 4.52,
+          "buy_date": "2026-04-07",
+          "cost": 457.00451999999996,
+          "defense": 4.39
+        },
+        {
+          "code": "603568",
+          "name": "伟明环保",
+          "shares": 9600,
+          "buy_price": 20.64,
+          "buy_date": "2026-04-28",
+          "cost": 198195.51744,
+          "defense": 19.23
+        },
+        {
+          "code": "002624",
+          "name": "完美世界",
+          "shares": 1200,
+          "buy_price": 17.0,
+          "buy_date": "2026-04-28",
+          "cost": 20405.304,
+          "defense": 16.19
+        },
+        {
+          "code": "300068",
+          "name": "南都电源",
+          "shares": 100,
+          "buy_price": 4.61,
+          "buy_date": "2026-05-26",
+          "cost": 466.00461000000007,
+          "defense": 4.37
+        },
+        {
+          "code": "300118",
+          "name": "东方日升",
+          "shares": 200,
+          "buy_price": 13.96,
+          "buy_date": "2026-06-04",
+          "cost": 2797.02792,
+          "defense": 13.34
+        },
+        {
+          "code": "002176",
+          "name": "江特电机",
+          "shares": 18100,
+          "buy_price": 11.02,
+          "buy_date": "2026-06-05",
+          "cost": 199513.86012000003,
+          "defense": 10.67
+        },
+        {
+          "code": "000547",
+          "name": "航天发展",
+          "shares": 3800,
+          "buy_price": 20.46,
+          "buy_date": "2026-06-05",
+          "cost": 77768.21448000001,
+          "defense": 19.65
+        },
+        {
+          "code": "300002",
+          "name": "神州泰岳",
+          "shares": 100,
+          "buy_price": 7.79,
+          "buy_date": "2026-06-05",
+          "cost": 784.00779,
+          "defense": 7.6
+        },
+        {
+          "code": "601600",
+          "name": "中国铝业",
+          "shares": 100,
+          "buy_price": 8.2,
+          "buy_date": "2026-07-01",
+          "cost": 825.0081999999999,
+          "defense": 8.0
+        },
+        {
+          "code": "601916",
+          "name": "浙商银行",
+          "shares": 100,
+          "buy_price": 2.68,
+          "buy_date": "2026-07-01",
+          "cost": 273.00268,
+          "defense": 2.6
+        }
+      ],
+      "holding_count": 17,
+      "transactions": [
+        {
+          "time": "2026-07-01 16:57:22",
+          "action": "BUY",
+          "code": "601916",
+          "name": "浙商银行",
+          "price": 2.68,
+          "shares": 100,
+          "fees": 5.00268,
+          "reason": "B_伏击 (乖离率:-10.2%)"
+        },
+        {
+          "time": "2026-07-01 16:57:22",
+          "action": "BUY",
+          "code": "601600",
+          "name": "中国铝业",
+          "price": 8.2,
+          "shares": 100,
+          "fees": 5.0082,
+          "reason": "B_伏击 (乖离率:-16.0%)"
+        },
+        {
+          "time": "2026-07-01 16:57:22",
+          "action": "SELL",
+          "code": "002739",
+          "name": "万达电影",
+          "price": 9.52,
+          "shares": 100,
+          "fees": 5.48552,
+          "pnl": -4.494980000000055,
+          "reason": "S_落袋 (触碰上轨阻力区)"
+        },
+        {
+          "time": "2026-06-05 14:46:48",
+          "action": "BUY",
+          "code": "300002",
+          "name": "神州泰岳",
+          "price": 7.79,
+          "shares": 100,
+          "fees": 5.00779,
+          "reason": "B_伏击 (乖离率:-11.3%)"
+        },
+        {
+          "time": "2026-06-05 14:46:48",
+          "action": "BUY",
+          "code": "000547",
+          "name": "航天发展",
+          "price": 20.46,
+          "shares": 3800,
+          "fees": 20.214480000000002,
+          "reason": "B_伏击 (乖离率:-12.4%)"
+        },
+        {
+          "time": "2026-06-05 14:46:48",
+          "action": "BUY",
+          "code": "002176",
+          "name": "江特电机",
+          "price": 11.02,
+          "shares": 18100,
+          "fees": 51.86012,
+          "reason": "B_伏击 (乖离率:-13.0%)"
+        },
+        {
+          "time": "2026-06-05 14:46:48",
+          "action": "SELL",
+          "code": "002837",
+          "name": "英维克",
+          "price": 65.9,
+          "shares": 1700,
+          "fees": 85.14280000000001,
+          "pnl": -5657.711519999983,
+          "reason": "破位止损 (跌破抄底价 ¥67.18)"
+        },
+        {
+          "time": "2026-06-05 14:46:48",
+          "action": "SELL",
+          "code": "688012",
+          "name": "中微公司",
+          "price": 276.0,
+          "shares": 600,
+          "fees": 125.856,
+          "pnl": -7868.913479999988,
+          "reason": "破位止损 (跌破抄底价 ¥280.88)"
+        },
+        {
+          "time": "2026-06-04 14:42:27",
+          "action": "BUY",
+          "code": "300118",
+          "name": "东方日升",
+          "price": 13.96,
+          "shares": 200,
+          "fees": 5.02792,
+          "reason": "B_伏击 (乖离率:-16.3%)"
+        },
+        {
+          "time": "2026-06-04 14:42:27",
+          "action": "BUY",
+          "code": "002837",
+          "name": "英维克",
+          "price": 69.16,
+          "shares": 1700,
+          "fees": 30.56872,
+          "reason": "B_伏击 (乖离率:-26.9%)"
+        },
+        {
+          "time": "2026-06-04 14:42:27",
+          "action": "BUY",
+          "code": "688012",
+          "name": "中微公司",
+          "price": 288.83,
+          "shares": 600,
+          "fees": 45.05748,
+          "reason": "B_伏击 (乖离率:-27.9%)"
+        },
+        {
+          "time": "2026-06-04 14:42:27",
+          "action": "SELL",
+          "code": "688390",
+          "name": "固德威",
+          "price": 133.95,
+          "shares": 2200,
+          "fees": 223.96439999999998,
+          "pnl": 111444.46236,
+          "reason": "S_落袋 (触碰上轨阻力区)"
+        }
+      ],
+      "transaction_count": 71,
+      "updated_at": "2026-07-14 17:47:13"
+    }
+  }
+}
