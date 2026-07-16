@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16 10:45:48",
+  "generated_at": "2026-07-16 17:41:34",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.3180693069306931,
-    "breadth_3m": 0.30198019801980197,
-    "median_1m": -0.04233818115504284,
-    "median_3m": -0.08972047266284111,
-    "median_vol": 0.5048976780285535
+    "breadth_1m": 0.33663366336633666,
+    "breadth_3m": 0.27351485148514854,
+    "median_1m": -0.04351827181242446,
+    "median_3m": -0.0989309827456864,
+    "median_vol": 0.5002426308877094
   },
   "strategy_counts": {
-    "quality_v2": 49,
-    "main_wave_v2": 9,
-    "left_reversal_v2": 143,
-    "quality_main_wave_v2": 2,
+    "quality_v2": 47,
+    "main_wave_v2": 2,
+    "left_reversal_v2": 113,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 190,
-    "legacy_xma": 316,
-    "legacy_main_wave": 14
+    "legacy_bottom": 196,
+    "legacy_xma": 339,
+    "legacy_main_wave": 3
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 705.9475199999879,
-      "pnl": -70952.05,
-      "return": -0.071,
-      "equity": 929047.95,
+      "pnl": -115375.05,
+      "return": -0.11539999999999999,
+      "equity": 884624.95,
       "holdings": [
         {
           "code": "300759",
@@ -226,14 +226,14 @@
         }
       ],
       "transaction_count": 231,
-      "updated_at": "2026-07-15 18:44:47"
+      "updated_at": "2026-07-16 17:39:41"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 57820.44,
-      "return": 0.057800000000000004,
-      "equity": 1057820.44,
+      "pnl": 40273.44,
+      "return": 0.0403,
+      "equity": 1040273.44,
       "holdings": [
         {
           "code": "688180",
@@ -517,7 +517,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-15 18:46:33"
+      "updated_at": "2026-07-16 17:41:11"
     }
   }
 }
