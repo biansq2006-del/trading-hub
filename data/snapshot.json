@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17 10:41:13",
+  "generated_at": "2026-07-18 11:26:16",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,22 +8,22 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.33663366336633666,
-    "breadth_3m": 0.27351485148514854,
-    "median_1m": -0.04351827181242446,
-    "median_3m": -0.0989309827456864,
-    "median_vol": 0.5002426308877094
+    "breadth_1m": 0.2896039603960396,
+    "breadth_3m": 0.22896039603960397,
+    "median_1m": -0.06447557677312998,
+    "median_3m": -0.1236061221302514,
+    "median_vol": 0.5093486838545942
   },
   "strategy_counts": {
-    "quality_v2": 47,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 113,
+    "quality_v2": 48,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 30,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 2,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
     "legacy_bottom": 196,
-    "legacy_xma": 339,
-    "legacy_main_wave": 3
+    "legacy_xma": 412,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
