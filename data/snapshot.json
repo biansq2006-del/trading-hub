@@ -1,239 +1,197 @@
 {
-  "generated_at": "2026-07-23 09:40:08",
+  "generated_at": "2026-07-23 17:33:11",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.42698019801980197,
-    "breadth_3m": 0.25123762376237624,
-    "median_1m": -0.016847265221878294,
-    "median_3m": -0.1012565668837816,
-    "median_vol": 0.5069555071903987
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.5136138613861386,
+    "breadth_3m": 0.25495049504950495,
+    "median_1m": 0.005444298359829625,
+    "median_3m": -0.09569079631108535,
+    "median_vol": 0.5170979194172687
   },
   "strategy_counts": {
-    "quality_v2": 43,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 88,
+    "quality_v2": 46,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 105,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 220,
-    "legacy_xma": 281,
-    "legacy_main_wave": 3
+    "legacy_bottom": 122,
+    "legacy_xma": 262,
+    "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 705.9475199999879,
-      "pnl": -115375.05,
-      "return": -0.11539999999999999,
-      "equity": 884624.95,
+      "cash": 516388.9375199999,
+      "pnl": -155761.06,
+      "return": -0.1558,
+      "equity": 844238.94,
       "holdings": [
         {
-          "code": "300759",
-          "name": "康龙化成",
-          "shares": 5400,
-          "buy_price": 36.93,
-          "buy_date": "2026-07-14",
-          "cost": 199473.85,
-          "defense": null
-        },
-        {
-          "code": "002821",
-          "name": "凯莱英",
-          "shares": 1100,
-          "buy_price": 177.95,
-          "buy_date": "2026-07-14",
-          "cost": 195795.89,
-          "defense": null
-        },
-        {
-          "code": "002185",
-          "name": "华天科技",
-          "shares": 7700,
-          "buy_price": 25.68,
-          "buy_date": "2026-07-14",
-          "cost": 197787.41,
+          "code": "688506",
+          "name": "百利天恒",
+          "shares": 400,
+          "buy_price": 336.2,
+          "buy_date": "2026-07-20",
+          "cost": 134514.96,
           "defense": null
         },
         {
           "code": "002422",
           "name": "科伦药业",
-          "shares": 4100,
-          "buy_price": 48.5,
-          "buy_date": "2026-07-14",
-          "cost": 198901.7,
-          "defense": null
-        },
-        {
-          "code": "603259",
-          "name": "药明康德",
-          "shares": 800,
-          "buy_price": 127.51,
-          "buy_date": "2026-07-14",
-          "cost": 102034.52,
-          "defense": null
-        },
-        {
-          "code": "603087",
-          "name": "甘李药业",
-          "shares": 100,
-          "buy_price": 70.0,
-          "buy_date": "2026-07-14",
-          "cost": 7005.07,
-          "defense": null
-        },
-        {
-          "code": "000739",
-          "name": "普洛药业",
-          "shares": 200,
-          "buy_price": 19.09,
-          "buy_date": "2026-07-14",
-          "cost": 3823.04,
+          "shares": 3800,
+          "buy_price": 51.35,
+          "buy_date": "2026-07-23",
+          "cost": 195180.73,
           "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 2,
       "transactions": [
         {
-          "time": "2026-07-14 16:05:56",
+          "time": "2026-07-23 15:00:00",
           "action": "BUY",
+          "code": "002422",
+          "name": "科伦药业",
+          "price": 51.35,
+          "shares": 3800,
+          "fees": 50.73,
+          "reason": "主升浪捕捉 (斜率:57.3°)"
+        },
+        {
+          "time": "2026-07-23 15:00:00",
+          "action": "SELL",
+          "code": "000938",
+          "name": "紫光股份",
+          "price": 42.45,
+          "shares": 4400,
+          "fees": 141.95,
+          "pnl": -10973.320000000007,
+          "reason": "硬止损 (-5.5%)"
+        },
+        {
+          "time": "2026-07-23 15:00:00",
+          "action": "SELL",
+          "code": "688578",
+          "name": "艾力斯",
+          "price": 124.56,
+          "shares": 600,
+          "fees": 56.8,
+          "pnl": -5141.550000000003,
+          "reason": "硬止损 (-6.3%)"
+        },
+        {
+          "time": "2026-07-22 15:00:00",
+          "action": "BUY",
+          "code": "000938",
+          "name": "紫光股份",
+          "price": 44.9,
+          "shares": 4400,
+          "fees": 51.37,
+          "reason": "主升浪捕捉 (斜率:69.0°)"
+        },
+        {
+          "time": "2026-07-22 15:00:00",
+          "action": "SELL",
+          "code": "301165",
+          "name": "锐捷网络",
+          "price": 126.0,
+          "shares": 1800,
+          "fees": 172.37,
+          "pnl": 27027.75,
+          "reason": "硬止盈 (+13.7%)"
+        },
+        {
+          "time": "2026-07-22 15:00:00",
+          "action": "SELL",
           "code": "000739",
           "name": "普洛药业",
-          "price": 19.09,
+          "price": 20.84,
           "shares": 200,
-          "fees": 5.04,
-          "reason": "主升浪捕捉 (斜率:37.5°)"
+          "fees": 7.13,
+          "pnl": 337.8299999999999,
+          "reason": "持仓超时 (8天)"
         },
         {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
-          "code": "603087",
-          "name": "甘李药业",
-          "price": 70.0,
-          "shares": 100,
-          "fees": 5.07,
-          "reason": "主升浪捕捉 (斜率:48.7°)"
-        },
-        {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
-          "code": "603259",
-          "name": "药明康德",
-          "price": 127.51,
-          "shares": 800,
-          "fees": 26.52,
-          "reason": "主升浪捕捉 (斜率:50.7°)"
-        },
-        {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
+          "time": "2026-07-22 15:00:00",
+          "action": "SELL",
           "code": "002422",
           "name": "科伦药业",
-          "price": 48.5,
+          "price": 49.22,
           "shares": 4100,
-          "fees": 51.7,
-          "reason": "主升浪捕捉 (斜率:56.1°)"
+          "fees": 153.37,
+          "pnl": 2746.929999999993,
+          "reason": "持仓超时 (8天)"
         },
         {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
-          "code": "002185",
-          "name": "华天科技",
-          "price": 25.68,
-          "shares": 7700,
-          "fees": 51.41,
-          "reason": "主升浪捕捉 (斜率:63.7°)"
-        },
-        {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
-          "code": "002821",
-          "name": "凯莱英",
-          "price": 177.95,
-          "shares": 1100,
-          "fees": 50.89,
-          "reason": "主升浪捕捉 (斜率:65.2°)"
-        },
-        {
-          "time": "2026-07-14 16:05:56",
-          "action": "BUY",
+          "time": "2026-07-22 15:00:00",
+          "action": "SELL",
           "code": "300759",
           "name": "康龙化成",
-          "price": 36.93,
+          "price": 39.76,
           "shares": 5400,
-          "fees": 51.85,
-          "reason": "主升浪捕捉 (斜率:69.2°)"
+          "fees": 163.18,
+          "pnl": 15066.970000000001,
+          "reason": "持仓超时 (8天)"
         },
         {
-          "time": "2026-07-14 16:05:56",
+          "time": "2026-07-21 15:00:00",
+          "action": "BUY",
+          "code": "688578",
+          "name": "艾力斯",
+          "price": 133.0,
+          "shares": 600,
+          "fees": 20.75,
+          "reason": "主升浪捕捉 (斜率:62.9°)"
+        },
+        {
+          "time": "2026-07-21 15:00:00",
+          "action": "BUY",
+          "code": "301165",
+          "name": "锐捷网络",
+          "price": 110.86,
+          "shares": 1800,
+          "fees": 51.88,
+          "reason": "主升浪捕捉 (斜率:68.9°)"
+        },
+        {
+          "time": "2026-07-21 15:00:00",
           "action": "SELL",
-          "code": "002600",
-          "name": "领益智造",
-          "price": 12.97,
+          "code": "600350",
+          "name": "山东高速",
+          "price": 11.94,
           "shares": 100,
-          "fees": 5.66,
-          "pnl": -515.6780200000001,
-          "reason": "硬止损 (-28.0%)"
+          "fees": 5.61,
+          "pnl": -64.61999999999989,
+          "reason": "硬止损 (-4.3%)"
         },
         {
-          "time": "2026-07-14 16:05:56",
+          "time": "2026-07-21 15:00:00",
           "action": "SELL",
-          "code": "600176",
-          "name": "中国巨石",
-          "price": 54.52,
-          "shares": 2800,
-          "fees": 116.02,
-          "pnl": -46031.63520000002,
-          "reason": "硬止损 (-23.1%)"
-        },
-        {
-          "time": "2026-07-13 14:20:14",
-          "action": "SELL",
-          "code": "002422",
-          "name": "科伦药业",
-          "price": 45.1,
-          "shares": 200,
-          "fees": 9.6002,
-          "pnl": -590.6961600000013,
-          "reason": "硬止损 (-6.0%)"
-        },
-        {
-          "time": "2026-07-13 14:20:14",
-          "action": "SELL",
-          "code": "688266",
-          "name": "泽璟制药",
-          "price": 144.46,
-          "shares": 800,
-          "fees": 87.83168,
-          "pnl": 1050.424319999991,
-          "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-07-13 14:20:14",
-          "action": "SELL",
-          "code": "601211",
-          "name": "国泰海通",
-          "price": 18.29,
-          "shares": 100,
-          "fees": 5.932790000000001,
-          "pnl": -93.95191,
+          "code": "603129",
+          "name": "春风动力",
+          "price": 274.7,
+          "shares": 500,
+          "fees": 104.39,
+          "pnl": -6291.700000000012,
           "reason": "硬止损 (-4.3%)"
         }
       ],
-      "transaction_count": 231,
-      "updated_at": "2026-07-16 17:39:41"
+      "transaction_count": 250,
+      "updated_at": "2026-07-23 17:32:51"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 40273.44,
-      "return": 0.0403,
-      "equity": 1040273.44,
+      "pnl": 30964.44,
+      "return": 0.031,
+      "equity": 1030964.44,
       "holdings": [
         {
           "code": "688180",
@@ -517,7 +475,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-16 17:41:11"
+      "updated_at": "2026-07-23 17:32:51"
     }
   }
 }
