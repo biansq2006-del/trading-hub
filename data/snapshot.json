@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-07-27 16:06:59",
+  "generated_at": "2026-07-27 18:00:14",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.41089108910891087,
-    "breadth_3m": 0.20915841584158415,
-    "median_1m": -0.03304431599229285,
-    "median_3m": -0.12705432388506455,
-    "median_vol": 0.518339587811369
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.556930693069307,
+    "breadth_3m": 0.23638613861386137,
+    "median_1m": 0.01904074727024574,
+    "median_3m": -0.10426941479573054,
+    "median_vol": 0.5021197853089054
   },
   "strategy_counts": {
-    "quality_v2": 53,
+    "quality_v2": 49,
     "main_wave_v2": 1,
-    "left_reversal_v2": 19,
+    "left_reversal_v2": 154,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 31,
-    "legacy_xma": 347,
+    "legacy_bottom": 51,
+    "legacy_xma": 274,
     "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 619713.1675199999,
-      "pnl": -182221.83,
-      "return": -0.1822,
-      "equity": 817778.17,
+      "cash": 419915.2375199999,
+      "pnl": -173908.76,
+      "return": -0.1739,
+      "equity": 826091.24,
       "holdings": [
         {
           "code": "603129",
@@ -41,10 +41,29 @@
           "buy_date": "2026-07-24",
           "cost": 198116.5,
           "defense": null
+        },
+        {
+          "code": "002415",
+          "name": "海康威视",
+          "shares": 5400,
+          "buy_price": 36.99,
+          "buy_date": "2026-07-27",
+          "cost": 199797.93,
+          "defense": null
         }
       ],
-      "holding_count": 1,
+      "holding_count": 2,
       "transactions": [
+        {
+          "time": "2026-07-27 15:00:00",
+          "action": "BUY",
+          "code": "002415",
+          "name": "海康威视",
+          "price": 36.99,
+          "shares": 5400,
+          "fees": 51.93,
+          "reason": "主升浪捕捉 (斜率:30.3°)"
+        },
         {
           "time": "2026-07-24 15:00:00",
           "action": "BUY",
@@ -162,27 +181,17 @@
           "fees": 163.18,
           "pnl": 15066.970000000001,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-07-21 15:00:00",
-          "action": "BUY",
-          "code": "688578",
-          "name": "艾力斯",
-          "price": 133.0,
-          "shares": 600,
-          "fees": 20.75,
-          "reason": "主升浪捕捉 (斜率:62.9°)"
         }
       ],
-      "transaction_count": 253,
-      "updated_at": "2026-07-24 17:31:33"
+      "transaction_count": 254,
+      "updated_at": "2026-07-27 17:59:55"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 13183.44,
-      "return": 0.0132,
-      "equity": 1013183.44,
+      "pnl": 30664.44,
+      "return": 0.030699999999999998,
+      "equity": 1030664.44,
       "holdings": [
         {
           "code": "688180",
@@ -466,7 +475,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-24 17:31:33"
+      "updated_at": "2026-07-27 17:59:55"
     }
   }
 }
