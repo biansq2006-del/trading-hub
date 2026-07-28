@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 14:40:17",
+  "generated_at": "2026-07-28 17:34:36",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.556930693069307,
-    "breadth_3m": 0.23638613861386137,
-    "median_1m": 0.01904074727024574,
-    "median_3m": -0.10426941479573054,
-    "median_vol": 0.5021197853089054
+    "breadth_1m": 0.4900990099009901,
+    "breadth_3m": 0.2202970297029703,
+    "median_1m": -0.0029810755688660096,
+    "median_3m": -0.111171948084938,
+    "median_vol": 0.49320922259026634
   },
   "strategy_counts": {
-    "quality_v2": 49,
+    "quality_v2": 54,
     "main_wave_v2": 1,
-    "left_reversal_v2": 154,
+    "left_reversal_v2": 51,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 51,
-    "legacy_xma": 274,
+    "legacy_bottom": 63,
+    "legacy_xma": 300,
     "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 419915.2375199999,
-      "pnl": -173908.76,
-      "return": -0.1739,
-      "equity": 826091.24,
+      "cash": 220613.4275199999,
+      "pnl": -174665.57,
+      "return": -0.1747,
+      "equity": 825334.4299999999,
       "holdings": [
         {
           "code": "603129",
@@ -50,10 +50,29 @@
           "buy_date": "2026-07-27",
           "cost": 199797.93,
           "defense": null
+        },
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "shares": 25000,
+          "buy_price": 7.97,
+          "buy_date": "2026-07-28",
+          "cost": 199301.81,
+          "defense": null
         }
       ],
-      "holding_count": 2,
+      "holding_count": 3,
       "transactions": [
+        {
+          "time": "2026-07-28 15:00:00",
+          "action": "BUY",
+          "code": "601398",
+          "name": "工商银行",
+          "price": 7.97,
+          "shares": 25000,
+          "fees": 51.81,
+          "reason": "主升浪捕捉 (斜率:31.3°)"
+        },
         {
           "time": "2026-07-27 15:00:00",
           "action": "BUY",
@@ -170,28 +189,17 @@
           "fees": 153.37,
           "pnl": 2746.929999999993,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-07-22 15:00:00",
-          "action": "SELL",
-          "code": "300759",
-          "name": "康龙化成",
-          "price": 39.76,
-          "shares": 5400,
-          "fees": 163.18,
-          "pnl": 15066.970000000001,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 254,
-      "updated_at": "2026-07-27 17:59:55"
+      "transaction_count": 255,
+      "updated_at": "2026-07-28 17:34:16"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 30664.44,
-      "return": 0.030699999999999998,
-      "equity": 1030664.44,
+      "pnl": 9428.44,
+      "return": 0.009399999999999999,
+      "equity": 1009428.44,
       "holdings": [
         {
           "code": "688180",
@@ -475,7 +483,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-27 17:59:55"
+      "updated_at": "2026-07-28 17:34:16"
     }
   }
 }
