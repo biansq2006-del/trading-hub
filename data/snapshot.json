@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29 14:40:19",
+  "generated_at": "2026-07-29 17:33:02",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.4900990099009901,
-    "breadth_3m": 0.2202970297029703,
-    "median_1m": -0.0029810755688660096,
-    "median_3m": -0.111171948084938,
-    "median_vol": 0.49320922259026634
+    "breadth_1m": 0.5445544554455446,
+    "breadth_3m": 0.23638613861386137,
+    "median_1m": 0.019585846822527505,
+    "median_3m": -0.09753251777926031,
+    "median_vol": 0.5026735044379722
   },
   "strategy_counts": {
-    "quality_v2": 54,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 51,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 0,
+    "quality_v2": 55,
+    "main_wave_v2": 9,
+    "left_reversal_v2": 110,
+    "quality_main_wave_v2": 4,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 63,
-    "legacy_xma": 300,
-    "legacy_main_wave": 1
+    "legacy_bottom": 108,
+    "legacy_xma": 252,
+    "legacy_main_wave": 9
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 220613.4275199999,
-      "pnl": -174665.57,
-      "return": -0.1747,
-      "equity": 825334.4299999999,
+      "cash": 632.2475199998953,
+      "pnl": -175597.75,
+      "return": -0.17559999999999998,
+      "equity": 824402.25,
       "holdings": [
         {
           "code": "603129",
@@ -59,10 +59,48 @@
           "buy_date": "2026-07-28",
           "cost": 199301.81,
           "defense": null
+        },
+        {
+          "code": "603338",
+          "name": "浙江鼎力",
+          "shares": 3300,
+          "buy_price": 60.48,
+          "buy_date": "2026-07-29",
+          "cost": 199635.89,
+          "defense": null
+        },
+        {
+          "code": "600801",
+          "name": "华新建材",
+          "shares": 900,
+          "buy_price": 22.6,
+          "buy_date": "2026-07-29",
+          "cost": 20345.29,
+          "defense": null
         }
       ],
-      "holding_count": 3,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-07-29 15:00:00",
+          "action": "BUY",
+          "code": "600801",
+          "name": "华新建材",
+          "price": 22.6,
+          "shares": 900,
+          "fees": 5.29,
+          "reason": "主升浪捕捉 (斜率:56.9°)"
+        },
+        {
+          "time": "2026-07-29 15:00:00",
+          "action": "BUY",
+          "code": "603338",
+          "name": "浙江鼎力",
+          "price": 60.48,
+          "shares": 3300,
+          "fees": 51.89,
+          "reason": "主升浪捕捉 (斜率:59.5°)"
+        },
         {
           "time": "2026-07-28 15:00:00",
           "action": "BUY",
@@ -167,39 +205,17 @@
           "fees": 172.37,
           "pnl": 27027.75,
           "reason": "硬止盈 (+13.7%)"
-        },
-        {
-          "time": "2026-07-22 15:00:00",
-          "action": "SELL",
-          "code": "000739",
-          "name": "普洛药业",
-          "price": 20.84,
-          "shares": 200,
-          "fees": 7.13,
-          "pnl": 337.8299999999999,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-07-22 15:00:00",
-          "action": "SELL",
-          "code": "002422",
-          "name": "科伦药业",
-          "price": 49.22,
-          "shares": 4100,
-          "fees": 153.37,
-          "pnl": 2746.929999999993,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 255,
-      "updated_at": "2026-07-28 17:34:16"
+      "transaction_count": 257,
+      "updated_at": "2026-07-29 17:32:43"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 9428.44,
-      "return": 0.009399999999999999,
-      "equity": 1009428.44,
+      "pnl": 18490.44,
+      "return": 0.018500000000000003,
+      "equity": 1018490.44,
       "holdings": [
         {
           "code": "688180",
@@ -483,7 +499,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-28 17:34:16"
+      "updated_at": "2026-07-29 17:32:43"
     }
   }
 }
