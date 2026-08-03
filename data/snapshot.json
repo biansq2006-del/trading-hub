@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 14:54:36",
+  "generated_at": "2026-08-03 20:08:05",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,40 +8,31 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5383663366336634,
-    "breadth_3m": 0.21905940594059406,
-    "median_1m": 0.01118765894229468,
-    "median_3m": -0.09519277517101021,
-    "median_vol": 0.48496008010380603
+    "breadth_1m": 0.5247524752475248,
+    "breadth_3m": 0.2079207920792079,
+    "median_1m": 0.010068739360041712,
+    "median_3m": -0.09461985661918992,
+    "median_vol": 0.48493770904344213
   },
   "strategy_counts": {
-    "quality_v2": 55,
+    "quality_v2": 56,
     "main_wave_v2": 2,
-    "left_reversal_v2": 86,
+    "left_reversal_v2": 74,
     "quality_main_wave_v2": 1,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 127,
+    "legacy_bottom": 116,
     "legacy_xma": 234,
     "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 632.2475199998953,
-      "pnl": -167183.75,
-      "return": -0.1672,
-      "equity": 832816.25,
+      "cash": 27701.577519999933,
+      "pnl": -170772.42,
+      "return": -0.17079999999999998,
+      "equity": 829227.58,
       "holdings": [
-        {
-          "code": "603129",
-          "name": "春风动力",
-          "shares": 700,
-          "buy_price": 282.95,
-          "buy_date": "2026-07-24",
-          "cost": 198116.5,
-          "defense": null
-        },
         {
           "code": "002415",
           "name": "海康威视",
@@ -61,26 +52,79 @@
           "defense": null
         },
         {
-          "code": "603338",
-          "name": "浙江鼎力",
-          "shares": 3300,
-          "buy_price": 60.48,
-          "buy_date": "2026-07-29",
-          "cost": 199635.89,
+          "code": "600663",
+          "name": "陆家嘴",
+          "shares": 23000,
+          "buy_price": 8.67,
+          "buy_date": "2026-08-03",
+          "cost": 199461.85,
           "defense": null
         },
         {
-          "code": "600801",
-          "name": "华新建材",
-          "shares": 900,
-          "buy_price": 22.6,
-          "buy_date": "2026-07-29",
-          "cost": 20345.29,
+          "code": "603658",
+          "name": "安图生物",
+          "shares": 5800,
+          "buy_price": 34.17,
+          "buy_date": "2026-08-03",
+          "cost": 198237.53,
           "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-08-03 15:00:00",
+          "action": "BUY",
+          "code": "603658",
+          "name": "安图生物",
+          "price": 34.17,
+          "shares": 5800,
+          "fees": 51.53,
+          "reason": "主升浪捕捉 (斜率:25.4°)"
+        },
+        {
+          "time": "2026-08-03 15:00:00",
+          "action": "BUY",
+          "code": "600663",
+          "name": "陆家嘴",
+          "price": 8.67,
+          "shares": 23000,
+          "fees": 51.85,
+          "reason": "主升浪捕捉 (斜率:58.8°)"
+        },
+        {
+          "time": "2026-08-03 15:00:00",
+          "action": "SELL",
+          "code": "600801",
+          "name": "华新建材",
+          "price": 21.2,
+          "shares": 900,
+          "fees": 14.73,
+          "pnl": -1280.0200000000004,
+          "reason": "硬止损 (-6.2%)"
+        },
+        {
+          "time": "2026-08-03 15:00:00",
+          "action": "SELL",
+          "code": "603338",
+          "name": "浙江鼎力",
+          "price": 58.04,
+          "shares": 3300,
+          "fees": 145.56,
+          "pnl": -8249.450000000012,
+          "reason": "硬止损 (-4.0%)"
+        },
+        {
+          "time": "2026-08-03 15:00:00",
+          "action": "SELL",
+          "code": "603129",
+          "name": "春风动力",
+          "price": 306.4,
+          "shares": 700,
+          "fees": 163.0,
+          "pnl": 16200.5,
+          "reason": "持仓超时 (10天)"
+        },
         {
           "time": "2026-07-29 15:00:00",
           "action": "BUY",
@@ -152,70 +196,17 @@
           "fees": 94.54,
           "pnl": -10209.499999999985,
           "reason": "硬止损 (-7.5%)"
-        },
-        {
-          "time": "2026-07-23 15:00:00",
-          "action": "BUY",
-          "code": "002422",
-          "name": "科伦药业",
-          "price": 51.35,
-          "shares": 3800,
-          "fees": 50.73,
-          "reason": "主升浪捕捉 (斜率:57.3°)"
-        },
-        {
-          "time": "2026-07-23 15:00:00",
-          "action": "SELL",
-          "code": "000938",
-          "name": "紫光股份",
-          "price": 42.45,
-          "shares": 4400,
-          "fees": 141.95,
-          "pnl": -10973.320000000007,
-          "reason": "硬止损 (-5.5%)"
-        },
-        {
-          "time": "2026-07-23 15:00:00",
-          "action": "SELL",
-          "code": "688578",
-          "name": "艾力斯",
-          "price": 124.56,
-          "shares": 600,
-          "fees": 56.8,
-          "pnl": -5141.550000000003,
-          "reason": "硬止损 (-6.3%)"
-        },
-        {
-          "time": "2026-07-22 15:00:00",
-          "action": "BUY",
-          "code": "000938",
-          "name": "紫光股份",
-          "price": 44.9,
-          "shares": 4400,
-          "fees": 51.37,
-          "reason": "主升浪捕捉 (斜率:69.0°)"
-        },
-        {
-          "time": "2026-07-22 15:00:00",
-          "action": "SELL",
-          "code": "301165",
-          "name": "锐捷网络",
-          "price": 126.0,
-          "shares": 1800,
-          "fees": 172.37,
-          "pnl": 27027.75,
-          "reason": "硬止盈 (+13.7%)"
         }
       ],
-      "transaction_count": 257,
-      "updated_at": "2026-07-31 17:47:19"
+      "transaction_count": 262,
+      "updated_at": "2026-08-03 20:07:31"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 18727.44,
-      "return": 0.0187,
-      "equity": 1018727.44,
+      "pnl": 21189.44,
+      "return": 0.0212,
+      "equity": 1021189.44,
       "holdings": [
         {
           "code": "688180",
@@ -499,7 +490,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-07-31 17:47:19"
+      "updated_at": "2026-08-03 20:07:31"
     }
   }
 }
