@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 09:54:14",
+  "generated_at": "2026-08-03 14:54:36",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -15,11 +15,11 @@
     "median_vol": 0.48496008010380603
   },
   "strategy_counts": {
-    "quality_v2": 54,
+    "quality_v2": 55,
     "main_wave_v2": 2,
     "left_reversal_v2": 86,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
     "legacy_bottom": 127,
     "legacy_xma": 234,
