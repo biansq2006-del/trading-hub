@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 14:40:14",
+  "generated_at": "2026-08-04 17:32:18",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,49 +8,31 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5247524752475248,
-    "breadth_3m": 0.2079207920792079,
-    "median_1m": 0.010068739360041712,
-    "median_3m": -0.09461985661918992,
-    "median_vol": 0.48493770904344213
+    "breadth_1m": 0.5123762376237624,
+    "breadth_3m": 0.19183168316831684,
+    "median_1m": 0.002899777789676539,
+    "median_3m": -0.1044108246324313,
+    "median_vol": 0.4800153140472059
   },
   "strategy_counts": {
     "quality_v2": 56,
-    "main_wave_v2": 2,
+    "main_wave_v2": 4,
     "left_reversal_v2": 74,
-    "quality_main_wave_v2": 1,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 116,
-    "legacy_xma": 234,
-    "legacy_main_wave": 2
+    "legacy_bottom": 40,
+    "legacy_xma": 202,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 27701.577519999933,
-      "pnl": -170772.42,
-      "return": -0.17079999999999998,
-      "equity": 829227.58,
+      "cash": 29422.027519999916,
+      "pnl": -175325.97,
+      "return": -0.1753,
+      "equity": 824674.03,
       "holdings": [
-        {
-          "code": "002415",
-          "name": "海康威视",
-          "shares": 5400,
-          "buy_price": 36.99,
-          "buy_date": "2026-07-27",
-          "cost": 199797.93,
-          "defense": null
-        },
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "shares": 25000,
-          "buy_price": 7.97,
-          "buy_date": "2026-07-28",
-          "cost": 199301.81,
-          "defense": null
-        },
         {
           "code": "600663",
           "name": "陆家嘴",
@@ -68,10 +50,70 @@
           "buy_date": "2026-08-03",
           "cost": 198237.53,
           "defense": null
+        },
+        {
+          "code": "688475",
+          "name": "萤石网络",
+          "shares": 6400,
+          "buy_price": 31.12,
+          "buy_date": "2026-08-04",
+          "cost": 199219.78,
+          "defense": null
+        },
+        {
+          "code": "002517",
+          "name": "恺英网络",
+          "shares": 10700,
+          "buy_price": 18.58,
+          "buy_date": "2026-08-04",
+          "cost": 198857.69,
+          "defense": null
         }
       ],
       "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-08-04 15:00:00",
+          "action": "BUY",
+          "code": "002517",
+          "name": "恺英网络",
+          "price": 18.58,
+          "shares": 10700,
+          "fees": 51.69,
+          "reason": "主升浪捕捉 (斜率:27.0°)"
+        },
+        {
+          "time": "2026-08-04 15:00:00",
+          "action": "BUY",
+          "code": "688475",
+          "name": "萤石网络",
+          "price": 31.12,
+          "shares": 6400,
+          "fees": 51.78,
+          "reason": "主升浪捕捉 (斜率:38.5°)"
+        },
+        {
+          "time": "2026-08-04 15:00:00",
+          "action": "SELL",
+          "code": "601398",
+          "name": "工商银行",
+          "price": 7.66,
+          "shares": 25000,
+          "fees": 145.54,
+          "pnl": -7947.350000000006,
+          "reason": "技术形态恶化 (S点)"
+        },
+        {
+          "time": "2026-08-04 15:00:00",
+          "action": "SELL",
+          "code": "002415",
+          "name": "海康威视",
+          "price": 38.63,
+          "shares": 5400,
+          "fees": 158.54,
+          "pnl": 8645.529999999999,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-08-03 15:00:00",
           "action": "BUY",
@@ -154,59 +196,17 @@
           "shares": 25000,
           "fees": 51.81,
           "reason": "主升浪捕捉 (斜率:31.3°)"
-        },
-        {
-          "time": "2026-07-27 15:00:00",
-          "action": "BUY",
-          "code": "002415",
-          "name": "海康威视",
-          "price": 36.99,
-          "shares": 5400,
-          "fees": 51.93,
-          "reason": "主升浪捕捉 (斜率:30.3°)"
-        },
-        {
-          "time": "2026-07-24 15:00:00",
-          "action": "BUY",
-          "code": "603129",
-          "name": "春风动力",
-          "price": 282.95,
-          "shares": 700,
-          "fees": 51.5,
-          "reason": "主升浪捕捉 (斜率:36.4°)"
-        },
-        {
-          "time": "2026-07-24 15:00:00",
-          "action": "SELL",
-          "code": "002422",
-          "name": "科伦药业",
-          "price": 46.65,
-          "shares": 3800,
-          "fees": 134.73,
-          "pnl": -18045.46000000002,
-          "reason": "硬止损 (-9.2%)"
-        },
-        {
-          "time": "2026-07-24 15:00:00",
-          "action": "SELL",
-          "code": "688506",
-          "name": "百利天恒",
-          "price": 311.0,
-          "shares": 400,
-          "fees": 94.54,
-          "pnl": -10209.499999999985,
-          "reason": "硬止损 (-7.5%)"
         }
       ],
-      "transaction_count": 262,
-      "updated_at": "2026-08-03 20:07:31"
+      "transaction_count": 266,
+      "updated_at": "2026-08-04 17:31:58"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 21189.44,
-      "return": 0.0212,
-      "equity": 1021189.44,
+      "pnl": 36028.44,
+      "return": 0.036000000000000004,
+      "equity": 1036028.44,
       "holdings": [
         {
           "code": "688180",
@@ -490,7 +490,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-08-03 20:07:31"
+      "updated_at": "2026-08-04 17:31:58"
     }
   }
 }
