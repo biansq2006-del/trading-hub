@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 14:40:23",
+  "generated_at": "2026-08-05 17:32:42",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5123762376237624,
-    "breadth_3m": 0.19183168316831684,
-    "median_1m": 0.002899777789676539,
-    "median_3m": -0.1044108246324313,
-    "median_vol": 0.4800153140472059
+    "breadth_1m": 0.5903465346534653,
+    "breadth_3m": 0.20173267326732675,
+    "median_1m": 0.023536770259463324,
+    "median_3m": -0.10198669813344766,
+    "median_vol": 0.47230382580913177
   },
   "strategy_counts": {
-    "quality_v2": 56,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 74,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 0,
+    "quality_v2": 52,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 47,
+    "quality_main_wave_v2": 5,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 40,
-    "legacy_xma": 202,
-    "legacy_main_wave": 4
+    "legacy_bottom": 41,
+    "legacy_xma": 147,
+    "legacy_main_wave": 7
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 29422.027519999916,
-      "pnl": -175325.97,
-      "return": -0.1753,
-      "equity": 824674.03,
+      "cash": 1042.8675199999143,
+      "pnl": -181407.13,
+      "return": -0.1814,
+      "equity": 818592.87,
       "holdings": [
         {
           "code": "600663",
@@ -40,15 +40,6 @@
           "buy_price": 8.67,
           "buy_date": "2026-08-03",
           "cost": 199461.85,
-          "defense": null
-        },
-        {
-          "code": "603658",
-          "name": "安图生物",
-          "shares": 5800,
-          "buy_price": 34.17,
-          "buy_date": "2026-08-03",
-          "cost": 198237.53,
           "defense": null
         },
         {
@@ -68,10 +59,78 @@
           "buy_date": "2026-08-04",
           "cost": 198857.69,
           "defense": null
+        },
+        {
+          "code": "600988",
+          "name": "赤峰黄金",
+          "shares": 4800,
+          "buy_price": 40.84,
+          "buy_date": "2026-08-05",
+          "cost": 196082.97,
+          "defense": null
+        },
+        {
+          "code": "603259",
+          "name": "药明康德",
+          "shares": 100,
+          "buy_price": 147.5,
+          "buy_date": "2026-08-05",
+          "cost": 14755.15,
+          "defense": null
+        },
+        {
+          "code": "601899",
+          "name": "紫金矿业",
+          "shares": 200,
+          "buy_price": 34.1,
+          "buy_date": "2026-08-05",
+          "cost": 6825.07,
+          "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-08-05 15:00:00",
+          "action": "BUY",
+          "code": "601899",
+          "name": "紫金矿业",
+          "price": 34.1,
+          "shares": 200,
+          "fees": 5.07,
+          "reason": "主升浪捕捉 (斜率:48.0°)"
+        },
+        {
+          "time": "2026-08-05 15:00:00",
+          "action": "BUY",
+          "code": "603259",
+          "name": "药明康德",
+          "price": 147.5,
+          "shares": 100,
+          "fees": 5.15,
+          "reason": "主升浪捕捉 (斜率:52.0°)"
+        },
+        {
+          "time": "2026-08-05 15:00:00",
+          "action": "BUY",
+          "code": "600988",
+          "name": "赤峰黄金",
+          "price": 40.84,
+          "shares": 4800,
+          "fees": 50.97,
+          "reason": "主升浪捕捉 (斜率:53.3°)"
+        },
+        {
+          "time": "2026-08-05 15:00:00",
+          "action": "SELL",
+          "code": "603658",
+          "name": "安图生物",
+          "price": 32.66,
+          "shares": 5800,
+          "fees": 143.97,
+          "pnl": -8953.5,
+          "reason": "硬止损 (-4.4%)"
+        },
         {
           "time": "2026-08-04 15:00:00",
           "action": "BUY",
@@ -155,58 +214,17 @@
           "fees": 145.56,
           "pnl": -8249.450000000012,
           "reason": "硬止损 (-4.0%)"
-        },
-        {
-          "time": "2026-08-03 15:00:00",
-          "action": "SELL",
-          "code": "603129",
-          "name": "春风动力",
-          "price": 306.4,
-          "shares": 700,
-          "fees": 163.0,
-          "pnl": 16200.5,
-          "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-07-29 15:00:00",
-          "action": "BUY",
-          "code": "600801",
-          "name": "华新建材",
-          "price": 22.6,
-          "shares": 900,
-          "fees": 5.29,
-          "reason": "主升浪捕捉 (斜率:56.9°)"
-        },
-        {
-          "time": "2026-07-29 15:00:00",
-          "action": "BUY",
-          "code": "603338",
-          "name": "浙江鼎力",
-          "price": 60.48,
-          "shares": 3300,
-          "fees": 51.89,
-          "reason": "主升浪捕捉 (斜率:59.5°)"
-        },
-        {
-          "time": "2026-07-28 15:00:00",
-          "action": "BUY",
-          "code": "601398",
-          "name": "工商银行",
-          "price": 7.97,
-          "shares": 25000,
-          "fees": 51.81,
-          "reason": "主升浪捕捉 (斜率:31.3°)"
         }
       ],
-      "transaction_count": 266,
-      "updated_at": "2026-08-04 17:31:58"
+      "transaction_count": 270,
+      "updated_at": "2026-08-05 17:32:20"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 36028.44,
-      "return": 0.036000000000000004,
-      "equity": 1036028.44,
+      "pnl": 57441.44,
+      "return": 0.0574,
+      "equity": 1057441.44,
       "holdings": [
         {
           "code": "688180",
@@ -490,7 +508,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-08-04 17:31:58"
+      "updated_at": "2026-08-05 17:32:20"
     }
   }
 }
