@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 14:47:53",
+  "generated_at": "2026-08-06 17:32:19",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5903465346534653,
-    "breadth_3m": 0.20173267326732675,
-    "median_1m": 0.023536770259463324,
-    "median_3m": -0.10198669813344766,
-    "median_vol": 0.47230382580913177
+    "breadth_1m": 0.599009900990099,
+    "breadth_3m": 0.20297029702970298,
+    "median_1m": 0.023243037463490213,
+    "median_3m": -0.10820183174285519,
+    "median_vol": 0.46209134592742185
   },
   "strategy_counts": {
     "quality_v2": 52,
-    "main_wave_v2": 6,
-    "left_reversal_v2": 47,
-    "quality_main_wave_v2": 5,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 26,
+    "quality_main_wave_v2": 2,
     "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 41,
-    "legacy_xma": 147,
-    "legacy_main_wave": 7
+    "legacy_bottom": 19,
+    "legacy_xma": 145,
+    "legacy_main_wave": 3
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 1042.8675199999143,
-      "pnl": -181407.13,
-      "return": -0.1814,
-      "equity": 818592.87,
+      "pnl": -182069.13,
+      "return": -0.1821,
+      "equity": 817930.87,
       "holdings": [
         {
           "code": "600663",
@@ -217,14 +217,14 @@
         }
       ],
       "transaction_count": 270,
-      "updated_at": "2026-08-05 17:32:20"
+      "updated_at": "2026-08-06 17:31:58"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 57441.44,
-      "return": 0.0574,
-      "equity": 1057441.44,
+      "pnl": 54201.44,
+      "return": 0.0542,
+      "equity": 1054201.44,
       "holdings": [
         {
           "code": "688180",
@@ -508,7 +508,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-08-05 17:32:20"
+      "updated_at": "2026-08-06 17:31:59"
     }
   }
 }
