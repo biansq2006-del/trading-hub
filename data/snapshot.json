@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10 09:46:38",
+  "generated_at": "2026-08-10 10:44:52",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.599009900990099,
-    "breadth_3m": 0.20297029702970298,
-    "median_1m": 0.023243037463490213,
-    "median_3m": -0.10820183174285519,
-    "median_vol": 0.46209134592742185
+    "breadth_1m": 0.5952970297029703,
+    "breadth_3m": 0.2042079207920792,
+    "median_1m": 0.02499158942562862,
+    "median_3m": -0.10918673341827455,
+    "median_vol": 0.461495402514987
   },
   "strategy_counts": {
-    "quality_v2": 52,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 26,
-    "quality_main_wave_v2": 2,
+    "quality_v2": 50,
+    "main_wave_v2": 5,
+    "left_reversal_v2": 36,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 19,
-    "legacy_xma": 145,
-    "legacy_main_wave": 3
+    "legacy_bottom": 7,
+    "legacy_xma": 101,
+    "legacy_main_wave": 7
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 1042.8675199999143,
-      "pnl": -182069.13,
-      "return": -0.1821,
-      "equity": 817930.87,
+      "pnl": -176092.13,
+      "return": -0.1761,
+      "equity": 823907.87,
       "holdings": [
         {
           "code": "600663",
@@ -217,14 +217,14 @@
         }
       ],
       "transaction_count": 270,
-      "updated_at": "2026-08-06 17:31:58"
+      "updated_at": "2026-08-10 10:43:50"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 54201.44,
-      "return": 0.0542,
-      "equity": 1054201.44,
+      "pnl": 80078.44,
+      "return": 0.0801,
+      "equity": 1080078.44,
       "holdings": [
         {
           "code": "688180",
@@ -508,7 +508,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-08-06 17:31:59"
+      "updated_at": "2026-08-10 10:43:50"
     }
   }
 }
