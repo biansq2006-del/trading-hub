@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10 14:47:03",
+  "generated_at": "2026-08-10 17:32:55",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5952970297029703,
-    "breadth_3m": 0.2042079207920792,
-    "median_1m": 0.02499158942562862,
-    "median_3m": -0.10918673341827455,
-    "median_vol": 0.461495402514987
+    "breadth_1m": 0.6324257425742574,
+    "breadth_3m": 0.22524752475247525,
+    "median_1m": 0.027050228951658872,
+    "median_3m": -0.09815257146052309,
+    "median_vol": 0.4575543216473683
   },
   "strategy_counts": {
-    "quality_v2": 50,
-    "main_wave_v2": 5,
-    "left_reversal_v2": 36,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_v2": 51,
+    "main_wave_v2": 10,
+    "left_reversal_v2": 12,
+    "quality_main_wave_v2": 3,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
     "legacy_bottom": 7,
-    "legacy_xma": 101,
-    "legacy_main_wave": 7
+    "legacy_xma": 100,
+    "legacy_main_wave": 12
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 1042.8675199999143,
-      "pnl": -176092.13,
-      "return": -0.1761,
-      "equity": 823907.87,
+      "cash": 369.8575199999143,
+      "pnl": -153691.14,
+      "return": -0.1537,
+      "equity": 846308.86,
       "holdings": [
         {
           "code": "600663",
@@ -86,10 +86,29 @@
           "buy_date": "2026-08-05",
           "cost": 6825.07,
           "defense": null
+        },
+        {
+          "code": "601598",
+          "name": "中国外运",
+          "shares": 100,
+          "buy_price": 6.68,
+          "buy_date": "2026-08-10",
+          "cost": 673.01,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-08-10 15:00:00",
+          "action": "BUY",
+          "code": "601598",
+          "name": "中国外运",
+          "price": 6.68,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:47.0°)"
+        },
         {
           "time": "2026-08-05 15:00:00",
           "action": "BUY",
@@ -203,28 +222,17 @@
           "fees": 14.73,
           "pnl": -1280.0200000000004,
           "reason": "硬止损 (-6.2%)"
-        },
-        {
-          "time": "2026-08-03 15:00:00",
-          "action": "SELL",
-          "code": "603338",
-          "name": "浙江鼎力",
-          "price": 58.04,
-          "shares": 3300,
-          "fees": 145.56,
-          "pnl": -8249.450000000012,
-          "reason": "硬止损 (-4.0%)"
         }
       ],
-      "transaction_count": 270,
-      "updated_at": "2026-08-10 10:43:50"
+      "transaction_count": 271,
+      "updated_at": "2026-08-10 17:32:32"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 69.43563000027638,
-      "pnl": 80078.44,
-      "return": 0.0801,
-      "equity": 1080078.44,
+      "pnl": 94576.44,
+      "return": 0.0946,
+      "equity": 1094576.44,
       "holdings": [
         {
           "code": "688180",
@@ -508,7 +516,7 @@
         }
       ],
       "transaction_count": 71,
-      "updated_at": "2026-08-10 10:43:50"
+      "updated_at": "2026-08-10 17:32:32"
     }
   }
 }
