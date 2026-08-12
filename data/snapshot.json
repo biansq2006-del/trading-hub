@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12 15:17:16",
+  "generated_at": "2026-08-12 21:10:36",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,49 +8,31 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.7017326732673267,
-    "breadth_3m": 0.20915841584158415,
-    "median_1m": 0.0368059683059182,
-    "median_3m": -0.10788338682745705,
-    "median_vol": 0.4299535304398878
+    "breadth_1m": 0.6460396039603961,
+    "breadth_3m": 0.24133663366336633,
+    "median_1m": 0.025516514528604265,
+    "median_3m": -0.08936935434559046,
+    "median_vol": 0.422984939425887
   },
   "strategy_counts": {
-    "quality_v2": 44,
+    "quality_v2": 40,
     "main_wave_v2": 3,
     "left_reversal_v2": 23,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 1,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
     "legacy_bottom": 7,
-    "legacy_xma": 97,
-    "legacy_main_wave": 3
+    "legacy_xma": 68,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 860.487519999886,
-      "pnl": -174569.51,
-      "return": -0.1746,
-      "equity": 825430.49,
+      "cash": 6726.217519999831,
+      "pnl": -176912.78,
+      "return": -0.1769,
+      "equity": 823087.22,
       "holdings": [
-        {
-          "code": "688475",
-          "name": "萤石网络",
-          "shares": 6400,
-          "buy_price": 31.12,
-          "buy_date": "2026-08-04",
-          "cost": 199219.78,
-          "defense": null
-        },
-        {
-          "code": "002517",
-          "name": "恺英网络",
-          "shares": 10700,
-          "buy_price": 18.58,
-          "buy_date": "2026-08-04",
-          "cost": 198857.69,
-          "defense": null
-        },
         {
           "code": "600988",
           "name": "赤峰黄金",
@@ -95,10 +77,70 @@
           "buy_date": "2026-08-11",
           "cost": 27307.1,
           "defense": null
+        },
+        {
+          "code": "002739",
+          "name": "儒意电影",
+          "shares": 18500,
+          "buy_price": 10.78,
+          "buy_date": "2026-08-12",
+          "cost": 199481.85,
+          "defense": null
+        },
+        {
+          "code": "000596",
+          "name": "古井贡酒",
+          "shares": 1800,
+          "buy_price": 99.18,
+          "buy_date": "2026-08-12",
+          "cost": 178570.42,
+          "defense": null
         }
       ],
       "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-08-12 15:00:00",
+          "action": "BUY",
+          "code": "000596",
+          "name": "古井贡酒",
+          "price": 99.18,
+          "shares": 1800,
+          "fees": 46.42,
+          "reason": "主升浪捕捉 (斜率:37.4°)"
+        },
+        {
+          "time": "2026-08-12 15:00:00",
+          "action": "BUY",
+          "code": "002739",
+          "name": "儒意电影",
+          "price": 10.78,
+          "shares": 18500,
+          "fees": 51.85,
+          "reason": "主升浪捕捉 (斜率:37.4°)"
+        },
+        {
+          "time": "2026-08-12 15:00:00",
+          "action": "SELL",
+          "code": "002517",
+          "name": "恺英网络",
+          "price": 17.82,
+          "shares": 10700,
+          "fees": 144.91,
+          "pnl": -8328.600000000006,
+          "reason": "硬止损 (-4.1%)"
+        },
+        {
+          "time": "2026-08-12 15:00:00",
+          "action": "SELL",
+          "code": "688475",
+          "name": "萤石网络",
+          "price": 30.24,
+          "shares": 6400,
+          "fees": 147.09,
+          "pnl": -5830.869999999995,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-08-11 15:00:00",
           "action": "BUY",
@@ -180,59 +222,17 @@
           "shares": 4800,
           "fees": 50.97,
           "reason": "主升浪捕捉 (斜率:53.3°)"
-        },
-        {
-          "time": "2026-08-05 15:00:00",
-          "action": "SELL",
-          "code": "603658",
-          "name": "安图生物",
-          "price": 32.66,
-          "shares": 5800,
-          "fees": 143.97,
-          "pnl": -8953.5,
-          "reason": "硬止损 (-4.4%)"
-        },
-        {
-          "time": "2026-08-04 15:00:00",
-          "action": "BUY",
-          "code": "002517",
-          "name": "恺英网络",
-          "price": 18.58,
-          "shares": 10700,
-          "fees": 51.69,
-          "reason": "主升浪捕捉 (斜率:27.0°)"
-        },
-        {
-          "time": "2026-08-04 15:00:00",
-          "action": "BUY",
-          "code": "688475",
-          "name": "萤石网络",
-          "price": 31.12,
-          "shares": 6400,
-          "fees": 51.78,
-          "reason": "主升浪捕捉 (斜率:38.5°)"
-        },
-        {
-          "time": "2026-08-04 15:00:00",
-          "action": "SELL",
-          "code": "601398",
-          "name": "工商银行",
-          "price": 7.66,
-          "shares": 25000,
-          "fees": 145.54,
-          "pnl": -7947.350000000006,
-          "reason": "技术形态恶化 (S点)"
         }
       ],
-      "transaction_count": 275,
-      "updated_at": "2026-08-11 17:32:10"
+      "transaction_count": 279,
+      "updated_at": "2026-08-12 21:10:15"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 668.8556300002965,
-      "pnl": 73864.86,
-      "return": 0.0739,
-      "equity": 1073864.86,
+      "pnl": 86346.86,
+      "return": 0.0863,
+      "equity": 1086346.86,
       "holdings": [
         {
           "code": "688180",
@@ -516,7 +516,7 @@
         }
       ],
       "transaction_count": 73,
-      "updated_at": "2026-08-11 17:32:10"
+      "updated_at": "2026-08-12 21:10:15"
     }
   }
 }
