@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17 10:12:31",
+  "generated_at": "2026-08-17 10:15:38",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5371287128712872,
-    "breadth_3m": 0.26113861386138615,
-    "median_1m": 0.0076308526203777705,
-    "median_3m": -0.08684828183392573,
-    "median_vol": 0.41359332227860734
+    "breadth_1m": 0.5470297029702971,
+    "breadth_3m": 0.27970297029702973,
+    "median_1m": 0.00788982259570492,
+    "median_3m": -0.08505558801481611,
+    "median_vol": 0.40870316703066034
   },
   "strategy_counts": {
     "quality_v2": 47,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 8,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 22,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 11,
-    "legacy_xma": 100,
-    "legacy_main_wave": 4
+    "legacy_bottom": 21,
+    "legacy_xma": 104,
+    "legacy_main_wave": 5
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 2336.0075199998446,
-      "pnl": -197724.99,
-      "return": -0.1977,
-      "equity": 802275.01,
+      "cash": 821.3075199998566,
+      "pnl": -210900.69,
+      "return": -0.2109,
+      "equity": 789099.31,
       "holdings": [
         {
           "code": "000661",
@@ -61,15 +61,6 @@
           "defense": null
         },
         {
-          "code": "688114",
-          "name": "华大智造",
-          "shares": 2800,
-          "buy_price": 70.29,
-          "buy_date": "2026-08-13",
-          "cost": 196863.17,
-          "defense": null
-        },
-        {
           "code": "301165",
           "name": "锐捷网络",
           "shares": 1300,
@@ -86,10 +77,40 @@
           "buy_date": "2026-08-13",
           "cost": 12587.13,
           "defense": null
+        },
+        {
+          "code": "601666",
+          "name": "平煤股份",
+          "shares": 19700,
+          "buy_price": 9.59,
+          "buy_date": "2026-08-14",
+          "cost": 188972.12,
+          "defense": null
         }
       ],
       "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-08-14 15:00:00",
+          "action": "BUY",
+          "code": "601666",
+          "name": "平煤股份",
+          "price": 9.59,
+          "shares": 19700,
+          "fees": 49.12,
+          "reason": "主升浪捕捉 (斜率:52.1°)"
+        },
+        {
+          "time": "2026-08-14 15:00:00",
+          "action": "SELL",
+          "code": "688114",
+          "name": "华大智造",
+          "price": 67.0,
+          "shares": 2800,
+          "fees": 142.58,
+          "pnl": -9405.75,
+          "reason": "硬止损 (-4.7%)"
+        },
         {
           "time": "2026-08-13 15:00:00",
           "action": "BUY",
@@ -194,38 +215,17 @@
           "fees": 144.91,
           "pnl": -8328.600000000006,
           "reason": "硬止损 (-4.1%)"
-        },
-        {
-          "time": "2026-08-12 15:00:00",
-          "action": "SELL",
-          "code": "688475",
-          "name": "萤石网络",
-          "price": 30.24,
-          "shares": 6400,
-          "fees": 147.09,
-          "pnl": -5830.869999999995,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-08-11 15:00:00",
-          "action": "BUY",
-          "code": "689009",
-          "name": "九号公司",
-          "price": 45.5,
-          "shares": 600,
-          "fees": 7.1,
-          "reason": "主升浪捕捉 (斜率:40.6°)"
         }
       ],
-      "transaction_count": 286,
-      "updated_at": "2026-08-13 17:32:50"
+      "transaction_count": 288,
+      "updated_at": "2026-08-17 10:15:10"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 668.8556300002965,
-      "pnl": 81165.86,
-      "return": 0.0812,
-      "equity": 1081165.86,
+      "pnl": 76897.86,
+      "return": 0.07690000000000001,
+      "equity": 1076897.86,
       "holdings": [
         {
           "code": "688180",
@@ -509,7 +509,7 @@
         }
       ],
       "transaction_count": 73,
-      "updated_at": "2026-08-13 17:32:50"
+      "updated_at": "2026-08-17 10:15:10"
     }
   }
 }
