@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-08-19 14:40:18",
+  "generated_at": "2026-08-19 19:05:07",
   "stock_count": 808,
   "regime": {
-    "state": "混合",
-    "code": "mixed",
-    "primary": "混合策略",
-    "secondary": "质量选股",
-    "exposure": "35% - 50%",
-    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.6287128712871287,
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
+    "primary": "质量选股",
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.44925742574257427,
     "breadth_3m": 0.27970297029702973,
-    "median_1m": 0.035808429527175334,
-    "median_3m": -0.07312350836412534,
-    "median_vol": 0.371766483133505
+    "median_1m": -0.009000231854230434,
+    "median_3m": -0.07902577469138694,
+    "median_vol": 0.3783002335297446
   },
   "strategy_counts": {
-    "quality_v2": 44,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 14,
-    "quality_main_wave_v2": 1,
+    "quality_v2": 57,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 11,
+    "quality_main_wave_v2": 2,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 35,
-    "legacy_xma": 61,
+    "legacy_bottom": 60,
+    "legacy_xma": 269,
     "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 517.0175199998539,
-      "pnl": -233310.98,
-      "return": -0.23329999999999998,
-      "equity": 766689.02,
+      "cash": 355.6075199998252,
+      "pnl": -265944.39,
+      "return": -0.2659,
+      "equity": 734055.61,
       "holdings": [
-        {
-          "code": "689009",
-          "name": "九号公司",
-          "shares": 600,
-          "buy_price": 45.5,
-          "buy_date": "2026-08-11",
-          "cost": 27307.1,
-          "defense": null
-        },
         {
           "code": "601666",
           "name": "平煤股份",
@@ -49,15 +40,6 @@
           "buy_price": 9.59,
           "buy_date": "2026-08-14",
           "cost": 188972.12,
-          "defense": null
-        },
-        {
-          "code": "688702",
-          "name": "盛科通信",
-          "shares": 400,
-          "buy_price": 421.7,
-          "buy_date": "2026-08-17",
-          "cost": 168723.86,
           "defense": null
         },
         {
@@ -70,15 +52,6 @@
           "defense": null
         },
         {
-          "code": "688002",
-          "name": "睿创微纳",
-          "shares": 1000,
-          "buy_price": 174.84,
-          "buy_date": "2026-08-18",
-          "cost": 174885.46,
-          "defense": null
-        },
-        {
           "code": "600583",
           "name": "海油工程",
           "shares": 1600,
@@ -86,10 +59,100 @@
           "buy_date": "2026-08-18",
           "cost": 9637.1,
           "defense": null
+        },
+        {
+          "code": "000703",
+          "name": "恒逸石化",
+          "shares": 10400,
+          "buy_price": 19.08,
+          "buy_date": "2026-08-19",
+          "cost": 198483.59,
+          "defense": null
+        },
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "shares": 4300,
+          "buy_price": 32.6,
+          "buy_date": "2026-08-19",
+          "cost": 140216.45,
+          "defense": null
+        },
+        {
+          "code": "603565",
+          "name": "中谷物流",
+          "shares": 100,
+          "buy_price": 11.48,
+          "buy_date": "2026-08-19",
+          "cost": 1153.01,
+          "defense": null
         }
       ],
       "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "BUY",
+          "code": "603565",
+          "name": "中谷物流",
+          "price": 11.48,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:26.6°)"
+        },
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "BUY",
+          "code": "600547",
+          "name": "山东黄金",
+          "price": 32.6,
+          "shares": 4300,
+          "fees": 36.45,
+          "reason": "主升浪捕捉 (斜率:42.2°)"
+        },
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "BUY",
+          "code": "000703",
+          "name": "恒逸石化",
+          "price": 19.08,
+          "shares": 10400,
+          "fees": 51.59,
+          "reason": "主升浪捕捉 (斜率:50.0°)"
+        },
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "SELL",
+          "code": "688002",
+          "name": "睿创微纳",
+          "price": 162.17,
+          "shares": 1000,
+          "fees": 123.25,
+          "pnl": -12838.709999999992,
+          "reason": "硬止损 (-7.2%)"
+        },
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "SELL",
+          "code": "688702",
+          "name": "盛科通信",
+          "price": 378.0,
+          "shares": 400,
+          "fees": 114.91,
+          "pnl": -17638.76999999999,
+          "reason": "硬止损 (-10.4%)"
+        },
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "SELL",
+          "code": "689009",
+          "name": "九号公司",
+          "price": 44.3,
+          "shares": 600,
+          "fees": 20.2,
+          "pnl": -747.2999999999993,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-08-18 15:00:00",
           "action": "BUY",
@@ -152,80 +215,17 @@
           "fees": 144.73,
           "pnl": -9396.640000000014,
           "reason": "硬止损 (-4.6%)"
-        },
-        {
-          "time": "2026-08-17 15:00:00",
-          "action": "BUY",
-          "code": "600362",
-          "name": "江西铜业",
-          "price": 47.72,
-          "shares": 300,
-          "fees": 5.14,
-          "reason": "主升浪捕捉 (斜率:45.8°)"
-        },
-        {
-          "time": "2026-08-17 15:00:00",
-          "action": "BUY",
-          "code": "688702",
-          "name": "盛科通信",
-          "price": 421.7,
-          "shares": 400,
-          "fees": 43.86,
-          "reason": "主升浪捕捉 (斜率:49.4°)"
-        },
-        {
-          "time": "2026-08-17 15:00:00",
-          "action": "SELL",
-          "code": "300676",
-          "name": "华大基因",
-          "price": 39.78,
-          "shares": 300,
-          "fees": 11.09,
-          "pnl": -664.2199999999993,
-          "reason": "硬止损 (-5.2%)"
-        },
-        {
-          "time": "2026-08-17 15:00:00",
-          "action": "SELL",
-          "code": "000596",
-          "name": "古井贡酒",
-          "price": 95.04,
-          "shares": 1800,
-          "fees": 130.01,
-          "pnl": -7628.430000000022,
-          "reason": "硬止损 (-4.2%)"
-        },
-        {
-          "time": "2026-08-14 15:00:00",
-          "action": "BUY",
-          "code": "601666",
-          "name": "平煤股份",
-          "price": 9.59,
-          "shares": 19700,
-          "fees": 49.12,
-          "reason": "主升浪捕捉 (斜率:52.1°)"
-        },
-        {
-          "time": "2026-08-14 15:00:00",
-          "action": "SELL",
-          "code": "688114",
-          "name": "华大智造",
-          "price": 67.0,
-          "shares": 2800,
-          "fees": 142.58,
-          "pnl": -9405.75,
-          "reason": "硬止损 (-4.7%)"
         }
       ],
-      "transaction_count": 298,
-      "updated_at": "2026-08-18 17:36:05"
+      "transaction_count": 304,
+      "updated_at": "2026-08-19 19:01:08"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 668.8556300002965,
-      "pnl": 80848.86,
-      "return": 0.0808,
-      "equity": 1080848.86,
+      "cash": 134522.0456300003,
+      "pnl": 40089.05,
+      "return": 0.0401,
+      "equity": 1040089.05,
       "holdings": [
         {
           "code": "688180",
@@ -370,19 +370,21 @@
           "buy_date": "2026-07-01",
           "cost": 273.00268,
           "defense": 2.6
-        },
-        {
-          "code": "600363",
-          "name": "联创光电",
-          "shares": 7300,
-          "buy_price": 20.55,
-          "buy_date": "2026-08-11",
-          "cost": 150054.0,
-          "defense": 19.22
         }
       ],
-      "holding_count": 17,
+      "holding_count": 16,
       "transactions": [
+        {
+          "time": "2026-08-19 15:00:00",
+          "action": "SELL",
+          "code": "600363",
+          "name": "联创光电",
+          "price": 18.35,
+          "shares": 7300,
+          "fees": 101.81,
+          "pnl": -16200.809999999998,
+          "reason": "破位止损 (跌破抄底价 ¥19.22)"
+        },
         {
           "time": "2026-08-11 15:00:00",
           "action": "BUY",
@@ -496,20 +498,10 @@
           "shares": 200,
           "fees": 5.02792,
           "reason": "B_伏击 (乖离率:-16.3%)"
-        },
-        {
-          "time": "2026-06-04 14:42:27",
-          "action": "BUY",
-          "code": "002837",
-          "name": "英维克",
-          "price": 69.16,
-          "shares": 1700,
-          "fees": 30.56872,
-          "reason": "B_伏击 (乖离率:-26.9%)"
         }
       ],
-      "transaction_count": 73,
-      "updated_at": "2026-08-18 17:36:05"
+      "transaction_count": 74,
+      "updated_at": "2026-08-19 19:01:08"
     }
   }
 }
