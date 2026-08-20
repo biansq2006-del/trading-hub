@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-20 14:40:18",
+  "generated_at": "2026-08-20 17:37:10",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.44925742574257427,
-    "breadth_3m": 0.27970297029702973,
-    "median_1m": -0.009000231854230434,
-    "median_3m": -0.07902577469138694,
-    "median_vol": 0.3783002335297446
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.4777227722772277,
+    "breadth_3m": 0.2933168316831683,
+    "median_1m": -0.0029608321393023163,
+    "median_3m": -0.07512250456947372,
+    "median_vol": 0.37858377344720384
   },
   "strategy_counts": {
-    "quality_v2": 57,
-    "main_wave_v2": 6,
-    "left_reversal_v2": 11,
+    "quality_v2": 56,
+    "main_wave_v2": 7,
+    "left_reversal_v2": 92,
     "quality_main_wave_v2": 2,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
     "legacy_bottom": 60,
-    "legacy_xma": 269,
-    "legacy_main_wave": 6
+    "legacy_xma": 228,
+    "legacy_main_wave": 14
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 355.6075199998252,
-      "pnl": -265944.39,
-      "return": -0.2659,
-      "equity": 734055.61,
+      "pnl": -239147.39,
+      "return": -0.2391,
+      "equity": 760852.61,
       "holdings": [
         {
           "code": "601666",
@@ -218,14 +218,14 @@
         }
       ],
       "transaction_count": 304,
-      "updated_at": "2026-08-19 19:01:08"
+      "updated_at": "2026-08-20 17:36:49"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 134522.0456300003,
-      "pnl": 40089.05,
-      "return": 0.0401,
-      "equity": 1040089.05,
+      "cash": 786.2856300002895,
+      "pnl": 58825.29,
+      "return": 0.0588,
+      "equity": 1058825.29,
       "holdings": [
         {
           "code": "688180",
@@ -370,10 +370,29 @@
           "buy_date": "2026-07-01",
           "cost": 273.00268,
           "defense": 2.6
+        },
+        {
+          "code": "000582",
+          "name": "北部湾港",
+          "shares": 12300,
+          "buy_price": 10.87,
+          "buy_date": "2026-08-20",
+          "cost": 133735.76,
+          "defense": 10.55
         }
       ],
-      "holding_count": 16,
+      "holding_count": 17,
       "transactions": [
+        {
+          "time": "2026-08-20 15:00:00",
+          "action": "BUY",
+          "code": "000582",
+          "name": "北部湾港",
+          "price": 10.87,
+          "shares": 12300,
+          "fees": 34.76,
+          "reason": "B_伏击 (乖离率:-11.0%)"
+        },
         {
           "time": "2026-08-19 15:00:00",
           "action": "SELL",
@@ -488,20 +507,10 @@
           "fees": 125.856,
           "pnl": -7868.913479999988,
           "reason": "破位止损 (跌破抄底价 ¥280.88)"
-        },
-        {
-          "time": "2026-06-04 14:42:27",
-          "action": "BUY",
-          "code": "300118",
-          "name": "东方日升",
-          "price": 13.96,
-          "shares": 200,
-          "fees": 5.02792,
-          "reason": "B_伏击 (乖离率:-16.3%)"
         }
       ],
-      "transaction_count": 74,
-      "updated_at": "2026-08-19 19:01:08"
+      "transaction_count": 75,
+      "updated_at": "2026-08-20 17:36:49"
     }
   }
 }
