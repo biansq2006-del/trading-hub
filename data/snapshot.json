@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-21 14:40:18",
+  "generated_at": "2026-08-21 17:34:08",
   "stock_count": 808,
   "regime": {
-    "state": "混合",
-    "code": "mixed",
-    "primary": "混合策略",
-    "secondary": "质量选股",
-    "exposure": "35% - 50%",
-    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.4777227722772277,
-    "breadth_3m": 0.2933168316831683,
-    "median_1m": -0.0029608321393023163,
-    "median_3m": -0.07512250456947372,
-    "median_vol": 0.37858377344720384
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
+    "primary": "质量选股",
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.42326732673267325,
+    "breadth_3m": 0.24504950495049505,
+    "median_1m": -0.01355947784519218,
+    "median_3m": -0.08620948612506596,
+    "median_vol": 0.3708129455462008
   },
   "strategy_counts": {
-    "quality_v2": 56,
-    "main_wave_v2": 7,
-    "left_reversal_v2": 92,
+    "quality_v2": 54,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 111,
     "quality_main_wave_v2": 2,
-    "quality_left_v2": 0,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 60,
-    "legacy_xma": 228,
-    "legacy_main_wave": 14
+    "legacy_bottom": 89,
+    "legacy_xma": 219,
+    "legacy_main_wave": 9
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 355.6075199998252,
-      "pnl": -239147.39,
-      "return": -0.2391,
-      "equity": 760852.61,
+      "cash": 265.5375199998143,
+      "pnl": -231917.46,
+      "return": -0.23190000000000002,
+      "equity": 768082.54,
       "holdings": [
         {
           "code": "601666",
@@ -70,15 +70,6 @@
           "defense": null
         },
         {
-          "code": "600547",
-          "name": "山东黄金",
-          "shares": 4300,
-          "buy_price": 32.6,
-          "buy_date": "2026-08-19",
-          "cost": 140216.45,
-          "defense": null
-        },
-        {
           "code": "603565",
           "name": "中谷物流",
           "shares": 100,
@@ -86,10 +77,59 @@
           "buy_date": "2026-08-19",
           "cost": 1153.01,
           "defense": null
+        },
+        {
+          "code": "688114",
+          "name": "华大智造",
+          "shares": 2000,
+          "buy_price": 74.79,
+          "buy_date": "2026-08-21",
+          "cost": 149618.89,
+          "defense": null
+        },
+        {
+          "code": "300142",
+          "name": "沃森生物",
+          "shares": 600,
+          "buy_price": 16.1,
+          "buy_date": "2026-08-21",
+          "cost": 9665.1,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-08-21 15:00:00",
+          "action": "BUY",
+          "code": "300142",
+          "name": "沃森生物",
+          "price": 16.1,
+          "shares": 600,
+          "fees": 5.1,
+          "reason": "主升浪捕捉 (斜率:58.4°)"
+        },
+        {
+          "time": "2026-08-21 15:00:00",
+          "action": "BUY",
+          "code": "688114",
+          "name": "华大智造",
+          "price": 74.79,
+          "shares": 2000,
+          "fees": 38.89,
+          "reason": "主升浪捕捉 (斜率:67.8°)"
+        },
+        {
+          "time": "2026-08-21 15:00:00",
+          "action": "SELL",
+          "code": "600547",
+          "name": "山东黄金",
+          "price": 37.05,
+          "shares": 4300,
+          "fees": 121.08,
+          "pnl": 18977.47,
+          "reason": "硬止盈 (+13.7%)"
+        },
         {
           "time": "2026-08-19 15:00:00",
           "action": "BUY",
@@ -182,50 +222,17 @@
           "shares": 3700,
           "fees": 51.42,
           "reason": "主升浪捕捉 (斜率:38.1°)"
-        },
-        {
-          "time": "2026-08-18 15:00:00",
-          "action": "SELL",
-          "code": "600362",
-          "name": "江西铜业",
-          "price": 46.6,
-          "shares": 300,
-          "fees": 12.13,
-          "pnl": -353.2699999999986,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-08-18 15:00:00",
-          "action": "SELL",
-          "code": "301165",
-          "name": "锐捷网络",
-          "price": 136.99,
-          "shares": 1300,
-          "fees": 135.35,
-          "pnl": -8386.790000000008,
-          "reason": "硬止损 (-4.4%)"
-        },
-        {
-          "time": "2026-08-18 15:00:00",
-          "action": "SELL",
-          "code": "000661",
-          "name": "长春高新",
-          "price": 82.8,
-          "shares": 2300,
-          "fees": 144.73,
-          "pnl": -9396.640000000014,
-          "reason": "硬止损 (-4.6%)"
         }
       ],
-      "transaction_count": 304,
-      "updated_at": "2026-08-20 17:36:49"
+      "transaction_count": 307,
+      "updated_at": "2026-08-21 17:33:36"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 786.2856300002895,
-      "pnl": 58825.29,
-      "return": 0.0588,
-      "equity": 1058825.29,
+      "cash": 246.27563000028954,
+      "pnl": 35080.28,
+      "return": 0.0351,
+      "equity": 1035080.28,
       "holdings": [
         {
           "code": "688180",
@@ -379,10 +386,29 @@
           "buy_date": "2026-08-20",
           "cost": 133735.76,
           "defense": 10.55
+        },
+        {
+          "code": "000539",
+          "name": "粤电力A",
+          "shares": 100,
+          "buy_price": 5.35,
+          "buy_date": "2026-08-21",
+          "cost": 540.01,
+          "defense": 5.23
         }
       ],
-      "holding_count": 17,
+      "holding_count": 18,
       "transactions": [
+        {
+          "time": "2026-08-21 15:00:00",
+          "action": "BUY",
+          "code": "000539",
+          "name": "粤电力A",
+          "price": 5.35,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "B_伏击 (乖离率:-6.7%)"
+        },
         {
           "time": "2026-08-20 15:00:00",
           "action": "BUY",
@@ -496,21 +522,10 @@
           "fees": 85.14280000000001,
           "pnl": -5657.711519999983,
           "reason": "破位止损 (跌破抄底价 ¥67.18)"
-        },
-        {
-          "time": "2026-06-05 14:46:48",
-          "action": "SELL",
-          "code": "688012",
-          "name": "中微公司",
-          "price": 276.0,
-          "shares": 600,
-          "fees": 125.856,
-          "pnl": -7868.913479999988,
-          "reason": "破位止损 (跌破抄底价 ¥280.88)"
         }
       ],
-      "transaction_count": 75,
-      "updated_at": "2026-08-20 17:36:49"
+      "transaction_count": 76,
+      "updated_at": "2026-08-21 17:33:36"
     }
   }
 }
