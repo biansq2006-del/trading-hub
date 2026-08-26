@@ -1,59 +1,139 @@
 {
-  "generated_at": "2026-08-26 14:40:20",
+  "generated_at": "2026-08-26 21:34:27",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.4467821782178218,
-    "breadth_3m": 0.26732673267326734,
-    "median_1m": -0.007467694375672518,
-    "median_3m": -0.0761786705311247,
-    "median_vol": 0.34755315030442024
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.6051980198019802,
+    "breadth_3m": 0.31435643564356436,
+    "median_1m": 0.01644703264397851,
+    "median_3m": -0.06642013530558422,
+    "median_vol": 0.3481469590805662
   },
   "strategy_counts": {
-    "quality_v2": 55,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 160,
+    "quality_v2": 52,
+    "main_wave_v2": 4,
+    "left_reversal_v2": 118,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 110,
-    "legacy_xma": 253,
-    "legacy_main_wave": 1
+    "legacy_bottom": 93,
+    "legacy_xma": 211,
+    "legacy_main_wave": 8
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 534540.7475199997,
-      "pnl": -265027.25,
-      "return": -0.265,
-      "equity": 734972.75,
+      "cash": 842.6075199996994,
+      "pnl": -266923.39,
+      "return": -0.2669,
+      "equity": 733076.61,
       "holdings": [
         {
-          "code": "600583",
-          "name": "海油工程",
-          "shares": 1600,
-          "buy_price": 6.02,
-          "buy_date": "2026-08-18",
-          "cost": 9637.1,
+          "code": "300142",
+          "name": "沃森生物",
+          "shares": 13100,
+          "buy_price": 15.26,
+          "buy_date": "2026-08-26",
+          "cost": 199957.98,
           "defense": null
         },
         {
-          "code": "000703",
-          "name": "恒逸石化",
-          "shares": 10400,
-          "buy_price": 19.08,
-          "buy_date": "2026-08-19",
-          "cost": 198483.59,
+          "code": "000737",
+          "name": "北方铜业",
+          "shares": 12900,
+          "buy_price": 15.44,
+          "buy_date": "2026-08-26",
+          "cost": 199227.79,
+          "defense": null
+        },
+        {
+          "code": "600497",
+          "name": "驰宏锌锗",
+          "shares": 19200,
+          "buy_price": 10.4,
+          "buy_date": "2026-08-26",
+          "cost": 199731.92,
+          "defense": null
+        },
+        {
+          "code": "002493",
+          "name": "荣盛石化",
+          "shares": 9700,
+          "buy_price": 13.76,
+          "buy_date": "2026-08-26",
+          "cost": 133506.7,
           "defense": null
         }
       ],
-      "holding_count": 2,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "BUY",
+          "code": "002493",
+          "name": "荣盛石化",
+          "price": 13.76,
+          "shares": 9700,
+          "fees": 34.7,
+          "reason": "主升浪捕捉 (斜率:31.8°)"
+        },
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "BUY",
+          "code": "600497",
+          "name": "驰宏锌锗",
+          "price": 10.4,
+          "shares": 19200,
+          "fees": 51.92,
+          "reason": "主升浪捕捉 (斜率:33.6°)"
+        },
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "BUY",
+          "code": "000737",
+          "name": "北方铜业",
+          "price": 15.44,
+          "shares": 12900,
+          "fees": 51.79,
+          "reason": "主升浪捕捉 (斜率:37.8°)"
+        },
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "BUY",
+          "code": "300142",
+          "name": "沃森生物",
+          "price": 15.26,
+          "shares": 13100,
+          "fees": 51.98,
+          "reason": "主升浪捕捉 (斜率:49.2°)"
+        },
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "SELL",
+          "code": "000703",
+          "name": "恒逸石化",
+          "price": 18.2,
+          "shares": 10400,
+          "fees": 143.85,
+          "pnl": -9347.440000000002,
+          "reason": "硬止损 (-4.6%)"
+        },
+        {
+          "time": "2026-08-26 15:00:00",
+          "action": "SELL",
+          "code": "600583",
+          "name": "海油工程",
+          "price": 6.0,
+          "shares": 1600,
+          "fees": 9.9,
+          "pnl": -47.0,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-08-25 15:00:00",
           "action": "SELL",
@@ -118,79 +198,17 @@
           "shares": 600,
           "fees": 5.1,
           "reason": "主升浪捕捉 (斜率:58.4°)"
-        },
-        {
-          "time": "2026-08-21 15:00:00",
-          "action": "BUY",
-          "code": "688114",
-          "name": "华大智造",
-          "price": 74.79,
-          "shares": 2000,
-          "fees": 38.89,
-          "reason": "主升浪捕捉 (斜率:67.8°)"
-        },
-        {
-          "time": "2026-08-21 15:00:00",
-          "action": "SELL",
-          "code": "600547",
-          "name": "山东黄金",
-          "price": 37.05,
-          "shares": 4300,
-          "fees": 121.08,
-          "pnl": 18977.47,
-          "reason": "硬止盈 (+13.7%)"
-        },
-        {
-          "time": "2026-08-19 15:00:00",
-          "action": "BUY",
-          "code": "603565",
-          "name": "中谷物流",
-          "price": 11.48,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:26.6°)"
-        },
-        {
-          "time": "2026-08-19 15:00:00",
-          "action": "BUY",
-          "code": "600547",
-          "name": "山东黄金",
-          "price": 32.6,
-          "shares": 4300,
-          "fees": 36.45,
-          "reason": "主升浪捕捉 (斜率:42.2°)"
-        },
-        {
-          "time": "2026-08-19 15:00:00",
-          "action": "BUY",
-          "code": "000703",
-          "name": "恒逸石化",
-          "price": 19.08,
-          "shares": 10400,
-          "fees": 51.59,
-          "reason": "主升浪捕捉 (斜率:50.0°)"
-        },
-        {
-          "time": "2026-08-19 15:00:00",
-          "action": "SELL",
-          "code": "688002",
-          "name": "睿创微纳",
-          "price": 162.17,
-          "shares": 1000,
-          "fees": 123.25,
-          "pnl": -12838.709999999992,
-          "reason": "硬止损 (-7.2%)"
         }
       ],
-      "transaction_count": 312,
-      "updated_at": "2026-08-25 21:24:59"
+      "transaction_count": 318,
+      "updated_at": "2026-08-26 21:33:51"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 106.53563000028953,
-      "pnl": 7767.54,
-      "return": 0.0078000000000000005,
-      "equity": 1007767.54,
+      "pnl": 22509.54,
+      "return": 0.0225,
+      "equity": 1022509.54,
       "holdings": [
         {
           "code": "688180",
@@ -483,7 +501,7 @@
         }
       ],
       "transaction_count": 78,
-      "updated_at": "2026-08-25 21:24:59"
+      "updated_at": "2026-08-26 21:33:51"
     }
   }
 }
