@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27 14:40:25",
+  "generated_at": "2026-08-27 18:51:26",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.6051980198019802,
-    "breadth_3m": 0.31435643564356436,
-    "median_1m": 0.01644703264397851,
-    "median_3m": -0.06642013530558422,
-    "median_vol": 0.3481469590805662
+    "breadth_1m": 0.5321782178217822,
+    "breadth_3m": 0.3316831683168317,
+    "median_1m": 0.0051956026884123485,
+    "median_3m": -0.05104346174595009,
+    "median_vol": 0.33875474151825014
   },
   "strategy_counts": {
-    "quality_v2": 52,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 118,
-    "quality_main_wave_v2": 0,
+    "quality_v2": 51,
+    "main_wave_v2": 5,
+    "left_reversal_v2": 89,
+    "quality_main_wave_v2": 1,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 93,
-    "legacy_xma": 211,
+    "legacy_bottom": 73,
+    "legacy_xma": 134,
     "legacy_main_wave": 8
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 842.6075199996994,
-      "pnl": -266923.39,
-      "return": -0.2669,
-      "equity": 733076.61,
+      "pnl": -255995.39,
+      "return": -0.256,
+      "equity": 744004.61,
       "holdings": [
         {
           "code": "300142",
@@ -201,14 +201,14 @@
         }
       ],
       "transaction_count": 318,
-      "updated_at": "2026-08-26 21:33:51"
+      "updated_at": "2026-08-27 18:50:51"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 106.53563000028953,
-      "pnl": 22509.54,
-      "return": 0.0225,
-      "equity": 1022509.54,
+      "pnl": 28298.54,
+      "return": 0.028300000000000002,
+      "equity": 1028298.54,
       "holdings": [
         {
           "code": "688180",
@@ -501,7 +501,7 @@
         }
       ],
       "transaction_count": 78,
-      "updated_at": "2026-08-26 21:33:51"
+      "updated_at": "2026-08-27 18:50:51"
     }
   }
 }
