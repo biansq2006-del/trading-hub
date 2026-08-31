@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31 09:48:49",
+  "generated_at": "2026-08-31 13:08:42",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -19,7 +19,7 @@
     "main_wave_v2": 6,
     "left_reversal_v2": 42,
     "quality_main_wave_v2": 2,
-    "quality_left_v2": 0,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
     "legacy_bottom": 39,
     "legacy_xma": 156,
