@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 10:30:02",
+  "generated_at": "2026-09-01 11:03:46",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -29,9 +29,9 @@
     "right": {
       "initial": 1000000.0,
       "cash": 21.63751999969827,
-      "pnl": -269928.36,
-      "return": -0.2699,
-      "equity": 730071.64,
+      "pnl": -290053.36,
+      "return": -0.2901,
+      "equity": 709946.64,
       "holdings": [
         {
           "code": "000737",
@@ -201,14 +201,14 @@
         }
       ],
       "transaction_count": 320,
-      "updated_at": "2026-08-28 17:32:24"
+      "updated_at": "2026-09-01 11:03:36"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 106.53563000028953,
-      "pnl": 14197.54,
-      "return": 0.014199999999999999,
-      "equity": 1014197.54,
+      "cash": 617.2756300002895,
+      "pnl": -58.72,
+      "return": -0.0001,
+      "equity": 999941.28,
       "holdings": [
         {
           "code": "688180",
@@ -355,15 +355,6 @@
           "defense": 2.6
         },
         {
-          "code": "000539",
-          "name": "粤电力A",
-          "shares": 100,
-          "buy_price": 5.35,
-          "buy_date": "2026-08-21",
-          "cost": 540.01,
-          "defense": 5.23
-        },
-        {
           "code": "000786",
           "name": "北新建材",
           "shares": 7500,
@@ -373,8 +364,19 @@
           "defense": 16.82
         }
       ],
-      "holding_count": 18,
+      "holding_count": 17,
       "transactions": [
+        {
+          "time": "2026-08-31 15:00:00",
+          "action": "SELL",
+          "code": "000539",
+          "name": "粤电力A",
+          "price": 5.16,
+          "shares": 100,
+          "fees": 5.26,
+          "pnl": -29.269999999999982,
+          "reason": "破位止损 (跌破抄底价 ¥5.23)"
+        },
         {
           "time": "2026-08-24 15:00:00",
           "action": "BUY",
@@ -488,20 +490,10 @@
           "shares": 100,
           "fees": 5.00779,
           "reason": "B_伏击 (乖离率:-11.3%)"
-        },
-        {
-          "time": "2026-06-05 14:46:48",
-          "action": "BUY",
-          "code": "000547",
-          "name": "航天发展",
-          "price": 20.46,
-          "shares": 3800,
-          "fees": 20.214480000000002,
-          "reason": "B_伏击 (乖离率:-12.4%)"
         }
       ],
-      "transaction_count": 78,
-      "updated_at": "2026-08-28 17:32:24"
+      "transaction_count": 79,
+      "updated_at": "2026-09-01 11:03:36"
     }
   }
 }
