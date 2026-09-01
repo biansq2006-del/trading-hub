@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31 14:49:18",
+  "generated_at": "2026-09-01 09:40:04",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,21 +8,21 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5445544554455446,
-    "breadth_3m": 0.31435643564356436,
-    "median_1m": 0.006627238354087406,
-    "median_3m": -0.055478608802708496,
-    "median_vol": 0.3363367290845707
+    "breadth_1m": 0.5099009900990099,
+    "breadth_3m": 0.327970297029703,
+    "median_1m": 0.0019744895174683696,
+    "median_3m": -0.053895254445231966,
+    "median_vol": 0.33784343066821504
   },
   "strategy_counts": {
-    "quality_v2": 50,
-    "main_wave_v2": 6,
-    "left_reversal_v2": 42,
+    "quality_v2": 54,
+    "main_wave_v2": 5,
+    "left_reversal_v2": 49,
     "quality_main_wave_v2": 2,
-    "quality_left_v2": 1,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 39,
-    "legacy_xma": 156,
+    "legacy_bottom": 71,
+    "legacy_xma": 151,
     "legacy_main_wave": 8
   },
   "legacy_accounts": {
