@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 14:40:25",
+  "generated_at": "2026-09-01 17:34:44",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5099009900990099,
-    "breadth_3m": 0.327970297029703,
-    "median_1m": 0.0019744895174683696,
-    "median_3m": -0.053895254445231966,
-    "median_vol": 0.33784343066821504
+    "breadth_1m": 0.5024752475247525,
+    "breadth_3m": 0.34282178217821785,
+    "median_1m": 0.0008410104113680816,
+    "median_3m": -0.048278041609857325,
+    "median_vol": 0.3324036270563447
   },
   "strategy_counts": {
-    "quality_v2": 54,
-    "main_wave_v2": 5,
-    "left_reversal_v2": 49,
-    "quality_main_wave_v2": 2,
-    "quality_left_v2": 0,
+    "quality_v2": 60,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 75,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 71,
-    "legacy_xma": 151,
-    "legacy_main_wave": 8
+    "legacy_bottom": 62,
+    "legacy_xma": 181,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 21.63751999969827,
-      "pnl": -290053.36,
-      "return": -0.2901,
-      "equity": 709946.64,
+      "cash": 455.89751999969576,
+      "pnl": -293302.1,
+      "return": -0.2933,
+      "equity": 706697.9,
       "holdings": [
         {
           "code": "000737",
@@ -61,17 +61,76 @@
           "defense": null
         },
         {
-          "code": "601212",
-          "name": "白银有色",
-          "shares": 24600,
-          "buy_price": 7.63,
-          "buy_date": "2026-08-28",
-          "cost": 187746.8,
+          "code": "688169",
+          "name": "石头科技",
+          "shares": 1200,
+          "buy_price": 133.58,
+          "buy_date": "2026-09-01",
+          "cost": 160337.68,
+          "defense": null
+        },
+        {
+          "code": "603596",
+          "name": "伯特利",
+          "shares": 100,
+          "buy_price": 29.84,
+          "buy_date": "2026-09-01",
+          "cost": 2989.03,
+          "defense": null
+        },
+        {
+          "code": "600039",
+          "name": "四川路桥",
+          "shares": 200,
+          "buy_price": 9.56,
+          "buy_date": "2026-09-01",
+          "cost": 1917.02,
           "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-09-01 15:00:00",
+          "action": "BUY",
+          "code": "600039",
+          "name": "四川路桥",
+          "price": 9.56,
+          "shares": 200,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:26.7°)"
+        },
+        {
+          "time": "2026-09-01 15:00:00",
+          "action": "BUY",
+          "code": "603596",
+          "name": "伯特利",
+          "price": 29.84,
+          "shares": 100,
+          "fees": 5.03,
+          "reason": "主升浪捕捉 (斜率:30.8°)"
+        },
+        {
+          "time": "2026-09-01 15:00:00",
+          "action": "BUY",
+          "code": "688169",
+          "name": "石头科技",
+          "price": 133.58,
+          "shares": 1200,
+          "fees": 41.68,
+          "reason": "主升浪捕捉 (斜率:46.4°)"
+        },
+        {
+          "time": "2026-09-01 15:00:00",
+          "action": "SELL",
+          "code": "601212",
+          "name": "白银有色",
+          "price": 6.74,
+          "shares": 24600,
+          "fees": 126.01,
+          "pnl": -22068.809999999998,
+          "reason": "硬止损 (-11.7%)"
+        },
         {
           "time": "2026-08-28 15:00:00",
           "action": "BUY",
@@ -154,61 +213,17 @@
           "fees": 9.9,
           "pnl": -47.0,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-08-25 15:00:00",
-          "action": "SELL",
-          "code": "300832",
-          "name": "新产业",
-          "price": 51.41,
-          "shares": 3700,
-          "fees": 144.56,
-          "pnl": -7743.9800000000105,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-08-24 15:00:00",
-          "action": "SELL",
-          "code": "300142",
-          "name": "沃森生物",
-          "price": 14.9,
-          "shares": 600,
-          "fees": 9.56,
-          "pnl": -734.6599999999999,
-          "reason": "硬止损 (-7.5%)"
-        },
-        {
-          "time": "2026-08-24 15:00:00",
-          "action": "SELL",
-          "code": "688114",
-          "name": "华大智造",
-          "price": 70.56,
-          "shares": 2000,
-          "fees": 107.25,
-          "pnl": -8606.140000000014,
-          "reason": "硬止损 (-5.7%)"
-        },
-        {
-          "time": "2026-08-24 15:00:00",
-          "action": "SELL",
-          "code": "603565",
-          "name": "中谷物流",
-          "price": 13.52,
-          "shares": 100,
-          "fees": 5.69,
-          "pnl": 193.29999999999995,
-          "reason": "硬止盈 (+17.8%)"
         }
       ],
-      "transaction_count": 320,
-      "updated_at": "2026-09-01 11:03:36"
+      "transaction_count": 324,
+      "updated_at": "2026-09-01 17:34:21"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 617.2756300002895,
-      "pnl": -58.72,
-      "return": -0.0001,
-      "equity": 999941.28,
+      "cash": 88.26563000028955,
+      "pnl": 209.27,
+      "return": 0.0002,
+      "equity": 1000209.27,
       "holdings": [
         {
           "code": "688180",
@@ -362,10 +377,29 @@
           "buy_date": "2026-08-24",
           "cost": 128208.33,
           "defense": 16.82
+        },
+        {
+          "code": "000539",
+          "name": "粤电力A",
+          "shares": 100,
+          "buy_price": 5.24,
+          "buy_date": "2026-09-01",
+          "cost": 529.01,
+          "defense": 5.12
         }
       ],
-      "holding_count": 17,
+      "holding_count": 18,
       "transactions": [
+        {
+          "time": "2026-09-01 15:00:00",
+          "action": "BUY",
+          "code": "000539",
+          "name": "粤电力A",
+          "price": 5.24,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "B_伏击 (乖离率:-6.6%)"
+        },
         {
           "time": "2026-08-31 15:00:00",
           "action": "SELL",
@@ -480,20 +514,10 @@
           "fees": 5.48552,
           "pnl": -4.494980000000055,
           "reason": "S_落袋 (触碰上轨阻力区)"
-        },
-        {
-          "time": "2026-06-05 14:46:48",
-          "action": "BUY",
-          "code": "300002",
-          "name": "神州泰岳",
-          "price": 7.79,
-          "shares": 100,
-          "fees": 5.00779,
-          "reason": "B_伏击 (乖离率:-11.3%)"
         }
       ],
-      "transaction_count": 79,
-      "updated_at": "2026-09-01 11:03:36"
+      "transaction_count": 80,
+      "updated_at": "2026-09-01 17:34:21"
     }
   }
 }
