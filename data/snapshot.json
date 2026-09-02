@@ -1,56 +1,38 @@
 {
-  "generated_at": "2026-09-02 14:40:24",
+  "generated_at": "2026-09-02 17:33:34",
   "stock_count": 808,
   "regime": {
-    "state": "混合",
-    "code": "mixed",
-    "primary": "混合策略",
-    "secondary": "质量选股",
-    "exposure": "35% - 50%",
-    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.5024752475247525,
-    "breadth_3m": 0.34282178217821785,
-    "median_1m": 0.0008410104113680816,
-    "median_3m": -0.048278041609857325,
-    "median_vol": 0.3324036270563447
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
+    "primary": "质量选股",
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.41707920792079206,
+    "breadth_3m": 0.35148514851485146,
+    "median_1m": -0.016685057285089174,
+    "median_3m": -0.051049664470104616,
+    "median_vol": 0.3396675565590974
   },
   "strategy_counts": {
-    "quality_v2": 60,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 75,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 1,
+    "quality_v2": 58,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 32,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 62,
-    "legacy_xma": 181,
-    "legacy_main_wave": 4
+    "legacy_bottom": 112,
+    "legacy_xma": 249,
+    "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 455.89751999969576,
-      "pnl": -293302.1,
-      "return": -0.2933,
-      "equity": 706697.9,
+      "cash": 387638.4175199997,
+      "pnl": -313296.58,
+      "return": -0.31329999999999997,
+      "equity": 686703.4199999999,
       "holdings": [
-        {
-          "code": "000737",
-          "name": "北方铜业",
-          "shares": 12900,
-          "buy_price": 15.44,
-          "buy_date": "2026-08-26",
-          "cost": 199227.79,
-          "defense": null
-        },
-        {
-          "code": "600497",
-          "name": "驰宏锌锗",
-          "shares": 19200,
-          "buy_price": 10.4,
-          "buy_date": "2026-08-26",
-          "cost": 199731.92,
-          "defense": null
-        },
         {
           "code": "002493",
           "name": "荣盛石化",
@@ -88,8 +70,30 @@
           "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-09-02 15:00:00",
+          "action": "SELL",
+          "code": "600497",
+          "name": "驰宏锌锗",
+          "price": 10.15,
+          "shares": 19200,
+          "fees": 148.11,
+          "pnl": -5000.029999999999,
+          "reason": "技术形态恶化 (S点)"
+        },
+        {
+          "time": "2026-09-02 15:00:00",
+          "action": "SELL",
+          "code": "000737",
+          "name": "北方铜业",
+          "price": 14.93,
+          "shares": 12900,
+          "fees": 146.37,
+          "pnl": -6777.1600000000035,
+          "reason": "技术形态恶化 (S点)"
+        },
         {
           "time": "2026-09-01 15:00:00",
           "action": "BUY",
@@ -191,39 +195,17 @@
           "shares": 13100,
           "fees": 51.98,
           "reason": "主升浪捕捉 (斜率:49.2°)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "SELL",
-          "code": "000703",
-          "name": "恒逸石化",
-          "price": 18.2,
-          "shares": 10400,
-          "fees": 143.85,
-          "pnl": -9347.440000000002,
-          "reason": "硬止损 (-4.6%)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "SELL",
-          "code": "600583",
-          "name": "海油工程",
-          "price": 6.0,
-          "shares": 1600,
-          "fees": 9.9,
-          "pnl": -47.0,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 324,
-      "updated_at": "2026-09-01 17:34:21"
+      "transaction_count": 326,
+      "updated_at": "2026-09-02 17:33:11"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 88.26563000028955,
-      "pnl": 209.27,
-      "return": 0.0002,
-      "equity": 1000209.27,
+      "cash": 577.125630000286,
+      "pnl": 2130.13,
+      "return": 0.0021,
+      "equity": 1002130.13,
       "holdings": [
         {
           "code": "688180",
@@ -370,15 +352,6 @@
           "defense": 2.6
         },
         {
-          "code": "000786",
-          "name": "北新建材",
-          "shares": 7500,
-          "buy_price": 17.09,
-          "buy_date": "2026-08-24",
-          "cost": 128208.33,
-          "defense": 16.82
-        },
-        {
           "code": "000539",
           "name": "粤电力A",
           "shares": 100,
@@ -386,10 +359,40 @@
           "buy_date": "2026-09-01",
           "cost": 529.01,
           "defense": 5.12
+        },
+        {
+          "code": "600363",
+          "name": "联创光电",
+          "shares": 7600,
+          "buy_price": 16.34,
+          "buy_date": "2026-09-02",
+          "cost": 124216.29,
+          "defense": 16.01
         }
       ],
       "holding_count": 18,
       "transactions": [
+        {
+          "time": "2026-09-02 15:00:00",
+          "action": "BUY",
+          "code": "600363",
+          "name": "联创光电",
+          "price": 16.34,
+          "shares": 7600,
+          "fees": 32.29,
+          "reason": "B_伏击 (乖离率:-14.7%)"
+        },
+        {
+          "time": "2026-09-02 15:00:00",
+          "action": "SELL",
+          "code": "000786",
+          "name": "北新建材",
+          "price": 16.64,
+          "shares": 7500,
+          "fees": 94.85,
+          "pnl": -3503.1800000000076,
+          "reason": "破位止损 (跌破抄底价 ¥16.82)"
+        },
         {
           "time": "2026-09-01 15:00:00",
           "action": "BUY",
@@ -493,31 +496,10 @@
           "shares": 100,
           "fees": 5.00268,
           "reason": "B_伏击 (乖离率:-10.2%)"
-        },
-        {
-          "time": "2026-07-01 16:57:22",
-          "action": "BUY",
-          "code": "601600",
-          "name": "中国铝业",
-          "price": 8.2,
-          "shares": 100,
-          "fees": 5.0082,
-          "reason": "B_伏击 (乖离率:-16.0%)"
-        },
-        {
-          "time": "2026-07-01 16:57:22",
-          "action": "SELL",
-          "code": "002739",
-          "name": "万达电影",
-          "price": 9.52,
-          "shares": 100,
-          "fees": 5.48552,
-          "pnl": -4.494980000000055,
-          "reason": "S_落袋 (触碰上轨阻力区)"
         }
       ],
-      "transaction_count": 80,
-      "updated_at": "2026-09-01 17:34:21"
+      "transaction_count": 82,
+      "updated_at": "2026-09-02 17:33:11"
     }
   }
 }
