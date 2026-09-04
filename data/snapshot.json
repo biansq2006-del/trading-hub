@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-09-04 14:40:17",
+  "generated_at": "2026-09-04 22:07:39",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.41707920792079206,
-    "breadth_3m": 0.35148514851485146,
-    "median_1m": -0.016685057285089174,
-    "median_3m": -0.051049664470104616,
-    "median_vol": 0.3396675565590974
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.39603960396039606,
+    "breadth_3m": 0.452970297029703,
+    "median_1m": -0.017528197744180463,
+    "median_3m": -0.016564351203205263,
+    "median_vol": 0.33551720145003183
   },
   "strategy_counts": {
-    "quality_v2": 58,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 32,
-    "quality_main_wave_v2": 0,
+    "quality_v2": 71,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 88,
+    "quality_main_wave_v2": 1,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 112,
-    "legacy_xma": 249,
-    "legacy_main_wave": 2
+    "legacy_bottom": 110,
+    "legacy_xma": 248,
+    "legacy_main_wave": 10
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 387638.4175199997,
-      "pnl": -313296.58,
-      "return": -0.31329999999999997,
-      "equity": 686703.4199999999,
+      "cash": 217.28751999971337,
+      "pnl": -302029.71,
+      "return": -0.302,
+      "equity": 697970.29,
       "holdings": [
-        {
-          "code": "002493",
-          "name": "荣盛石化",
-          "shares": 9700,
-          "buy_price": 13.76,
-          "buy_date": "2026-08-26",
-          "cost": 133506.7,
-          "defense": null
-        },
         {
           "code": "688169",
           "name": "石头科技",
@@ -61,17 +52,144 @@
           "defense": null
         },
         {
-          "code": "600039",
-          "name": "四川路桥",
+          "code": "601118",
+          "name": "海南橡胶",
+          "shares": 29400,
+          "buy_price": 6.79,
+          "buy_date": "2026-09-03",
+          "cost": 199677.9,
+          "defense": null
+        },
+        {
+          "code": "300866",
+          "name": "安克创新",
+          "shares": 1400,
+          "buy_price": 137.16,
+          "buy_date": "2026-09-03",
+          "cost": 192073.93,
+          "defense": null
+        },
+        {
+          "code": "600026",
+          "name": "中远海能",
+          "shares": 6700,
+          "buy_price": 20.33,
+          "buy_date": "2026-09-03",
+          "cost": 136246.41,
+          "defense": null
+        },
+        {
+          "code": "000301",
+          "name": "东方盛虹",
+          "shares": 100,
+          "buy_price": 14.73,
+          "buy_date": "2026-09-03",
+          "cost": 1478.01,
+          "defense": null
+        },
+        {
+          "code": "600095",
+          "name": "湘财股份",
+          "shares": 100,
+          "buy_price": 10.17,
+          "buy_date": "2026-09-04",
+          "cost": 1022.01,
+          "defense": null
+        },
+        {
+          "code": "002157",
+          "name": "正邦科技",
           "shares": 200,
-          "buy_price": 9.56,
-          "buy_date": "2026-09-01",
-          "cost": 1917.02,
+          "buy_price": 3.22,
+          "buy_date": "2026-09-04",
+          "cost": 649.01,
           "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 8,
       "transactions": [
+        {
+          "time": "2026-09-04 15:00:00",
+          "action": "BUY",
+          "code": "002157",
+          "name": "正邦科技",
+          "price": 3.22,
+          "shares": 200,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:28.2°)"
+        },
+        {
+          "time": "2026-09-04 15:00:00",
+          "action": "BUY",
+          "code": "600095",
+          "name": "湘财股份",
+          "price": 10.17,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:49.5°)"
+        },
+        {
+          "time": "2026-09-04 15:00:00",
+          "action": "SELL",
+          "code": "600039",
+          "name": "四川路桥",
+          "price": 9.16,
+          "shares": 200,
+          "fees": 5.93,
+          "pnl": -90.95000000000005,
+          "reason": "硬止损 (-4.2%)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "BUY",
+          "code": "000301",
+          "name": "东方盛虹",
+          "price": 14.73,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:34.4°)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "BUY",
+          "code": "600026",
+          "name": "中远海能",
+          "price": 20.33,
+          "shares": 6700,
+          "fees": 35.41,
+          "reason": "主升浪捕捉 (斜率:38.4°)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "BUY",
+          "code": "300866",
+          "name": "安克创新",
+          "price": 137.16,
+          "shares": 1400,
+          "fees": 49.93,
+          "reason": "主升浪捕捉 (斜率:43.0°)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "BUY",
+          "code": "601118",
+          "name": "海南橡胶",
+          "price": 6.79,
+          "shares": 29400,
+          "fees": 51.9,
+          "reason": "主升浪捕捉 (斜率:50.9°)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "SELL",
+          "code": "002493",
+          "name": "荣盛石化",
+          "price": 14.64,
+          "shares": 9700,
+          "fees": 107.93,
+          "pnl": 8393.369999999995,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-09-02 15:00:00",
           "action": "SELL",
@@ -113,99 +231,17 @@
           "shares": 100,
           "fees": 5.03,
           "reason": "主升浪捕捉 (斜率:30.8°)"
-        },
-        {
-          "time": "2026-09-01 15:00:00",
-          "action": "BUY",
-          "code": "688169",
-          "name": "石头科技",
-          "price": 133.58,
-          "shares": 1200,
-          "fees": 41.68,
-          "reason": "主升浪捕捉 (斜率:46.4°)"
-        },
-        {
-          "time": "2026-09-01 15:00:00",
-          "action": "SELL",
-          "code": "601212",
-          "name": "白银有色",
-          "price": 6.74,
-          "shares": 24600,
-          "fees": 126.01,
-          "pnl": -22068.809999999998,
-          "reason": "硬止损 (-11.7%)"
-        },
-        {
-          "time": "2026-08-28 15:00:00",
-          "action": "BUY",
-          "code": "601212",
-          "name": "白银有色",
-          "price": 7.63,
-          "shares": 24600,
-          "fees": 48.8,
-          "reason": "主升浪捕捉 (斜率:66.2°)"
-        },
-        {
-          "time": "2026-08-28 15:00:00",
-          "action": "SELL",
-          "code": "300142",
-          "name": "沃森生物",
-          "price": 14.28,
-          "shares": 13100,
-          "fees": 142.17,
-          "pnl": -13032.150000000023,
-          "reason": "硬止损 (-6.4%)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "BUY",
-          "code": "002493",
-          "name": "荣盛石化",
-          "price": 13.76,
-          "shares": 9700,
-          "fees": 34.7,
-          "reason": "主升浪捕捉 (斜率:31.8°)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "BUY",
-          "code": "600497",
-          "name": "驰宏锌锗",
-          "price": 10.4,
-          "shares": 19200,
-          "fees": 51.92,
-          "reason": "主升浪捕捉 (斜率:33.6°)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "BUY",
-          "code": "000737",
-          "name": "北方铜业",
-          "price": 15.44,
-          "shares": 12900,
-          "fees": 51.79,
-          "reason": "主升浪捕捉 (斜率:37.8°)"
-        },
-        {
-          "time": "2026-08-26 15:00:00",
-          "action": "BUY",
-          "code": "300142",
-          "name": "沃森生物",
-          "price": 15.26,
-          "shares": 13100,
-          "fees": 51.98,
-          "reason": "主升浪捕捉 (斜率:49.2°)"
         }
       ],
-      "transaction_count": 326,
-      "updated_at": "2026-09-02 17:33:11"
+      "transaction_count": 334,
+      "updated_at": "2026-09-04 22:07:03"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 577.125630000286,
-      "pnl": 2130.13,
-      "return": 0.0021,
-      "equity": 1002130.13,
+      "cash": 141.0056300002907,
+      "pnl": -5762.99,
+      "return": -0.0058,
+      "equity": 994237.01,
       "holdings": [
         {
           "code": "688180",
@@ -361,17 +397,38 @@
           "defense": 5.12
         },
         {
-          "code": "600363",
-          "name": "联创光电",
-          "shares": 7600,
-          "buy_price": 16.34,
-          "buy_date": "2026-09-02",
-          "cost": 124216.29,
-          "defense": 16.01
+          "code": "300274",
+          "name": "阳光电源",
+          "shares": 1400,
+          "buy_price": 87.08,
+          "buy_date": "2026-09-03",
+          "cost": 121943.7,
+          "defense": 86.01
         }
       ],
       "holding_count": 18,
       "transactions": [
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "BUY",
+          "code": "300274",
+          "name": "阳光电源",
+          "price": 87.08,
+          "shares": 1400,
+          "fees": 31.7,
+          "reason": "B_伏击 (乖离率:-19.3%)"
+        },
+        {
+          "time": "2026-09-03 15:00:00",
+          "action": "SELL",
+          "code": "600363",
+          "name": "联创光电",
+          "price": 16.0,
+          "shares": 7600,
+          "fees": 92.42,
+          "pnl": -2708.709999999992,
+          "reason": "破位止损 (跌破抄底价 ¥16.01)"
+        },
         {
           "time": "2026-09-02 15:00:00",
           "action": "BUY",
@@ -475,31 +532,10 @@
           "shares": 7300,
           "fees": 39.0,
           "reason": "B_伏击 (乖离率:-18.8%)"
-        },
-        {
-          "time": "2026-08-11 15:00:00",
-          "action": "SELL",
-          "code": "000831",
-          "name": "中国稀土",
-          "price": 55.84,
-          "shares": 2700,
-          "fees": 114.58,
-          "pnl": 25556.90336000001,
-          "reason": "S_落袋 (触碰上轨阻力区)"
-        },
-        {
-          "time": "2026-07-01 16:57:22",
-          "action": "BUY",
-          "code": "601916",
-          "name": "浙商银行",
-          "price": 2.68,
-          "shares": 100,
-          "fees": 5.00268,
-          "reason": "B_伏击 (乖离率:-10.2%)"
         }
       ],
-      "transaction_count": 82,
-      "updated_at": "2026-09-02 17:33:11"
+      "transaction_count": 84,
+      "updated_at": "2026-09-04 22:07:03"
     }
   }
 }
