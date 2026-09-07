@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 17:32:23",
+  "generated_at": "2026-09-07 18:10:48",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -16,32 +16,23 @@
   },
   "strategy_counts": {
     "quality_v2": 63,
-    "main_wave_v2": 7,
-    "left_reversal_v2": 89,
-    "quality_main_wave_v2": 1,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 84,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 110,
-    "legacy_xma": 248,
-    "legacy_main_wave": 10
+    "legacy_bottom": 103,
+    "legacy_xma": 207,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 217.28751999971337,
-      "pnl": -302029.71,
-      "return": -0.302,
-      "equity": 697970.29,
+      "cash": 249.65751999973554,
+      "pnl": -310601.34,
+      "return": -0.3106,
+      "equity": 689398.6599999999,
       "holdings": [
-        {
-          "code": "688169",
-          "name": "石头科技",
-          "shares": 1200,
-          "buy_price": 133.58,
-          "buy_date": "2026-09-01",
-          "cost": 160337.68,
-          "defense": null
-        },
         {
           "code": "603596",
           "name": "伯特利",
@@ -79,24 +70,6 @@
           "defense": null
         },
         {
-          "code": "000301",
-          "name": "东方盛虹",
-          "shares": 100,
-          "buy_price": 14.73,
-          "buy_date": "2026-09-03",
-          "cost": 1478.01,
-          "defense": null
-        },
-        {
-          "code": "600095",
-          "name": "湘财股份",
-          "shares": 100,
-          "buy_price": 10.17,
-          "buy_date": "2026-09-04",
-          "cost": 1022.01,
-          "defense": null
-        },
-        {
           "code": "002157",
           "name": "正邦科技",
           "shares": 200,
@@ -104,10 +77,81 @@
           "buy_date": "2026-09-04",
           "cost": 649.01,
           "defense": null
+        },
+        {
+          "code": "300413",
+          "name": "芒果超媒",
+          "shares": 7000,
+          "buy_price": 22.1,
+          "buy_date": "2026-09-07",
+          "cost": 154740.22,
+          "defense": null
+        },
+        {
+          "code": "600737",
+          "name": "中粮糖业",
+          "shares": 100,
+          "buy_price": 16.51,
+          "buy_date": "2026-09-07",
+          "cost": 1656.02,
+          "defense": null
         }
       ],
-      "holding_count": 8,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "BUY",
+          "code": "600737",
+          "name": "中粮糖业",
+          "price": 16.51,
+          "shares": 100,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:41.2°)"
+        },
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "BUY",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 22.1,
+          "shares": 7000,
+          "fees": 40.22,
+          "reason": "主升浪捕捉 (斜率:61.2°)"
+        },
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "SELL",
+          "code": "600095",
+          "name": "湘财股份",
+          "price": 9.63,
+          "shares": 100,
+          "fees": 5.49,
+          "pnl": -64.5,
+          "reason": "硬止损 (-5.3%)"
+        },
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "SELL",
+          "code": "000301",
+          "name": "东方盛虹",
+          "price": 13.94,
+          "shares": 100,
+          "fees": 5.71,
+          "pnl": -89.72000000000003,
+          "reason": "硬止损 (-5.4%)"
+        },
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "SELL",
+          "code": "688169",
+          "name": "石头科技",
+          "price": 128.5,
+          "shares": 1200,
+          "fees": 117.19,
+          "pnl": -6254.869999999995,
+          "reason": "技术形态恶化 (S点)"
+        },
         {
           "time": "2026-09-04 15:00:00",
           "action": "BUY",
@@ -178,70 +222,17 @@
           "shares": 29400,
           "fees": 51.9,
           "reason": "主升浪捕捉 (斜率:50.9°)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "SELL",
-          "code": "002493",
-          "name": "荣盛石化",
-          "price": 14.64,
-          "shares": 9700,
-          "fees": 107.93,
-          "pnl": 8393.369999999995,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-09-02 15:00:00",
-          "action": "SELL",
-          "code": "600497",
-          "name": "驰宏锌锗",
-          "price": 10.15,
-          "shares": 19200,
-          "fees": 148.11,
-          "pnl": -5000.029999999999,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-09-02 15:00:00",
-          "action": "SELL",
-          "code": "000737",
-          "name": "北方铜业",
-          "price": 14.93,
-          "shares": 12900,
-          "fees": 146.37,
-          "pnl": -6777.1600000000035,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-09-01 15:00:00",
-          "action": "BUY",
-          "code": "600039",
-          "name": "四川路桥",
-          "price": 9.56,
-          "shares": 200,
-          "fees": 5.02,
-          "reason": "主升浪捕捉 (斜率:26.7°)"
-        },
-        {
-          "time": "2026-09-01 15:00:00",
-          "action": "BUY",
-          "code": "603596",
-          "name": "伯特利",
-          "price": 29.84,
-          "shares": 100,
-          "fees": 5.03,
-          "reason": "主升浪捕捉 (斜率:30.8°)"
         }
       ],
-      "transaction_count": 334,
-      "updated_at": "2026-09-07 17:32:01"
+      "transaction_count": 339,
+      "updated_at": "2026-09-07 18:10:10"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 141.0056300002907,
-      "pnl": -5762.99,
-      "return": -0.0058,
-      "equity": 994237.01,
+      "cash": 643.7456300002907,
+      "pnl": -11652.25,
+      "return": -0.011699999999999999,
+      "equity": 988347.75,
       "holdings": [
         {
           "code": "688180",
@@ -388,15 +379,6 @@
           "defense": 2.6
         },
         {
-          "code": "000539",
-          "name": "粤电力A",
-          "shares": 100,
-          "buy_price": 5.24,
-          "buy_date": "2026-09-01",
-          "cost": 529.01,
-          "defense": 5.12
-        },
-        {
           "code": "300274",
           "name": "阳光电源",
           "shares": 1400,
@@ -406,8 +388,19 @@
           "defense": 86.01
         }
       ],
-      "holding_count": 18,
+      "holding_count": 17,
       "transactions": [
+        {
+          "time": "2026-09-07 15:00:00",
+          "action": "SELL",
+          "code": "000539",
+          "name": "粤电力A",
+          "price": 5.08,
+          "shares": 100,
+          "fees": 5.26,
+          "pnl": -26.269999999999982,
+          "reason": "破位止损 (跌破抄底价 ¥5.12)"
+        },
         {
           "time": "2026-09-03 15:00:00",
           "action": "BUY",
@@ -522,20 +515,10 @@
           "fees": 101.81,
           "pnl": -16200.809999999998,
           "reason": "破位止损 (跌破抄底价 ¥19.22)"
-        },
-        {
-          "time": "2026-08-11 15:00:00",
-          "action": "BUY",
-          "code": "600363",
-          "name": "联创光电",
-          "price": 20.55,
-          "shares": 7300,
-          "fees": 39.0,
-          "reason": "B_伏击 (乖离率:-18.8%)"
         }
       ],
-      "transaction_count": 84,
-      "updated_at": "2026-09-07 17:32:01"
+      "transaction_count": 85,
+      "updated_at": "2026-09-07 18:10:10"
     }
   }
 }
