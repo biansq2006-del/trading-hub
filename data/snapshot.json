@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 14:40:22",
+  "generated_at": "2026-09-08 17:33:08",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,30 +8,30 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.34034653465346537,
-    "breadth_3m": 0.4183168316831683,
-    "median_1m": -0.02377065904917364,
-    "median_3m": -0.026846817383660404,
-    "median_vol": 0.3349855757734075
+    "breadth_1m": 0.33292079207920794,
+    "breadth_3m": 0.43935643564356436,
+    "median_1m": -0.02748729492441393,
+    "median_3m": -0.020060344398472152,
+    "median_vol": 0.3318963345265278
   },
   "strategy_counts": {
-    "quality_v2": 63,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 84,
+    "quality_v2": 62,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 83,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 103,
-    "legacy_xma": 207,
-    "legacy_main_wave": 4
+    "legacy_bottom": 97,
+    "legacy_xma": 216,
+    "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 249.65751999973554,
-      "pnl": -310601.34,
-      "return": -0.3106,
-      "equity": 689398.6599999999,
+      "cash": 66.8975199997949,
+      "pnl": -304530.1,
+      "return": -0.3045,
+      "equity": 695469.9,
       "holdings": [
         {
           "code": "603596",
@@ -40,24 +40,6 @@
           "buy_price": 29.84,
           "buy_date": "2026-09-01",
           "cost": 2989.03,
-          "defense": null
-        },
-        {
-          "code": "601118",
-          "name": "海南橡胶",
-          "shares": 29400,
-          "buy_price": 6.79,
-          "buy_date": "2026-09-03",
-          "cost": 199677.9,
-          "defense": null
-        },
-        {
-          "code": "300866",
-          "name": "安克创新",
-          "shares": 1400,
-          "buy_price": 137.16,
-          "buy_date": "2026-09-03",
-          "cost": 192073.93,
           "defense": null
         },
         {
@@ -79,15 +61,6 @@
           "defense": null
         },
         {
-          "code": "300413",
-          "name": "芒果超媒",
-          "shares": 7000,
-          "buy_price": 22.1,
-          "buy_date": "2026-09-07",
-          "cost": 154740.22,
-          "defense": null
-        },
-        {
           "code": "600737",
           "name": "中粮糖业",
           "shares": 100,
@@ -95,10 +68,100 @@
           "buy_date": "2026-09-07",
           "cost": 1656.02,
           "defense": null
+        },
+        {
+          "code": "600256",
+          "name": "广汇能源",
+          "shares": 27700,
+          "buy_price": 7.21,
+          "buy_date": "2026-09-08",
+          "cost": 199768.93,
+          "defense": null
+        },
+        {
+          "code": "600967",
+          "name": "内蒙一机",
+          "shares": 14400,
+          "buy_price": 13.87,
+          "buy_date": "2026-09-08",
+          "cost": 199779.93,
+          "defense": null
+        },
+        {
+          "code": "600601",
+          "name": "方正科技",
+          "shares": 10700,
+          "buy_price": 14.48,
+          "buy_date": "2026-09-08",
+          "cost": 154976.28,
+          "defense": null
         }
       ],
       "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "BUY",
+          "code": "600601",
+          "name": "方正科技",
+          "price": 14.48,
+          "shares": 10700,
+          "fees": 40.28,
+          "reason": "主升浪捕捉 (斜率:34.8°)"
+        },
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "BUY",
+          "code": "600967",
+          "name": "内蒙一机",
+          "price": 13.87,
+          "shares": 14400,
+          "fees": 51.93,
+          "reason": "主升浪捕捉 (斜率:41.2°)"
+        },
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "BUY",
+          "code": "600256",
+          "name": "广汇能源",
+          "price": 7.21,
+          "shares": 27700,
+          "fees": 51.93,
+          "reason": "主升浪捕捉 (斜率:46.9°)"
+        },
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "SELL",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 20.62,
+          "shares": 7000,
+          "fees": 109.7,
+          "pnl": -10509.920000000013,
+          "reason": "硬止损 (-6.7%)"
+        },
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "SELL",
+          "code": "300866",
+          "name": "安克创新",
+          "price": 127.89,
+          "shares": 1400,
+          "fees": 136.07,
+          "pnl": -13164.0,
+          "reason": "硬止损 (-6.8%)"
+        },
+        {
+          "time": "2026-09-08 15:00:00",
+          "action": "SELL",
+          "code": "601118",
+          "name": "海南橡胶",
+          "price": 7.87,
+          "shares": 29400,
+          "fees": 175.85,
+          "pnl": 31524.25,
+          "reason": "硬止盈 (+15.9%)"
+        },
         {
           "time": "2026-09-07 15:00:00",
           "action": "BUY",
@@ -161,78 +224,17 @@
           "shares": 200,
           "fees": 5.01,
           "reason": "主升浪捕捉 (斜率:28.2°)"
-        },
-        {
-          "time": "2026-09-04 15:00:00",
-          "action": "BUY",
-          "code": "600095",
-          "name": "湘财股份",
-          "price": 10.17,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:49.5°)"
-        },
-        {
-          "time": "2026-09-04 15:00:00",
-          "action": "SELL",
-          "code": "600039",
-          "name": "四川路桥",
-          "price": 9.16,
-          "shares": 200,
-          "fees": 5.93,
-          "pnl": -90.95000000000005,
-          "reason": "硬止损 (-4.2%)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "BUY",
-          "code": "000301",
-          "name": "东方盛虹",
-          "price": 14.73,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:34.4°)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "BUY",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 20.33,
-          "shares": 6700,
-          "fees": 35.41,
-          "reason": "主升浪捕捉 (斜率:38.4°)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "BUY",
-          "code": "300866",
-          "name": "安克创新",
-          "price": 137.16,
-          "shares": 1400,
-          "fees": 49.93,
-          "reason": "主升浪捕捉 (斜率:43.0°)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "BUY",
-          "code": "601118",
-          "name": "海南橡胶",
-          "price": 6.79,
-          "shares": 29400,
-          "fees": 51.9,
-          "reason": "主升浪捕捉 (斜率:50.9°)"
         }
       ],
-      "transaction_count": 339,
-      "updated_at": "2026-09-07 18:10:10"
+      "transaction_count": 345,
+      "updated_at": "2026-09-08 17:32:46"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 643.7456300002907,
-      "pnl": -11652.25,
-      "return": -0.011699999999999999,
-      "equity": 988347.75,
+      "pnl": 61.75,
+      "return": 0.0001,
+      "equity": 1000061.75,
       "holdings": [
         {
           "code": "688180",
@@ -518,7 +520,7 @@
         }
       ],
       "transaction_count": 85,
-      "updated_at": "2026-09-07 18:10:10"
+      "updated_at": "2026-09-08 17:32:46"
     }
   }
 }
