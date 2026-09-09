@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09 14:40:17",
+  "generated_at": "2026-09-09 18:01:01",
   "stock_count": 808,
   "regime": {
     "state": "混合",
@@ -8,40 +8,31 @@
     "secondary": "质量选股",
     "exposure": "35% - 50%",
     "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.33292079207920794,
-    "breadth_3m": 0.43935643564356436,
-    "median_1m": -0.02748729492441393,
-    "median_3m": -0.020060344398472152,
-    "median_vol": 0.3318963345265278
+    "breadth_1m": 0.3873762376237624,
+    "breadth_3m": 0.4566831683168317,
+    "median_1m": -0.019799030794355077,
+    "median_3m": -0.012872107316551805,
+    "median_vol": 0.3256857866571333
   },
   "strategy_counts": {
-    "quality_v2": 62,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 83,
-    "quality_main_wave_v2": 0,
+    "quality_v2": 63,
+    "main_wave_v2": 4,
+    "left_reversal_v2": 64,
+    "quality_main_wave_v2": 1,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 97,
-    "legacy_xma": 216,
-    "legacy_main_wave": 6
+    "legacy_bottom": 109,
+    "legacy_xma": 225,
+    "legacy_main_wave": 10
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 66.8975199997949,
-      "pnl": -304530.1,
-      "return": -0.3045,
-      "equity": 695469.9,
+      "cash": 106.32751999979428,
+      "pnl": -281006.67,
+      "return": -0.281,
+      "equity": 718993.3300000001,
       "holdings": [
-        {
-          "code": "603596",
-          "name": "伯特利",
-          "shares": 100,
-          "buy_price": 29.84,
-          "buy_date": "2026-09-01",
-          "cost": 2989.03,
-          "defense": null
-        },
         {
           "code": "600026",
           "name": "中远海能",
@@ -58,15 +49,6 @@
           "buy_price": 3.22,
           "buy_date": "2026-09-04",
           "cost": 649.01,
-          "defense": null
-        },
-        {
-          "code": "600737",
-          "name": "中粮糖业",
-          "shares": 100,
-          "buy_price": 16.51,
-          "buy_date": "2026-09-07",
-          "cost": 1656.02,
           "defense": null
         },
         {
@@ -95,10 +77,51 @@
           "buy_date": "2026-09-08",
           "cost": 154976.28,
           "defense": null
+        },
+        {
+          "code": "601118",
+          "name": "海南橡胶",
+          "shares": 600,
+          "buy_price": 8.15,
+          "buy_date": "2026-09-09",
+          "cost": 4895.05,
+          "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-09-09 15:00:00",
+          "action": "BUY",
+          "code": "601118",
+          "name": "海南橡胶",
+          "price": 8.15,
+          "shares": 600,
+          "fees": 5.05,
+          "reason": "主升浪捕捉 (斜率:64.7°)"
+        },
+        {
+          "time": "2026-09-09 15:00:00",
+          "action": "SELL",
+          "code": "600737",
+          "name": "中粮糖业",
+          "price": 19.8,
+          "shares": 100,
+          "fees": 6.01,
+          "pnl": 317.97,
+          "reason": "硬止盈 (+19.9%)"
+        },
+        {
+          "time": "2026-09-09 15:00:00",
+          "action": "SELL",
+          "code": "603596",
+          "name": "伯特利",
+          "price": 29.67,
+          "shares": 100,
+          "fees": 6.51,
+          "pnl": -28.54000000000042,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-09-08 15:00:00",
           "action": "BUY",
@@ -192,49 +215,17 @@
           "fees": 5.49,
           "pnl": -64.5,
           "reason": "硬止损 (-5.3%)"
-        },
-        {
-          "time": "2026-09-07 15:00:00",
-          "action": "SELL",
-          "code": "000301",
-          "name": "东方盛虹",
-          "price": 13.94,
-          "shares": 100,
-          "fees": 5.71,
-          "pnl": -89.72000000000003,
-          "reason": "硬止损 (-5.4%)"
-        },
-        {
-          "time": "2026-09-07 15:00:00",
-          "action": "SELL",
-          "code": "688169",
-          "name": "石头科技",
-          "price": 128.5,
-          "shares": 1200,
-          "fees": 117.19,
-          "pnl": -6254.869999999995,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-09-04 15:00:00",
-          "action": "BUY",
-          "code": "002157",
-          "name": "正邦科技",
-          "price": 3.22,
-          "shares": 200,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:28.2°)"
         }
       ],
-      "transaction_count": 345,
-      "updated_at": "2026-09-08 17:32:46"
+      "transaction_count": 348,
+      "updated_at": "2026-09-09 18:00:39"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 643.7456300002907,
-      "pnl": 61.75,
-      "return": 0.0001,
-      "equity": 1000061.75,
+      "pnl": -9554.25,
+      "return": -0.0096,
+      "equity": 990445.75,
       "holdings": [
         {
           "code": "688180",
@@ -520,7 +511,7 @@
         }
       ],
       "transaction_count": 85,
-      "updated_at": "2026-09-08 17:32:46"
+      "updated_at": "2026-09-09 18:00:39"
     }
   }
 }
