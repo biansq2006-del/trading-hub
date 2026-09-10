@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-10 14:40:18",
+  "generated_at": "2026-09-10 17:32:33",
   "stock_count": 808,
   "regime": {
-    "state": "混合",
-    "code": "mixed",
-    "primary": "混合策略",
-    "secondary": "质量选股",
-    "exposure": "35% - 50%",
-    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.3873762376237624,
-    "breadth_3m": 0.4566831683168317,
-    "median_1m": -0.019799030794355077,
-    "median_3m": -0.012872107316551805,
-    "median_vol": 0.3256857866571333
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
+    "primary": "质量选股",
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.34529702970297027,
+    "breadth_3m": 0.37376237623762376,
+    "median_1m": -0.03205028590693476,
+    "median_3m": -0.034474520361881145,
+    "median_vol": 0.3250127289783097
   },
   "strategy_counts": {
-    "quality_v2": 63,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 64,
-    "quality_main_wave_v2": 1,
+    "quality_v2": 60,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 55,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 109,
-    "legacy_xma": 225,
-    "legacy_main_wave": 10
+    "legacy_bottom": 155,
+    "legacy_xma": 271,
+    "legacy_main_wave": 3
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 106.32751999979428,
-      "pnl": -281006.67,
-      "return": -0.281,
-      "equity": 718993.3300000001,
+      "pnl": -298272.67,
+      "return": -0.2983,
+      "equity": 701727.3300000001,
       "holdings": [
         {
           "code": "600026",
@@ -218,14 +218,14 @@
         }
       ],
       "transaction_count": 348,
-      "updated_at": "2026-09-09 18:00:39"
+      "updated_at": "2026-09-10 17:32:12"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 643.7456300002907,
-      "pnl": -9554.25,
-      "return": -0.0096,
-      "equity": 990445.75,
+      "cash": 40.3656300003031,
+      "pnl": -23912.63,
+      "return": -0.0239,
+      "equity": 976087.37,
       "holdings": [
         {
           "code": "688180",
@@ -372,17 +372,95 @@
           "defense": 2.6
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
-          "shares": 1400,
-          "buy_price": 87.08,
-          "buy_date": "2026-09-03",
-          "cost": 121943.7,
-          "defense": 86.01
+          "code": "688361",
+          "name": "中科飞测",
+          "shares": 200,
+          "buy_price": 308.79,
+          "buy_date": "2026-09-10",
+          "cost": 61774.06,
+          "defense": 301.0
+        },
+        {
+          "code": "301611",
+          "name": "珂玛科技",
+          "shares": 600,
+          "buy_price": 88.65,
+          "buy_date": "2026-09-10",
+          "cost": 53203.83,
+          "defense": 87.1
+        },
+        {
+          "code": "600460",
+          "name": "士兰微",
+          "shares": 100,
+          "buy_price": 30.24,
+          "buy_date": "2026-09-10",
+          "cost": 3029.03,
+          "defense": 29.8
+        },
+        {
+          "code": "688728",
+          "name": "格科微",
+          "shares": 200,
+          "buy_price": 14.01,
+          "buy_date": "2026-09-10",
+          "cost": 2807.03,
+          "defense": 13.81
         }
       ],
-      "holding_count": 17,
+      "holding_count": 20,
       "transactions": [
+        {
+          "time": "2026-09-10 15:00:00",
+          "action": "BUY",
+          "code": "688728",
+          "name": "格科微",
+          "price": 14.01,
+          "shares": 200,
+          "fees": 5.03,
+          "reason": "B_伏击 (乖离率:-7.9%)"
+        },
+        {
+          "time": "2026-09-10 15:00:00",
+          "action": "BUY",
+          "code": "600460",
+          "name": "士兰微",
+          "price": 30.24,
+          "shares": 100,
+          "fees": 5.03,
+          "reason": "B_伏击 (乖离率:-8.0%)"
+        },
+        {
+          "time": "2026-09-10 15:00:00",
+          "action": "BUY",
+          "code": "301611",
+          "name": "珂玛科技",
+          "price": 88.65,
+          "shares": 600,
+          "fees": 13.83,
+          "reason": "B_伏击 (乖离率:-9.4%)"
+        },
+        {
+          "time": "2026-09-10 15:00:00",
+          "action": "BUY",
+          "code": "688361",
+          "name": "中科飞测",
+          "price": 308.79,
+          "shares": 200,
+          "fees": 16.06,
+          "reason": "B_伏击 (乖离率:-9.4%)"
+        },
+        {
+          "time": "2026-09-10 15:00:00",
+          "action": "SELL",
+          "code": "300274",
+          "name": "阳光电源",
+          "price": 85.93,
+          "shares": 1400,
+          "fees": 91.43,
+          "pnl": -1733.12999999999,
+          "reason": "破位止损 (跌破抄底价 ¥86.01)"
+        },
         {
           "time": "2026-09-07 15:00:00",
           "action": "SELL",
@@ -456,62 +534,10 @@
           "fees": 5.26,
           "pnl": -29.269999999999982,
           "reason": "破位止损 (跌破抄底价 ¥5.23)"
-        },
-        {
-          "time": "2026-08-24 15:00:00",
-          "action": "BUY",
-          "code": "000786",
-          "name": "北新建材",
-          "price": 17.09,
-          "shares": 7500,
-          "fees": 33.33,
-          "reason": "B_伏击 (乖离率:-8.7%)"
-        },
-        {
-          "time": "2026-08-24 15:00:00",
-          "action": "SELL",
-          "code": "000582",
-          "name": "北部湾港",
-          "price": 10.42,
-          "shares": 12300,
-          "fees": 97.41,
-          "pnl": -5667.170000000013,
-          "reason": "破位止损 (跌破抄底价 ¥10.55)"
-        },
-        {
-          "time": "2026-08-21 15:00:00",
-          "action": "BUY",
-          "code": "000539",
-          "name": "粤电力A",
-          "price": 5.35,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "B_伏击 (乖离率:-6.7%)"
-        },
-        {
-          "time": "2026-08-20 15:00:00",
-          "action": "BUY",
-          "code": "000582",
-          "name": "北部湾港",
-          "price": 10.87,
-          "shares": 12300,
-          "fees": 34.76,
-          "reason": "B_伏击 (乖离率:-11.0%)"
-        },
-        {
-          "time": "2026-08-19 15:00:00",
-          "action": "SELL",
-          "code": "600363",
-          "name": "联创光电",
-          "price": 18.35,
-          "shares": 7300,
-          "fees": 101.81,
-          "pnl": -16200.809999999998,
-          "reason": "破位止损 (跌破抄底价 ¥19.22)"
         }
       ],
-      "transaction_count": 85,
-      "updated_at": "2026-09-09 18:00:39"
+      "transaction_count": 90,
+      "updated_at": "2026-09-10 17:32:12"
     }
   }
 }
