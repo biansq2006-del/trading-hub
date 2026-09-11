@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11 14:40:19",
+  "generated_at": "2026-09-11 17:34:03",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.34529702970297027,
-    "breadth_3m": 0.37376237623762376,
-    "median_1m": -0.03205028590693476,
-    "median_3m": -0.034474520361881145,
-    "median_vol": 0.3250127289783097
+    "breadth_1m": 0.3118811881188119,
+    "breadth_3m": 0.29207920792079206,
+    "median_1m": -0.039926874336561446,
+    "median_3m": -0.06625029347298156,
+    "median_vol": 0.324385319471608
   },
   "strategy_counts": {
-    "quality_v2": 60,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 55,
-    "quality_main_wave_v2": 0,
+    "quality_v2": 59,
+    "main_wave_v2": 2,
+    "left_reversal_v2": 56,
+    "quality_main_wave_v2": 1,
     "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 155,
-    "legacy_xma": 271,
-    "legacy_main_wave": 3
+    "legacy_bottom": 295,
+    "legacy_xma": 340,
+    "legacy_main_wave": 5
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 106.32751999979428,
-      "pnl": -298272.67,
-      "return": -0.2983,
-      "equity": 701727.3300000001,
+      "cash": 412.0575199997786,
+      "pnl": -286737.94,
+      "return": -0.2867,
+      "equity": 713262.06,
       "holdings": [
-        {
-          "code": "600026",
-          "name": "中远海能",
-          "shares": 6700,
-          "buy_price": 20.33,
-          "buy_date": "2026-09-03",
-          "cost": 136246.41,
-          "defense": null
-        },
         {
           "code": "002157",
           "name": "正邦科技",
@@ -79,17 +70,68 @@
           "defense": null
         },
         {
-          "code": "601118",
-          "name": "海南橡胶",
-          "shares": 600,
-          "buy_price": 8.15,
-          "buy_date": "2026-09-09",
-          "cost": 4895.05,
+          "code": "601869",
+          "name": "长飞光纤",
+          "shares": 300,
+          "buy_price": 473.99,
+          "buy_date": "2026-09-11",
+          "cost": 142233.97,
+          "defense": null
+        },
+        {
+          "code": "600104",
+          "name": "上汽集团",
+          "shares": 100,
+          "buy_price": 11.72,
+          "buy_date": "2026-09-11",
+          "cost": 1177.01,
           "defense": null
         }
       ],
       "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "BUY",
+          "code": "600104",
+          "name": "上汽集团",
+          "price": 11.72,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:38.0°)"
+        },
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "BUY",
+          "code": "601869",
+          "name": "长飞光纤",
+          "price": 473.99,
+          "shares": 300,
+          "fees": 36.97,
+          "reason": "主升浪捕捉 (斜率:56.5°)"
+        },
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "SELL",
+          "code": "601118",
+          "name": "海南橡胶",
+          "price": 6.78,
+          "shares": 600,
+          "fees": 7.07,
+          "pnl": -834.1200000000003,
+          "reason": "硬止损 (-16.8%)"
+        },
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "SELL",
+          "code": "600026",
+          "name": "中远海能",
+          "price": 20.86,
+          "shares": 6700,
+          "fees": 106.22,
+          "pnl": 3409.3699999999953,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-09-09 15:00:00",
           "action": "BUY",
@@ -173,59 +215,17 @@
           "fees": 136.07,
           "pnl": -13164.0,
           "reason": "硬止损 (-6.8%)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "SELL",
-          "code": "601118",
-          "name": "海南橡胶",
-          "price": 7.87,
-          "shares": 29400,
-          "fees": 175.85,
-          "pnl": 31524.25,
-          "reason": "硬止盈 (+15.9%)"
-        },
-        {
-          "time": "2026-09-07 15:00:00",
-          "action": "BUY",
-          "code": "600737",
-          "name": "中粮糖业",
-          "price": 16.51,
-          "shares": 100,
-          "fees": 5.02,
-          "reason": "主升浪捕捉 (斜率:41.2°)"
-        },
-        {
-          "time": "2026-09-07 15:00:00",
-          "action": "BUY",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 22.1,
-          "shares": 7000,
-          "fees": 40.22,
-          "reason": "主升浪捕捉 (斜率:61.2°)"
-        },
-        {
-          "time": "2026-09-07 15:00:00",
-          "action": "SELL",
-          "code": "600095",
-          "name": "湘财股份",
-          "price": 9.63,
-          "shares": 100,
-          "fees": 5.49,
-          "pnl": -64.5,
-          "reason": "硬止损 (-5.3%)"
         }
       ],
-      "transaction_count": 348,
-      "updated_at": "2026-09-10 17:32:12"
+      "transaction_count": 352,
+      "updated_at": "2026-09-11 17:33:42"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 40.3656300003031,
-      "pnl": -23912.63,
-      "return": -0.0239,
-      "equity": 976087.37,
+      "cash": 642.0356300003041,
+      "pnl": -40976.96,
+      "return": -0.040999999999999995,
+      "equity": 959023.04,
       "holdings": [
         {
           "code": "688180",
@@ -381,15 +381,6 @@
           "defense": 301.0
         },
         {
-          "code": "301611",
-          "name": "珂玛科技",
-          "shares": 600,
-          "buy_price": 88.65,
-          "buy_date": "2026-09-10",
-          "cost": 53203.83,
-          "defense": 87.1
-        },
-        {
           "code": "600460",
           "name": "士兰微",
           "shares": 100,
@@ -406,10 +397,40 @@
           "buy_date": "2026-09-10",
           "cost": 2807.03,
           "defense": 13.81
+        },
+        {
+          "code": "300679",
+          "name": "电连技术",
+          "shares": 1200,
+          "buy_price": 42.35,
+          "buy_date": "2026-09-11",
+          "cost": 50833.21,
+          "defense": 40.34
         }
       ],
       "holding_count": 20,
       "transactions": [
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "BUY",
+          "code": "300679",
+          "name": "电连技术",
+          "price": 42.35,
+          "shares": 1200,
+          "fees": 13.21,
+          "reason": "B_伏击 (乖离率:-11.8%)"
+        },
+        {
+          "time": "2026-09-11 15:00:00",
+          "action": "SELL",
+          "code": "301611",
+          "name": "珂玛科技",
+          "price": 85.79,
+          "shares": 600,
+          "fees": 39.12,
+          "pnl": -1768.9500000000044,
+          "reason": "破位止损 (跌破抄底价 ¥87.10)"
+        },
         {
           "time": "2026-09-10 15:00:00",
           "action": "BUY",
@@ -513,31 +534,10 @@
           "fees": 94.85,
           "pnl": -3503.1800000000076,
           "reason": "破位止损 (跌破抄底价 ¥16.82)"
-        },
-        {
-          "time": "2026-09-01 15:00:00",
-          "action": "BUY",
-          "code": "000539",
-          "name": "粤电力A",
-          "price": 5.24,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "B_伏击 (乖离率:-6.6%)"
-        },
-        {
-          "time": "2026-08-31 15:00:00",
-          "action": "SELL",
-          "code": "000539",
-          "name": "粤电力A",
-          "price": 5.16,
-          "shares": 100,
-          "fees": 5.26,
-          "pnl": -29.269999999999982,
-          "reason": "破位止损 (跌破抄底价 ¥5.23)"
         }
       ],
-      "transaction_count": 90,
-      "updated_at": "2026-09-10 17:32:12"
+      "transaction_count": 92,
+      "updated_at": "2026-09-11 17:33:42"
     }
   }
 }
