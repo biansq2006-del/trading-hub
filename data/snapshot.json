@@ -1,65 +1,38 @@
 {
-  "generated_at": "2026-09-15 14:40:21",
+  "generated_at": "2026-09-15 21:18:13",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
+    "state": "防守",
+    "code": "defensive",
     "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.3118811881188119,
-    "breadth_3m": 0.29207920792079206,
-    "median_1m": -0.039926874336561446,
-    "median_3m": -0.06625029347298156,
-    "median_vol": 0.324385319471608
+    "secondary": "现金管理",
+    "exposure": "10% - 25%",
+    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
+    "breadth_1m": 0.25,
+    "breadth_3m": 0.31064356435643564,
+    "median_1m": -0.050824804109024124,
+    "median_3m": -0.07006526182605699,
+    "median_vol": 0.3186144673283031
   },
   "strategy_counts": {
     "quality_v2": 59,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 56,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 0,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 102,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 5,
     "hybrid_v2": 20,
-    "legacy_bottom": 295,
-    "legacy_xma": 340,
-    "legacy_main_wave": 5
+    "legacy_bottom": 335,
+    "legacy_xma": 351,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 412.0575199997786,
-      "pnl": -286737.94,
-      "return": -0.2867,
-      "equity": 713262.06,
+      "cash": 200982.0275199998,
+      "pnl": -325434.97,
+      "return": -0.32539999999999997,
+      "equity": 674565.03,
       "holdings": [
-        {
-          "code": "002157",
-          "name": "正邦科技",
-          "shares": 200,
-          "buy_price": 3.22,
-          "buy_date": "2026-09-04",
-          "cost": 649.01,
-          "defense": null
-        },
-        {
-          "code": "600256",
-          "name": "广汇能源",
-          "shares": 27700,
-          "buy_price": 7.21,
-          "buy_date": "2026-09-08",
-          "cost": 199768.93,
-          "defense": null
-        },
-        {
-          "code": "600967",
-          "name": "内蒙一机",
-          "shares": 14400,
-          "buy_price": 13.87,
-          "buy_date": "2026-09-08",
-          "cost": 199779.93,
-          "defense": null
-        },
         {
           "code": "600601",
           "name": "方正科技",
@@ -86,10 +59,62 @@
           "buy_date": "2026-09-11",
           "cost": 1177.01,
           "defense": null
+        },
+        {
+          "code": "688563",
+          "name": "航材股份",
+          "shares": 3200,
+          "buy_price": 57.44,
+          "buy_date": "2026-09-14",
+          "cost": 183855.79,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-09-15 15:00:00",
+          "action": "SELL",
+          "code": "600967",
+          "name": "内蒙一机",
+          "price": 13.42,
+          "shares": 14400,
+          "fees": 146.87,
+          "pnl": -6678.799999999988,
+          "reason": "技术形态恶化 (S点)"
+        },
+        {
+          "time": "2026-09-14 15:00:00",
+          "action": "BUY",
+          "code": "688563",
+          "name": "航材股份",
+          "price": 57.44,
+          "shares": 3200,
+          "fees": 47.79,
+          "reason": "主升浪捕捉 (斜率:28.5°)"
+        },
+        {
+          "time": "2026-09-14 15:00:00",
+          "action": "SELL",
+          "code": "600256",
+          "name": "广汇能源",
+          "price": 6.89,
+          "shares": 27700,
+          "fees": 145.05,
+          "pnl": -9060.979999999981,
+          "reason": "硬止损 (-4.4%)"
+        },
+        {
+          "time": "2026-09-14 15:00:00",
+          "action": "SELL",
+          "code": "002157",
+          "name": "正邦科技",
+          "price": 3.11,
+          "shares": 200,
+          "fees": 5.32,
+          "pnl": -32.33000000000004,
+          "reason": "持仓超时 (10天)"
+        },
         {
           "time": "2026-09-11 15:00:00",
           "action": "BUY",
@@ -173,59 +198,17 @@
           "shares": 10700,
           "fees": 40.28,
           "reason": "主升浪捕捉 (斜率:34.8°)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "BUY",
-          "code": "600967",
-          "name": "内蒙一机",
-          "price": 13.87,
-          "shares": 14400,
-          "fees": 51.93,
-          "reason": "主升浪捕捉 (斜率:41.2°)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "BUY",
-          "code": "600256",
-          "name": "广汇能源",
-          "price": 7.21,
-          "shares": 27700,
-          "fees": 51.93,
-          "reason": "主升浪捕捉 (斜率:46.9°)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "SELL",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 20.62,
-          "shares": 7000,
-          "fees": 109.7,
-          "pnl": -10509.920000000013,
-          "reason": "硬止损 (-6.7%)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "SELL",
-          "code": "300866",
-          "name": "安克创新",
-          "price": 127.89,
-          "shares": 1400,
-          "fees": 136.07,
-          "pnl": -13164.0,
-          "reason": "硬止损 (-6.8%)"
         }
       ],
-      "transaction_count": 352,
-      "updated_at": "2026-09-11 17:33:42"
+      "transaction_count": 356,
+      "updated_at": "2026-09-15 21:17:39"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 642.0356300003041,
-      "pnl": -40976.96,
-      "return": -0.040999999999999995,
-      "equity": 959023.04,
+      "cash": 107.02563000030409,
+      "pnl": -32858.97,
+      "return": -0.0329,
+      "equity": 967141.03,
       "holdings": [
         {
           "code": "688180",
@@ -406,10 +389,29 @@
           "buy_date": "2026-09-11",
           "cost": 50833.21,
           "defense": 40.34
+        },
+        {
+          "code": "000725",
+          "name": "京东方A",
+          "shares": 100,
+          "buy_price": 5.3,
+          "buy_date": "2026-09-14",
+          "cost": 535.01,
+          "defense": 5.23
         }
       ],
-      "holding_count": 20,
+      "holding_count": 21,
       "transactions": [
+        {
+          "time": "2026-09-14 15:00:00",
+          "action": "BUY",
+          "code": "000725",
+          "name": "京东方A",
+          "price": 5.3,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "B_伏击 (乖离率:-8.1%)"
+        },
         {
           "time": "2026-09-11 15:00:00",
           "action": "BUY",
@@ -523,21 +525,10 @@
           "shares": 7600,
           "fees": 32.29,
           "reason": "B_伏击 (乖离率:-14.7%)"
-        },
-        {
-          "time": "2026-09-02 15:00:00",
-          "action": "SELL",
-          "code": "000786",
-          "name": "北新建材",
-          "price": 16.64,
-          "shares": 7500,
-          "fees": 94.85,
-          "pnl": -3503.1800000000076,
-          "reason": "破位止损 (跌破抄底价 ¥16.82)"
         }
       ],
-      "transaction_count": 92,
-      "updated_at": "2026-09-11 17:33:42"
+      "transaction_count": 93,
+      "updated_at": "2026-09-15 21:17:39"
     }
   }
 }
