@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16 14:40:17",
+  "generated_at": "2026-09-16 15:20:08",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -15,7 +15,7 @@
     "median_vol": 0.3186144673283031
   },
   "strategy_counts": {
-    "quality_v2": 59,
+    "quality_v2": 57,
     "main_wave_v2": 0,
     "left_reversal_v2": 102,
     "quality_main_wave_v2": 0,
