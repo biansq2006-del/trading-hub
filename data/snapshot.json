@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16 15:20:08",
+  "generated_at": "2026-09-16 17:33:02",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.25,
-    "breadth_3m": 0.31064356435643564,
-    "median_1m": -0.050824804109024124,
-    "median_3m": -0.07006526182605699,
-    "median_vol": 0.3186144673283031
+    "breadth_1m": 0.25495049504950495,
+    "breadth_3m": 0.3465346534653465,
+    "median_1m": -0.043736186669498966,
+    "median_3m": -0.05411927203103467,
+    "median_vol": 0.3176487529046552
   },
   "strategy_counts": {
-    "quality_v2": 57,
+    "quality_v2": 54,
     "main_wave_v2": 0,
-    "left_reversal_v2": 102,
+    "left_reversal_v2": 202,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 5,
+    "quality_left_v2": 11,
     "hybrid_v2": 20,
-    "legacy_bottom": 335,
-    "legacy_xma": 351,
+    "legacy_bottom": 289,
+    "legacy_xma": 286,
     "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 200982.0275199998,
-      "pnl": -325434.97,
-      "return": -0.32539999999999997,
-      "equity": 674565.03,
+      "cash": 170688.52751999983,
+      "pnl": -318711.47,
+      "return": -0.3187,
+      "equity": 681288.53,
       "holdings": [
-        {
-          "code": "600601",
-          "name": "方正科技",
-          "shares": 10700,
-          "buy_price": 14.48,
-          "buy_date": "2026-09-08",
-          "cost": 154976.28,
-          "defense": null
-        },
         {
           "code": "601869",
           "name": "长飞光纤",
@@ -68,10 +59,40 @@
           "buy_date": "2026-09-14",
           "cost": 183855.79,
           "defense": null
+        },
+        {
+          "code": "603175",
+          "name": "超颖电子",
+          "shares": 1900,
+          "buy_price": 101.34,
+          "buy_date": "2026-09-16",
+          "cost": 192596.06,
+          "defense": null
         }
       ],
       "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-09-16 15:00:00",
+          "action": "BUY",
+          "code": "603175",
+          "name": "超颖电子",
+          "price": 101.34,
+          "shares": 1900,
+          "fees": 50.06,
+          "reason": "主升浪捕捉 (斜率:29.2°)"
+        },
+        {
+          "time": "2026-09-16 15:00:00",
+          "action": "SELL",
+          "code": "600601",
+          "name": "方正科技",
+          "price": 15.18,
+          "shares": 10700,
+          "fees": 123.44,
+          "pnl": 7326.279999999999,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-09-15 15:00:00",
           "action": "SELL",
@@ -177,38 +198,17 @@
           "fees": 6.01,
           "pnl": 317.97,
           "reason": "硬止盈 (+19.9%)"
-        },
-        {
-          "time": "2026-09-09 15:00:00",
-          "action": "SELL",
-          "code": "603596",
-          "name": "伯特利",
-          "price": 29.67,
-          "shares": 100,
-          "fees": 6.51,
-          "pnl": -28.54000000000042,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-09-08 15:00:00",
-          "action": "BUY",
-          "code": "600601",
-          "name": "方正科技",
-          "price": 14.48,
-          "shares": 10700,
-          "fees": 40.28,
-          "reason": "主升浪捕捉 (斜率:34.8°)"
         }
       ],
-      "transaction_count": 356,
-      "updated_at": "2026-09-15 21:17:39"
+      "transaction_count": 358,
+      "updated_at": "2026-09-16 17:32:40"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 107.02563000030409,
-      "pnl": -32858.97,
-      "return": -0.0329,
-      "equity": 967141.03,
+      "pnl": -23741.97,
+      "return": -0.023700000000000002,
+      "equity": 976258.03,
       "holdings": [
         {
           "code": "688180",
@@ -528,7 +528,7 @@
         }
       ],
       "transaction_count": 93,
-      "updated_at": "2026-09-15 21:17:39"
+      "updated_at": "2026-09-16 17:32:40"
     }
   }
 }
