@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18 14:40:16",
+  "generated_at": "2026-09-18 17:48:04",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.3292079207920792,
-    "breadth_3m": 0.2896039603960396,
-    "median_1m": -0.027357976301745635,
-    "median_3m": -0.07834261271601023,
-    "median_vol": 0.30022708479096477
+    "breadth_1m": 0.3551980198019802,
+    "breadth_3m": 0.32673267326732675,
+    "median_1m": -0.02089730752113933,
+    "median_3m": -0.05631443494750582,
+    "median_vol": 0.29940195678318343
   },
   "strategy_counts": {
-    "quality_v2": 48,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 152,
+    "quality_v2": 47,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 246,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 5,
+    "quality_left_v2": 11,
     "hybrid_v2": 20,
-    "legacy_bottom": 277,
-    "legacy_xma": 307,
+    "legacy_bottom": 279,
+    "legacy_xma": 176,
     "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 1664.7375199998205,
-      "pnl": -317715.26,
-      "return": -0.3177,
-      "equity": 682284.74,
+      "cash": 138057.99751999983,
+      "pnl": -324438.0,
+      "return": -0.32439999999999997,
+      "equity": 675562.0,
       "holdings": [
-        {
-          "code": "601869",
-          "name": "长飞光纤",
-          "shares": 300,
-          "buy_price": 473.99,
-          "buy_date": "2026-09-11",
-          "cost": 142233.97,
-          "defense": null
-        },
         {
           "code": "688563",
           "name": "航材股份",
@@ -70,8 +61,19 @@
           "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 3,
       "transactions": [
+        {
+          "time": "2026-09-18 15:00:00",
+          "action": "SELL",
+          "code": "601869",
+          "name": "长飞光纤",
+          "price": 454.99,
+          "shares": 300,
+          "fees": 103.74,
+          "pnl": -5840.709999999992,
+          "reason": "硬止损 (-4.0%)"
+        },
         {
           "time": "2026-09-17 15:00:00",
           "action": "BUY",
@@ -187,28 +189,17 @@
           "fees": 7.07,
           "pnl": -834.1200000000003,
           "reason": "硬止损 (-16.8%)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "SELL",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 20.86,
-          "shares": 6700,
-          "fees": 106.22,
-          "pnl": 3409.3699999999953,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 360,
-      "updated_at": "2026-09-18 09:48:53"
+      "transaction_count": 361,
+      "updated_at": "2026-09-18 17:47:42"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 107.02563000030409,
-      "pnl": -22501.97,
-      "return": -0.0225,
-      "equity": 977498.03,
+      "pnl": -9527.97,
+      "return": -0.0095,
+      "equity": 990472.03,
       "holdings": [
         {
           "code": "688180",
@@ -528,7 +519,7 @@
         }
       ],
       "transaction_count": 93,
-      "updated_at": "2026-09-18 09:48:53"
+      "updated_at": "2026-09-18 17:47:42"
     }
   }
 }
