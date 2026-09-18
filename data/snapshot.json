@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18 09:40:03",
+  "generated_at": "2026-09-18 10:30:28",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -17,21 +17,21 @@
   "strategy_counts": {
     "quality_v2": 48,
     "main_wave_v2": 0,
-    "left_reversal_v2": 190,
+    "left_reversal_v2": 152,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 7,
+    "quality_left_v2": 5,
     "hybrid_v2": 20,
-    "legacy_bottom": 286,
-    "legacy_xma": 293,
+    "legacy_bottom": 277,
+    "legacy_xma": 307,
     "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 170688.52751999983,
-      "pnl": -318711.47,
-      "return": -0.3187,
-      "equity": 681288.53,
+      "cash": 1664.7375199998205,
+      "pnl": -317715.26,
+      "return": -0.3177,
+      "equity": 682284.74,
       "holdings": [
         {
           "code": "601869",
@@ -40,15 +40,6 @@
           "buy_price": 473.99,
           "buy_date": "2026-09-11",
           "cost": 142233.97,
-          "defense": null
-        },
-        {
-          "code": "600104",
-          "name": "上汽集团",
-          "shares": 100,
-          "buy_price": 11.72,
-          "buy_date": "2026-09-11",
-          "cost": 1177.01,
           "defense": null
         },
         {
@@ -68,10 +59,40 @@
           "buy_date": "2026-09-16",
           "cost": 192596.06,
           "defense": null
+        },
+        {
+          "code": "600026",
+          "name": "中远海能",
+          "shares": 7700,
+          "buy_price": 22.09,
+          "buy_date": "2026-09-17",
+          "cost": 170137.22,
+          "defense": null
         }
       ],
       "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-09-17 15:00:00",
+          "action": "BUY",
+          "code": "600026",
+          "name": "中远海能",
+          "price": 22.09,
+          "shares": 7700,
+          "fees": 44.22,
+          "reason": "主升浪捕捉 (斜率:43.7°)"
+        },
+        {
+          "time": "2026-09-17 15:00:00",
+          "action": "SELL",
+          "code": "600104",
+          "name": "上汽集团",
+          "price": 11.19,
+          "shares": 100,
+          "fees": 5.57,
+          "pnl": -63.57999999999993,
+          "reason": "硬止损 (-4.5%)"
+        },
         {
           "time": "2026-09-16 15:00:00",
           "action": "BUY",
@@ -177,38 +198,17 @@
           "fees": 106.22,
           "pnl": 3409.3699999999953,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-09-09 15:00:00",
-          "action": "BUY",
-          "code": "601118",
-          "name": "海南橡胶",
-          "price": 8.15,
-          "shares": 600,
-          "fees": 5.05,
-          "reason": "主升浪捕捉 (斜率:64.7°)"
-        },
-        {
-          "time": "2026-09-09 15:00:00",
-          "action": "SELL",
-          "code": "600737",
-          "name": "中粮糖业",
-          "price": 19.8,
-          "shares": 100,
-          "fees": 6.01,
-          "pnl": 317.97,
-          "reason": "硬止盈 (+19.9%)"
         }
       ],
-      "transaction_count": 358,
-      "updated_at": "2026-09-16 17:32:40"
+      "transaction_count": 360,
+      "updated_at": "2026-09-18 09:48:53"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 107.02563000030409,
-      "pnl": -23741.97,
-      "return": -0.023700000000000002,
-      "equity": 976258.03,
+      "pnl": -22501.97,
+      "return": -0.0225,
+      "equity": 977498.03,
       "holdings": [
         {
           "code": "688180",
@@ -528,7 +528,7 @@
         }
       ],
       "transaction_count": 93,
-      "updated_at": "2026-09-16 17:32:40"
+      "updated_at": "2026-09-18 09:48:53"
     }
   }
 }
