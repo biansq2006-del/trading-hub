@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21 14:45:15",
+  "generated_at": "2026-09-21 17:41:53",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,30 +8,30 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.3551980198019802,
-    "breadth_3m": 0.32673267326732675,
-    "median_1m": -0.02089730752113933,
-    "median_3m": -0.05631443494750582,
-    "median_vol": 0.29940195678318343
+    "breadth_1m": 0.4306930693069307,
+    "breadth_3m": 0.39603960396039606,
+    "median_1m": -0.0095837714508053,
+    "median_3m": -0.036961141469338155,
+    "median_vol": 0.29851092810832713
   },
   "strategy_counts": {
-    "quality_v2": 47,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 246,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 11,
+    "quality_v2": 46,
+    "main_wave_v2": 4,
+    "left_reversal_v2": 128,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 279,
-    "legacy_xma": 176,
-    "legacy_main_wave": 1
+    "legacy_bottom": 132,
+    "legacy_xma": 131,
+    "legacy_main_wave": 10
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 138057.99751999983,
-      "pnl": -324438.0,
-      "return": -0.32439999999999997,
-      "equity": 675562.0,
+      "cash": 199.2975199998275,
+      "pnl": -296591.7,
+      "return": -0.2966,
+      "equity": 703408.3,
       "holdings": [
         {
           "code": "688563",
@@ -59,10 +59,48 @@
           "buy_date": "2026-09-17",
           "cost": 170137.22,
           "defense": null
+        },
+        {
+          "code": "600601",
+          "name": "方正科技",
+          "shares": 9000,
+          "buy_price": 15.25,
+          "buy_date": "2026-09-21",
+          "cost": 137285.69,
+          "defense": null
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "shares": 100,
+          "buy_price": 5.68,
+          "buy_date": "2026-09-21",
+          "cost": 573.01,
+          "defense": null
         }
       ],
-      "holding_count": 3,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-09-21 15:00:00",
+          "action": "BUY",
+          "code": "600048",
+          "name": "保利发展",
+          "price": 5.68,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:31.2°)"
+        },
+        {
+          "time": "2026-09-21 15:00:00",
+          "action": "BUY",
+          "code": "600601",
+          "name": "方正科技",
+          "price": 15.25,
+          "shares": 9000,
+          "fees": 35.69,
+          "reason": "主升浪捕捉 (斜率:54.1°)"
+        },
         {
           "time": "2026-09-18 15:00:00",
           "action": "SELL",
@@ -168,38 +206,17 @@
           "shares": 100,
           "fees": 5.01,
           "reason": "主升浪捕捉 (斜率:38.0°)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "BUY",
-          "code": "601869",
-          "name": "长飞光纤",
-          "price": 473.99,
-          "shares": 300,
-          "fees": 36.97,
-          "reason": "主升浪捕捉 (斜率:56.5°)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "SELL",
-          "code": "601118",
-          "name": "海南橡胶",
-          "price": 6.78,
-          "shares": 600,
-          "fees": 7.07,
-          "pnl": -834.1200000000003,
-          "reason": "硬止损 (-16.8%)"
         }
       ],
-      "transaction_count": 361,
-      "updated_at": "2026-09-18 17:47:42"
+      "transaction_count": 363,
+      "updated_at": "2026-09-21 17:41:23"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 107.02563000030409,
-      "pnl": -9527.97,
-      "return": -0.0095,
-      "equity": 990472.03,
+      "cash": 128.10563000029651,
+      "pnl": 3895.11,
+      "return": 0.0039000000000000003,
+      "equity": 1003895.11,
       "holdings": [
         {
           "code": "688180",
@@ -346,15 +363,6 @@
           "defense": 2.6
         },
         {
-          "code": "688361",
-          "name": "中科飞测",
-          "shares": 200,
-          "buy_price": 308.79,
-          "buy_date": "2026-09-10",
-          "cost": 61774.06,
-          "defense": 301.0
-        },
-        {
           "code": "600460",
           "name": "士兰微",
           "shares": 100,
@@ -389,10 +397,40 @@
           "buy_date": "2026-09-14",
           "cost": 535.01,
           "defense": 5.23
+        },
+        {
+          "code": "000582",
+          "name": "北部湾港",
+          "shares": 7800,
+          "buy_price": 9.91,
+          "buy_date": "2026-09-21",
+          "cost": 77318.1,
+          "defense": 9.78
         }
       ],
       "holding_count": 21,
       "transactions": [
+        {
+          "time": "2026-09-21 15:00:00",
+          "action": "BUY",
+          "code": "000582",
+          "name": "北部湾港",
+          "price": 9.91,
+          "shares": 7800,
+          "fees": 20.1,
+          "reason": "B_伏击 (乖离率:-10.1%)"
+        },
+        {
+          "time": "2026-09-21 15:00:00",
+          "action": "SELL",
+          "code": "688361",
+          "name": "中科飞测",
+          "price": 386.99,
+          "shares": 200,
+          "fees": 58.82,
+          "pnl": 15565.119999999995,
+          "reason": "S_落袋 (触碰上轨阻力区)"
+        },
         {
           "time": "2026-09-14 15:00:00",
           "action": "BUY",
@@ -495,31 +533,10 @@
           "shares": 1400,
           "fees": 31.7,
           "reason": "B_伏击 (乖离率:-19.3%)"
-        },
-        {
-          "time": "2026-09-03 15:00:00",
-          "action": "SELL",
-          "code": "600363",
-          "name": "联创光电",
-          "price": 16.0,
-          "shares": 7600,
-          "fees": 92.42,
-          "pnl": -2708.709999999992,
-          "reason": "破位止损 (跌破抄底价 ¥16.01)"
-        },
-        {
-          "time": "2026-09-02 15:00:00",
-          "action": "BUY",
-          "code": "600363",
-          "name": "联创光电",
-          "price": 16.34,
-          "shares": 7600,
-          "fees": 32.29,
-          "reason": "B_伏击 (乖离率:-14.7%)"
         }
       ],
-      "transaction_count": 93,
-      "updated_at": "2026-09-18 17:47:42"
+      "transaction_count": 95,
+      "updated_at": "2026-09-21 17:41:23"
     }
   }
 }
