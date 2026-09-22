@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-09-22 14:40:23",
+  "generated_at": "2026-09-22 17:32:41",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
-    "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.4306930693069307,
-    "breadth_3m": 0.39603960396039606,
-    "median_1m": -0.0095837714508053,
-    "median_3m": -0.036961141469338155,
-    "median_vol": 0.29851092810832713
+    "state": "混合",
+    "code": "mixed",
+    "primary": "混合策略",
+    "secondary": "质量选股",
+    "exposure": "35% - 50%",
+    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
+    "breadth_1m": 0.45792079207920794,
+    "breadth_3m": 0.38242574257425743,
+    "median_1m": -0.0050094888564751194,
+    "median_3m": -0.035917738714430825,
+    "median_vol": 0.29603328571961396
   },
   "strategy_counts": {
-    "quality_v2": 46,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 128,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 2,
+    "quality_v2": 42,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 63,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 132,
-    "legacy_xma": 131,
-    "legacy_main_wave": 10
+    "legacy_bottom": 63,
+    "legacy_xma": 122,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 199.2975199998275,
-      "pnl": -296591.7,
-      "return": -0.2966,
-      "equity": 703408.3,
+      "cash": 238.40751999982058,
+      "pnl": -303150.59,
+      "return": -0.3032,
+      "equity": 696849.4099999999,
       "holdings": [
-        {
-          "code": "688563",
-          "name": "航材股份",
-          "shares": 3200,
-          "buy_price": 57.44,
-          "buy_date": "2026-09-14",
-          "cost": 183855.79,
-          "defense": null
-        },
         {
           "code": "603175",
           "name": "超颖电子",
@@ -77,10 +68,59 @@
           "buy_date": "2026-09-21",
           "cost": 573.01,
           "defense": null
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "shares": 1100,
+          "buy_price": 151.13,
+          "buy_date": "2026-09-22",
+          "cost": 166286.22,
+          "defense": null
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "shares": 2100,
+          "buy_price": 3.81,
+          "buy_date": "2026-09-22",
+          "cost": 8006.08,
+          "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-09-22 15:00:00",
+          "action": "BUY",
+          "code": "000002",
+          "name": "万科A",
+          "price": 3.81,
+          "shares": 2100,
+          "fees": 5.08,
+          "reason": "主升浪捕捉 (斜率:48.7°)"
+        },
+        {
+          "time": "2026-09-22 15:00:00",
+          "action": "BUY",
+          "code": "300454",
+          "name": "深信服",
+          "price": 151.13,
+          "shares": 1100,
+          "fees": 43.22,
+          "reason": "主升浪捕捉 (斜率:52.5°)"
+        },
+        {
+          "time": "2026-09-22 15:00:00",
+          "action": "SELL",
+          "code": "688563",
+          "name": "航材股份",
+          "price": 54.52,
+          "shares": 3200,
+          "fees": 132.59,
+          "pnl": -9524.380000000005,
+          "reason": "硬止损 (-5.1%)"
+        },
         {
           "time": "2026-09-21 15:00:00",
           "action": "BUY",
@@ -174,49 +214,17 @@
           "shares": 3200,
           "fees": 47.79,
           "reason": "主升浪捕捉 (斜率:28.5°)"
-        },
-        {
-          "time": "2026-09-14 15:00:00",
-          "action": "SELL",
-          "code": "600256",
-          "name": "广汇能源",
-          "price": 6.89,
-          "shares": 27700,
-          "fees": 145.05,
-          "pnl": -9060.979999999981,
-          "reason": "硬止损 (-4.4%)"
-        },
-        {
-          "time": "2026-09-14 15:00:00",
-          "action": "SELL",
-          "code": "002157",
-          "name": "正邦科技",
-          "price": 3.11,
-          "shares": 200,
-          "fees": 5.32,
-          "pnl": -32.33000000000004,
-          "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "BUY",
-          "code": "600104",
-          "name": "上汽集团",
-          "price": 11.72,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:38.0°)"
         }
       ],
-      "transaction_count": 363,
-      "updated_at": "2026-09-21 17:41:23"
+      "transaction_count": 366,
+      "updated_at": "2026-09-22 17:32:18"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 128.10563000029651,
-      "pnl": 3895.11,
-      "return": 0.0039000000000000003,
-      "equity": 1003895.11,
+      "pnl": 4425.11,
+      "return": 0.0044,
+      "equity": 1004425.11,
       "holdings": [
         {
           "code": "688180",
@@ -536,7 +544,7 @@
         }
       ],
       "transaction_count": 95,
-      "updated_at": "2026-09-21 17:41:23"
+      "updated_at": "2026-09-22 17:32:18"
     }
   }
 }
