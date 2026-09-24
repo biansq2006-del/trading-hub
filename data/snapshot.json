@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-09-24 14:40:22",
+  "generated_at": "2026-09-24 21:47:59",
   "stock_count": 808,
   "regime": {
-    "state": "混合",
-    "code": "mixed",
-    "primary": "混合策略",
-    "secondary": "质量选股",
-    "exposure": "35% - 50%",
-    "note": "方向不集中，质量过滤和仓位约束比单一方向更重要。",
-    "breadth_1m": 0.38985148514851486,
-    "breadth_3m": 0.46534653465346537,
-    "median_1m": -0.014813470977996516,
-    "median_3m": -0.011648422150046134,
-    "median_vol": 0.29197405576824653
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
+    "primary": "质量选股",
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.27103960396039606,
+    "breadth_3m": 0.37376237623762376,
+    "median_1m": -0.03829989522294225,
+    "median_3m": -0.039447218072699686,
+    "median_vol": 0.29143044698135856
   },
   "strategy_counts": {
     "quality_v2": 45,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 37,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 23,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 0,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 81,
-    "legacy_xma": 158,
-    "legacy_main_wave": 1
+    "legacy_bottom": 162,
+    "legacy_xma": 279,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 182420.24751999983,
-      "pnl": -314674.75,
-      "return": -0.3147,
-      "equity": 685325.25,
+      "cash": 466553.1475199998,
+      "pnl": -327654.85,
+      "return": -0.32770000000000005,
+      "equity": 672345.15,
       "holdings": [
-        {
-          "code": "600601",
-          "name": "方正科技",
-          "shares": 9000,
-          "buy_price": 15.25,
-          "buy_date": "2026-09-21",
-          "cost": 137285.69,
-          "defense": null
-        },
         {
           "code": "600048",
           "name": "保利发展",
@@ -49,15 +40,6 @@
           "buy_price": 5.68,
           "buy_date": "2026-09-21",
           "cost": 573.01,
-          "defense": null
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "shares": 1100,
-          "buy_price": 151.13,
-          "buy_date": "2026-09-22",
-          "cost": 166286.22,
           "defense": null
         },
         {
@@ -79,8 +61,30 @@
           "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 3,
       "transactions": [
+        {
+          "time": "2026-09-24 15:00:00",
+          "action": "SELL",
+          "code": "300454",
+          "name": "深信服",
+          "price": 141.99,
+          "shares": 1100,
+          "fees": 118.7,
+          "pnl": -10215.920000000013,
+          "reason": "硬止损 (-6.0%)"
+        },
+        {
+          "time": "2026-09-24 15:00:00",
+          "action": "SELL",
+          "code": "600601",
+          "name": "方正科技",
+          "price": 14.24,
+          "shares": 9000,
+          "fees": 97.4,
+          "pnl": -9223.089999999997,
+          "reason": "硬止损 (-6.6%)"
+        },
         {
           "time": "2026-09-23 15:00:00",
           "action": "BUY",
@@ -184,38 +188,17 @@
           "shares": 7700,
           "fees": 44.22,
           "reason": "主升浪捕捉 (斜率:43.7°)"
-        },
-        {
-          "time": "2026-09-17 15:00:00",
-          "action": "SELL",
-          "code": "600104",
-          "name": "上汽集团",
-          "price": 11.19,
-          "shares": 100,
-          "fees": 5.57,
-          "pnl": -63.57999999999993,
-          "reason": "硬止损 (-4.5%)"
-        },
-        {
-          "time": "2026-09-16 15:00:00",
-          "action": "BUY",
-          "code": "603175",
-          "name": "超颖电子",
-          "price": 101.34,
-          "shares": 1900,
-          "fees": 50.06,
-          "reason": "主升浪捕捉 (斜率:29.2°)"
         }
       ],
-      "transaction_count": 369,
-      "updated_at": "2026-09-23 17:32:22"
+      "transaction_count": 371,
+      "updated_at": "2026-09-24 21:47:22"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 3396.2756300002948,
-      "pnl": 2611.28,
-      "return": 0.0026,
-      "equity": 1002611.28,
+      "cash": 71144.7456300003,
+      "pnl": -15986.25,
+      "return": -0.016,
+      "equity": 984013.75,
       "holdings": [
         {
           "code": "688180",
@@ -396,19 +379,21 @@
           "buy_date": "2026-09-14",
           "cost": 535.01,
           "defense": 5.23
-        },
-        {
-          "code": "300803",
-          "name": "指南针",
-          "shares": 1200,
-          "buy_price": 58.25,
-          "buy_date": "2026-09-23",
-          "cost": 69918.17,
-          "defense": 57.22
         }
       ],
-      "holding_count": 21,
+      "holding_count": 20,
       "transactions": [
+        {
+          "time": "2026-09-24 15:00:00",
+          "action": "SELL",
+          "code": "300803",
+          "name": "指南针",
+          "price": 56.5,
+          "shares": 1200,
+          "fees": 51.53,
+          "pnl": -2169.699999999997,
+          "reason": "破位止损 (跌破抄底价 ¥57.22)"
+        },
         {
           "time": "2026-09-23 15:00:00",
           "action": "BUY",
@@ -521,21 +506,10 @@
           "shares": 200,
           "fees": 16.06,
           "reason": "B_伏击 (乖离率:-9.4%)"
-        },
-        {
-          "time": "2026-09-10 15:00:00",
-          "action": "SELL",
-          "code": "300274",
-          "name": "阳光电源",
-          "price": 85.93,
-          "shares": 1400,
-          "fees": 91.43,
-          "pnl": -1733.12999999999,
-          "reason": "破位止损 (跌破抄底价 ¥86.01)"
         }
       ],
-      "transaction_count": 97,
-      "updated_at": "2026-09-23 17:32:22"
+      "transaction_count": 98,
+      "updated_at": "2026-09-24 21:47:22"
     }
   }
 }
