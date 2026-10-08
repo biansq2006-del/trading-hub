@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 16:58:59",
+  "generated_at": "2026-10-08 17:32:33",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,197 +8,198 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.23391089108910892,
-    "breadth_3m": 0.3650990099009901,
-    "median_1m": -0.04827132512211363,
-    "median_3m": -0.04719524823665033,
-    "median_vol": 0.29211751432865707
+    "breadth_1m": 0.1905940594059406,
+    "breadth_3m": 0.32054455445544555,
+    "median_1m": -0.06198742227274778,
+    "median_3m": -0.07026022291732154,
+    "median_vol": 0.29668442383832117
   },
   "strategy_counts": {
-    "quality_v2": 44,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 277,
+    "quality_v2": 43,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 101,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 12,
+    "quality_left_v2": 4,
     "hybrid_v2": 20,
-    "legacy_bottom": 394,
-    "legacy_xma": 307,
+    "legacy_bottom": 336,
+    "legacy_xma": 370,
     "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 466553.1475199998,
-      "pnl": -327654.85,
-      "return": -0.32770000000000005,
-      "equity": 672345.15,
+      "cash": 90229.28751999981,
+      "pnl": -311070.71,
+      "return": -0.3111,
+      "equity": 688929.29,
       "holdings": [
         {
-          "code": "600048",
-          "name": "保利发展",
-          "shares": 100,
-          "buy_price": 5.68,
-          "buy_date": "2026-09-21",
-          "cost": 573.01,
+          "code": "001979",
+          "name": "招商蛇口",
+          "shares": 25500,
+          "buy_price": 7.82,
+          "buy_date": "2026-10-08",
+          "cost": 199461.85,
           "defense": null
         },
         {
-          "code": "000002",
-          "name": "万科A",
-          "shares": 2100,
-          "buy_price": 3.81,
-          "buy_date": "2026-09-22",
-          "cost": 8006.08,
+          "code": "600027",
+          "name": "华电国际",
+          "shares": 38700,
+          "buy_price": 5.16,
+          "buy_date": "2026-10-08",
+          "cost": 199743.92,
           "defense": null
         },
         {
-          "code": "000739",
-          "name": "普洛药业",
-          "shares": 7800,
-          "buy_price": 25.32,
-          "buy_date": "2026-09-23",
-          "cost": 197547.35,
+          "code": "600023",
+          "name": "浙能电力",
+          "shares": 37100,
+          "buy_price": 5.38,
+          "buy_date": "2026-10-08",
+          "cost": 199649.9,
           "defense": null
         }
       ],
       "holding_count": 3,
       "transactions": [
         {
-          "time": "2026-09-24 15:00:00",
-          "action": "SELL",
-          "code": "300454",
-          "name": "深信服",
-          "price": 141.99,
-          "shares": 1100,
-          "fees": 118.7,
-          "pnl": -10215.920000000013,
-          "reason": "硬止损 (-6.0%)"
-        },
-        {
-          "time": "2026-09-24 15:00:00",
-          "action": "SELL",
-          "code": "600601",
-          "name": "方正科技",
-          "price": 14.24,
-          "shares": 9000,
-          "fees": 97.4,
-          "pnl": -9223.089999999997,
-          "reason": "硬止损 (-6.6%)"
-        },
-        {
-          "time": "2026-09-23 15:00:00",
+          "time": "2026-10-08 15:00:00",
           "action": "BUY",
+          "code": "600023",
+          "name": "浙能电力",
+          "price": 5.38,
+          "shares": 37100,
+          "fees": 51.9,
+          "reason": "主升浪捕捉 (斜率:25.0°)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "BUY",
+          "code": "600027",
+          "name": "华电国际",
+          "price": 5.16,
+          "shares": 38700,
+          "fees": 51.92,
+          "reason": "主升浪捕捉 (斜率:26.8°)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "BUY",
+          "code": "001979",
+          "name": "招商蛇口",
+          "price": 7.82,
+          "shares": 25500,
+          "fees": 51.85,
+          "reason": "主升浪捕捉 (斜率:43.5°)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "SELL",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 19.17,
+          "shares": 100,
+          "fees": 5.98,
+          "pnl": -74.0,
+          "reason": "持仓超时 (9天)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "SELL",
+          "code": "688561",
+          "name": "奇安信",
+          "price": 27.93,
+          "shares": 2200,
+          "fees": 46.7,
+          "pnl": -4111.729999999996,
+          "reason": "硬止损 (-6.2%)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "SELL",
+          "code": "600886",
+          "name": "国投电力",
+          "price": 15.64,
+          "shares": 13000,
+          "fees": 154.52,
+          "pnl": 3823.6600000000035,
+          "reason": "持仓超时 (10天)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "SELL",
+          "code": "300207",
+          "name": "欣旺达",
+          "price": 21.5,
+          "shares": 9300,
+          "fees": 151.96,
+          "pnl": 912.3399999999965,
+          "reason": "持仓超时 (10天)"
+        },
+        {
+          "time": "2026-10-08 15:00:00",
+          "action": "SELL",
           "code": "000739",
           "name": "普洛药业",
-          "price": 25.32,
+          "price": 27.26,
           "shares": 7800,
-          "fees": 51.35,
-          "reason": "主升浪捕捉 (斜率:45.8°)"
+          "fees": 161.6,
+          "pnl": 14919.049999999988,
+          "reason": "持仓超时 (15天)"
         },
         {
-          "time": "2026-09-23 15:00:00",
+          "time": "2026-09-30 15:00:00",
           "action": "SELL",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 21.08,
-          "shares": 7700,
-          "fees": 123.36,
-          "pnl": -7944.579999999987,
-          "reason": "硬止损 (-4.6%)"
-        },
-        {
-          "time": "2026-09-23 15:00:00",
-          "action": "SELL",
-          "code": "603175",
-          "name": "超颖电子",
-          "price": 114.58,
-          "shares": 1900,
-          "fees": 165.45,
-          "pnl": 24940.48999999999,
-          "reason": "硬止盈 (+13.1%)"
-        },
-        {
-          "time": "2026-09-22 15:00:00",
-          "action": "BUY",
           "code": "000002",
           "name": "万科A",
-          "price": 3.81,
+          "price": 4.26,
           "shares": 2100,
-          "fees": 5.08,
-          "reason": "主升浪捕捉 (斜率:48.7°)"
+          "fees": 9.56,
+          "pnl": 930.3600000000006,
+          "reason": "持仓超时 (8天)"
         },
         {
-          "time": "2026-09-22 15:00:00",
+          "time": "2026-09-29 15:00:00",
           "action": "BUY",
-          "code": "300454",
-          "name": "深信服",
-          "price": 151.13,
-          "shares": 1100,
-          "fees": 43.22,
-          "reason": "主升浪捕捉 (斜率:52.5°)"
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 19.8,
+          "shares": 100,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:36.7°)"
         },
         {
-          "time": "2026-09-22 15:00:00",
+          "time": "2026-09-29 15:00:00",
           "action": "SELL",
-          "code": "688563",
-          "name": "航材股份",
-          "price": 54.52,
-          "shares": 3200,
-          "fees": 132.59,
-          "pnl": -9524.380000000005,
-          "reason": "硬止损 (-5.1%)"
-        },
-        {
-          "time": "2026-09-21 15:00:00",
-          "action": "BUY",
           "code": "600048",
           "name": "保利发展",
-          "price": 5.68,
+          "price": 5.84,
           "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:31.2°)"
+          "fees": 5.3,
+          "pnl": 5.690000000000055,
+          "reason": "持仓超时 (8天)"
         },
         {
-          "time": "2026-09-21 15:00:00",
+          "time": "2026-09-28 15:00:00",
           "action": "BUY",
-          "code": "600601",
-          "name": "方正科技",
-          "price": 15.25,
-          "shares": 9000,
-          "fees": 35.69,
-          "reason": "主升浪捕捉 (斜率:54.1°)"
-        },
-        {
-          "time": "2026-09-18 15:00:00",
-          "action": "SELL",
-          "code": "601869",
-          "name": "长飞光纤",
-          "price": 454.99,
-          "shares": 300,
-          "fees": 103.74,
-          "pnl": -5840.709999999992,
-          "reason": "硬止损 (-4.0%)"
-        },
-        {
-          "time": "2026-09-17 15:00:00",
-          "action": "BUY",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 22.09,
-          "shares": 7700,
-          "fees": 44.22,
-          "reason": "主升浪捕捉 (斜率:43.7°)"
+          "code": "688561",
+          "name": "奇安信",
+          "price": 29.77,
+          "shares": 2200,
+          "fees": 17.03,
+          "reason": "主升浪捕捉 (斜率:25.3°)"
         }
       ],
-      "transaction_count": 371,
-      "updated_at": "2026-09-24 21:47:22"
+      "transaction_count": 385,
+      "updated_at": "2026-10-08 17:32:11"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 71144.7456300003,
-      "pnl": -15986.25,
-      "return": -0.016,
-      "equity": 984013.75,
+      "cash": 105.41563000028896,
+      "pnl": -42428.58,
+      "return": -0.0424,
+      "equity": 957571.42,
       "holdings": [
         {
           "code": "688180",
@@ -379,10 +380,48 @@
           "buy_date": "2026-09-14",
           "cost": 535.01,
           "defense": 5.23
+        },
+        {
+          "code": "000582",
+          "name": "北部湾港",
+          "shares": 7700,
+          "buy_price": 9.15,
+          "buy_date": "2026-09-28",
+          "cost": 70473.32,
+          "defense": 8.88
+        },
+        {
+          "code": "601212",
+          "name": "白银有色",
+          "shares": 100,
+          "buy_price": 5.61,
+          "buy_date": "2026-09-29",
+          "cost": 566.01,
+          "defense": 5.35
         }
       ],
-      "holding_count": 20,
+      "holding_count": 22,
       "transactions": [
+        {
+          "time": "2026-09-29 15:00:00",
+          "action": "BUY",
+          "code": "601212",
+          "name": "白银有色",
+          "price": 5.61,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "B_伏击 (乖离率:-12.9%)"
+        },
+        {
+          "time": "2026-09-28 15:00:00",
+          "action": "BUY",
+          "code": "000582",
+          "name": "北部湾港",
+          "price": 9.15,
+          "shares": 7700,
+          "fees": 18.32,
+          "reason": "B_伏击 (乖离率:-14.6%)"
+        },
         {
           "time": "2026-09-24 15:00:00",
           "action": "SELL",
@@ -486,30 +525,10 @@
           "shares": 100,
           "fees": 5.03,
           "reason": "B_伏击 (乖离率:-8.0%)"
-        },
-        {
-          "time": "2026-09-10 15:00:00",
-          "action": "BUY",
-          "code": "301611",
-          "name": "珂玛科技",
-          "price": 88.65,
-          "shares": 600,
-          "fees": 13.83,
-          "reason": "B_伏击 (乖离率:-9.4%)"
-        },
-        {
-          "time": "2026-09-10 15:00:00",
-          "action": "BUY",
-          "code": "688361",
-          "name": "中科飞测",
-          "price": 308.79,
-          "shares": 200,
-          "fees": 16.06,
-          "reason": "B_伏击 (乖离率:-9.4%)"
         }
       ],
-      "transaction_count": 98,
-      "updated_at": "2026-09-24 21:47:22"
+      "transaction_count": 100,
+      "updated_at": "2026-10-08 17:32:11"
     }
   }
 }
