@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-24 21:47:59",
+  "generated_at": "2026-10-08 10:36:59",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
+    "state": "防守",
+    "code": "defensive",
     "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.27103960396039606,
-    "breadth_3m": 0.37376237623762376,
-    "median_1m": -0.03829989522294225,
-    "median_3m": -0.039447218072699686,
-    "median_vol": 0.29143044698135856
+    "secondary": "现金管理",
+    "exposure": "10% - 25%",
+    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
+    "breadth_1m": 0.23391089108910892,
+    "breadth_3m": 0.3650990099009901,
+    "median_1m": -0.04827132512211363,
+    "median_3m": -0.04719524823665033,
+    "median_vol": 0.29211751432865707
   },
   "strategy_counts": {
-    "quality_v2": 45,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 23,
+    "quality_v2": 44,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 277,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_left_v2": 12,
     "hybrid_v2": 20,
-    "legacy_bottom": 162,
-    "legacy_xma": 279,
-    "legacy_main_wave": 0
+    "legacy_bottom": 394,
+    "legacy_xma": 307,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
