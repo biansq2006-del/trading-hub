@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09 14:40:27",
+  "generated_at": "2026-10-09 17:32:29",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.1905940594059406,
-    "breadth_3m": 0.32054455445544555,
-    "median_1m": -0.06198742227274778,
-    "median_3m": -0.07026022291732154,
-    "median_vol": 0.29668442383832117
+    "breadth_1m": 0.27103960396039606,
+    "breadth_3m": 0.3378712871287129,
+    "median_1m": -0.04004719004719004,
+    "median_3m": -0.055705672015162244,
+    "median_vol": 0.29750120576609357
   },
   "strategy_counts": {
-    "quality_v2": 43,
+    "quality_v2": 47,
     "main_wave_v2": 3,
-    "left_reversal_v2": 101,
+    "left_reversal_v2": 190,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 4,
+    "quality_left_v2": 5,
     "hybrid_v2": 20,
-    "legacy_bottom": 336,
-    "legacy_xma": 370,
-    "legacy_main_wave": 4
+    "legacy_bottom": 307,
+    "legacy_xma": 296,
+    "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 90229.28751999981,
-      "pnl": -311070.71,
-      "return": -0.3111,
-      "equity": 688929.29,
+      "cash": 61.79751999980249,
+      "pnl": -314718.2,
+      "return": -0.3147,
+      "equity": 685281.8,
       "holdings": [
         {
           "code": "001979",
@@ -59,10 +59,67 @@
           "buy_date": "2026-10-08",
           "cost": 199649.9,
           "defense": null
+        },
+        {
+          "code": "300676",
+          "name": "华大基因",
+          "shares": 1900,
+          "buy_price": 45.47,
+          "buy_date": "2026-10-09",
+          "cost": 86415.46,
+          "defense": null
+        },
+        {
+          "code": "600026",
+          "name": "中远海能",
+          "shares": 100,
+          "buy_price": 23.49,
+          "buy_date": "2026-10-09",
+          "cost": 2354.02,
+          "defense": null
+        },
+        {
+          "code": "600977",
+          "name": "中国电影",
+          "shares": 100,
+          "buy_price": 13.93,
+          "buy_date": "2026-10-09",
+          "cost": 1398.01,
+          "defense": null
         }
       ],
-      "holding_count": 3,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-10-09 15:00:00",
+          "action": "BUY",
+          "code": "600977",
+          "name": "中国电影",
+          "price": 13.93,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:31.5°)"
+        },
+        {
+          "time": "2026-10-09 15:00:00",
+          "action": "BUY",
+          "code": "600026",
+          "name": "中远海能",
+          "price": 23.49,
+          "shares": 100,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:36.8°)"
+        },
+        {
+          "time": "2026-10-09 15:00:00",
+          "action": "BUY",
+          "code": "300676",
+          "name": "华大基因",
+          "price": 45.47,
+          "shares": 1900,
+          "fees": 22.46,
+          "reason": "主升浪捕捉 (斜率:45.0°)"
+        },
         {
           "time": "2026-10-08 15:00:00",
           "action": "BUY",
@@ -158,48 +215,17 @@
           "fees": 9.56,
           "pnl": 930.3600000000006,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-09-29 15:00:00",
-          "action": "BUY",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 19.8,
-          "shares": 100,
-          "fees": 5.02,
-          "reason": "主升浪捕捉 (斜率:36.7°)"
-        },
-        {
-          "time": "2026-09-29 15:00:00",
-          "action": "SELL",
-          "code": "600048",
-          "name": "保利发展",
-          "price": 5.84,
-          "shares": 100,
-          "fees": 5.3,
-          "pnl": 5.690000000000055,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-09-28 15:00:00",
-          "action": "BUY",
-          "code": "688561",
-          "name": "奇安信",
-          "price": 29.77,
-          "shares": 2200,
-          "fees": 17.03,
-          "reason": "主升浪捕捉 (斜率:25.3°)"
         }
       ],
-      "transaction_count": 385,
-      "updated_at": "2026-10-08 17:32:11"
+      "transaction_count": 388,
+      "updated_at": "2026-10-09 17:32:07"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -42428.58,
-      "return": -0.0424,
-      "equity": 957571.42,
+      "pnl": -39258.58,
+      "return": -0.0393,
+      "equity": 960741.42,
       "holdings": [
         {
           "code": "688180",
@@ -528,7 +554,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-08 17:32:11"
+      "updated_at": "2026-10-09 17:32:07"
     }
   }
 }
