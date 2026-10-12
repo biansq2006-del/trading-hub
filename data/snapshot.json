@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 14:45:39",
+  "generated_at": "2026-10-12 22:18:10",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.27103960396039606,
-    "breadth_3m": 0.3378712871287129,
-    "median_1m": -0.04004719004719004,
-    "median_3m": -0.055705672015162244,
-    "median_vol": 0.29750120576609357
+    "breadth_1m": 0.2623762376237624,
+    "breadth_3m": 0.3688118811881188,
+    "median_1m": -0.04904983298727089,
+    "median_3m": -0.042028567306305,
+    "median_vol": 0.30066876588438196
   },
   "strategy_counts": {
-    "quality_v2": 47,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 190,
+    "quality_v2": 48,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 83,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 5,
+    "quality_left_v2": 4,
     "hybrid_v2": 20,
-    "legacy_bottom": 307,
-    "legacy_xma": 296,
-    "legacy_main_wave": 6
+    "legacy_bottom": 311,
+    "legacy_xma": 346,
+    "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 61.79751999980249,
-      "pnl": -314718.2,
-      "return": -0.3147,
-      "equity": 685281.8,
+      "cash": 1581.6475199998094,
+      "pnl": -320788.35,
+      "return": -0.3208,
+      "equity": 679211.65,
       "holdings": [
         {
           "code": "001979",
@@ -61,24 +61,6 @@
           "defense": null
         },
         {
-          "code": "300676",
-          "name": "华大基因",
-          "shares": 1900,
-          "buy_price": 45.47,
-          "buy_date": "2026-10-09",
-          "cost": 86415.46,
-          "defense": null
-        },
-        {
-          "code": "600026",
-          "name": "中远海能",
-          "shares": 100,
-          "buy_price": 23.49,
-          "buy_date": "2026-10-09",
-          "cost": 2354.02,
-          "defense": null
-        },
-        {
           "code": "600977",
           "name": "中国电影",
           "shares": 100,
@@ -86,10 +68,51 @@
           "buy_date": "2026-10-09",
           "cost": 1398.01,
           "defense": null
+        },
+        {
+          "code": "002487",
+          "name": "大金重工",
+          "shares": 1800,
+          "buy_price": 47.1,
+          "buy_date": "2026-10-12",
+          "cost": 84802.04,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-12 15:00:00",
+          "action": "BUY",
+          "code": "002487",
+          "name": "大金重工",
+          "price": 47.1,
+          "shares": 1800,
+          "fees": 22.04,
+          "reason": "主升浪捕捉 (斜率:60.8°)"
+        },
+        {
+          "time": "2026-10-12 15:00:00",
+          "action": "SELL",
+          "code": "600026",
+          "name": "中远海能",
+          "price": 21.65,
+          "shares": 100,
+          "fees": 6.1,
+          "pnl": -195.1199999999999,
+          "reason": "硬止损 (-7.8%)"
+        },
+        {
+          "time": "2026-10-12 15:00:00",
+          "action": "SELL",
+          "code": "300676",
+          "name": "华大基因",
+          "price": 44.33,
+          "shares": 1900,
+          "fees": 64.01,
+          "pnl": -2252.470000000001,
+          "reason": "技术形态恶化 (S点)"
+        },
         {
           "time": "2026-10-09 15:00:00",
           "action": "BUY",
@@ -182,50 +205,17 @@
           "fees": 154.52,
           "pnl": 3823.6600000000035,
           "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "SELL",
-          "code": "300207",
-          "name": "欣旺达",
-          "price": 21.5,
-          "shares": 9300,
-          "fees": 151.96,
-          "pnl": 912.3399999999965,
-          "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "SELL",
-          "code": "000739",
-          "name": "普洛药业",
-          "price": 27.26,
-          "shares": 7800,
-          "fees": 161.6,
-          "pnl": 14919.049999999988,
-          "reason": "持仓超时 (15天)"
-        },
-        {
-          "time": "2026-09-30 15:00:00",
-          "action": "SELL",
-          "code": "000002",
-          "name": "万科A",
-          "price": 4.26,
-          "shares": 2100,
-          "fees": 9.56,
-          "pnl": 930.3600000000006,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 388,
-      "updated_at": "2026-10-09 17:32:07"
+      "transaction_count": 391,
+      "updated_at": "2026-10-12 22:17:35"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -39258.58,
-      "return": -0.0393,
-      "equity": 960741.42,
+      "pnl": -61030.58,
+      "return": -0.061,
+      "equity": 938969.42,
       "holdings": [
         {
           "code": "688180",
@@ -554,7 +544,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-09 17:32:07"
+      "updated_at": "2026-10-12 22:17:35"
     }
   }
 }
