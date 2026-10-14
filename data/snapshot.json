@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 15:17:51",
+  "generated_at": "2026-10-15 07:20:20",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.2623762376237624,
-    "breadth_3m": 0.3688118811881188,
-    "median_1m": -0.04904983298727089,
-    "median_3m": -0.042028567306305,
-    "median_vol": 0.30066876588438196
+    "breadth_1m": 0.2400990099009901,
+    "breadth_3m": 0.38985148514851486,
+    "median_1m": -0.056529420801966546,
+    "median_3m": -0.04547319013762674,
+    "median_vol": 0.29925128935791606
   },
   "strategy_counts": {
-    "quality_v2": 48,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 83,
+    "quality_v2": 55,
+    "main_wave_v2": 2,
+    "left_reversal_v2": 42,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 4,
+    "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 311,
-    "legacy_xma": 346,
-    "legacy_main_wave": 2
+    "legacy_bottom": 301,
+    "legacy_xma": 374,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 1581.6475199998094,
-      "pnl": -320788.35,
-      "return": -0.3208,
-      "equity": 679211.65,
+      "cash": 353.3175199998461,
+      "pnl": -335609.68,
+      "return": -0.3356,
+      "equity": 664390.3200000001,
       "holdings": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "shares": 25500,
-          "buy_price": 7.82,
-          "buy_date": "2026-10-08",
-          "cost": 199461.85,
-          "defense": null
-        },
         {
           "code": "600027",
           "name": "华电国际",
@@ -77,10 +68,59 @@
           "buy_date": "2026-10-12",
           "cost": 84802.04,
           "defense": null
+        },
+        {
+          "code": "300413",
+          "name": "芒果超媒",
+          "shares": 7400,
+          "buy_price": 25.64,
+          "buy_date": "2026-10-14",
+          "cost": 189785.33,
+          "defense": null
+        },
+        {
+          "code": "600011",
+          "name": "华能国际",
+          "shares": 100,
+          "buy_price": 7.59,
+          "buy_date": "2026-10-14",
+          "cost": 764.01,
+          "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-10-14 15:00:00",
+          "action": "BUY",
+          "code": "600011",
+          "name": "华能国际",
+          "price": 7.59,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:26.3°)"
+        },
+        {
+          "time": "2026-10-14 15:00:00",
+          "action": "BUY",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 25.64,
+          "shares": 7400,
+          "fees": 49.33,
+          "reason": "主升浪捕捉 (斜率:52.3°)"
+        },
+        {
+          "time": "2026-10-13 15:00:00",
+          "action": "SELL",
+          "code": "001979",
+          "name": "招商蛇口",
+          "price": 7.43,
+          "shares": 25500,
+          "fees": 143.99,
+          "pnl": -10140.839999999997,
+          "reason": "硬止损 (-5.0%)"
+        },
         {
           "time": "2026-10-12 15:00:00",
           "action": "BUY",
@@ -172,50 +212,17 @@
           "shares": 25500,
           "fees": 51.85,
           "reason": "主升浪捕捉 (斜率:43.5°)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "SELL",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 19.17,
-          "shares": 100,
-          "fees": 5.98,
-          "pnl": -74.0,
-          "reason": "持仓超时 (9天)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "SELL",
-          "code": "688561",
-          "name": "奇安信",
-          "price": 27.93,
-          "shares": 2200,
-          "fees": 46.7,
-          "pnl": -4111.729999999996,
-          "reason": "硬止损 (-6.2%)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "SELL",
-          "code": "600886",
-          "name": "国投电力",
-          "price": 15.64,
-          "shares": 13000,
-          "fees": 154.52,
-          "pnl": 3823.6600000000035,
-          "reason": "持仓超时 (10天)"
         }
       ],
-      "transaction_count": 391,
-      "updated_at": "2026-10-12 22:17:35"
+      "transaction_count": 394,
+      "updated_at": "2026-10-14 23:52:38"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -61030.58,
-      "return": -0.061,
-      "equity": 938969.42,
+      "pnl": -83067.58,
+      "return": -0.08310000000000001,
+      "equity": 916932.42,
       "holdings": [
         {
           "code": "688180",
@@ -544,7 +551,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-12 22:17:35"
+      "updated_at": "2026-10-14 23:52:38"
     }
   }
 }
