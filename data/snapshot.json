@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 14:40:24",
+  "generated_at": "2026-10-15 17:32:35",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.2400990099009901,
-    "breadth_3m": 0.38985148514851486,
-    "median_1m": -0.056529420801966546,
-    "median_3m": -0.04547319013762674,
-    "median_vol": 0.29925128935791606
+    "breadth_1m": 0.1844059405940594,
+    "breadth_3m": 0.3155940594059406,
+    "median_1m": -0.08174896901765893,
+    "median_3m": -0.07007258567926794,
+    "median_vol": 0.30901789920728506
   },
   "strategy_counts": {
-    "quality_v2": 55,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 42,
+    "quality_v2": 64,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 106,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 2,
+    "quality_left_v2": 5,
     "hybrid_v2": 20,
-    "legacy_bottom": 301,
-    "legacy_xma": 374,
-    "legacy_main_wave": 4
+    "legacy_bottom": 427,
+    "legacy_xma": 448,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 353.3175199998461,
-      "pnl": -335609.68,
-      "return": -0.3356,
-      "equity": 664390.3200000001,
+      "cash": 245117.15751999983,
+      "pnl": -353083.84,
+      "return": -0.3531,
+      "equity": 646916.1599999999,
       "holdings": [
         {
           "code": "600027",
@@ -61,24 +61,6 @@
           "defense": null
         },
         {
-          "code": "002487",
-          "name": "大金重工",
-          "shares": 1800,
-          "buy_price": 47.1,
-          "buy_date": "2026-10-12",
-          "cost": 84802.04,
-          "defense": null
-        },
-        {
-          "code": "300413",
-          "name": "芒果超媒",
-          "shares": 7400,
-          "buy_price": 25.64,
-          "buy_date": "2026-10-14",
-          "cost": 189785.33,
-          "defense": null
-        },
-        {
           "code": "600011",
           "name": "华能国际",
           "shares": 100,
@@ -88,8 +70,30 @@
           "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-10-15 15:00:00",
+          "action": "SELL",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 24.51,
+          "shares": 7400,
+          "fees": 137.84,
+          "pnl": -8549.169999999984,
+          "reason": "硬止损 (-4.4%)"
+        },
+        {
+          "time": "2026-10-15 15:00:00",
+          "action": "SELL",
+          "code": "002487",
+          "name": "大金重工",
+          "price": 35.32,
+          "shares": 1800,
+          "fees": 48.32,
+          "pnl": -21274.359999999993,
+          "reason": "硬止损 (-25.0%)"
+        },
         {
           "time": "2026-10-14 15:00:00",
           "action": "BUY",
@@ -192,37 +196,17 @@
           "shares": 37100,
           "fees": 51.9,
           "reason": "主升浪捕捉 (斜率:25.0°)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "BUY",
-          "code": "600027",
-          "name": "华电国际",
-          "price": 5.16,
-          "shares": 38700,
-          "fees": 51.92,
-          "reason": "主升浪捕捉 (斜率:26.8°)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "BUY",
-          "code": "001979",
-          "name": "招商蛇口",
-          "price": 7.82,
-          "shares": 25500,
-          "fees": 51.85,
-          "reason": "主升浪捕捉 (斜率:43.5°)"
         }
       ],
-      "transaction_count": 394,
-      "updated_at": "2026-10-14 23:52:38"
+      "transaction_count": 396,
+      "updated_at": "2026-10-15 17:32:14"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -83067.58,
-      "return": -0.08310000000000001,
-      "equity": 916932.42,
+      "pnl": -99306.58,
+      "return": -0.0993,
+      "equity": 900693.42,
       "holdings": [
         {
           "code": "688180",
@@ -551,7 +535,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-14 23:52:38"
+      "updated_at": "2026-10-15 17:32:14"
     }
   }
 }
