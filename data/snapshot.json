@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16 14:40:20",
+  "generated_at": "2026-10-16 17:32:30",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,49 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.1844059405940594,
-    "breadth_3m": 0.3155940594059406,
-    "median_1m": -0.08174896901765893,
-    "median_3m": -0.07007258567926794,
-    "median_vol": 0.30901789920728506
+    "breadth_1m": 0.18935643564356436,
+    "breadth_3m": 0.3725247524752475,
+    "median_1m": -0.07585238279736534,
+    "median_3m": -0.043408123313186664,
+    "median_vol": 0.31067144796619733
   },
   "strategy_counts": {
-    "quality_v2": 64,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 106,
+    "quality_v2": 51,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 202,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 5,
+    "quality_left_v2": 9,
     "hybrid_v2": 20,
-    "legacy_bottom": 427,
-    "legacy_xma": 448,
-    "legacy_main_wave": 0
+    "legacy_bottom": 429,
+    "legacy_xma": 422,
+    "legacy_main_wave": 3
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 245117.15751999983,
-      "pnl": -353083.84,
-      "return": -0.3531,
-      "equity": 646916.1599999999,
+      "cash": 46820.897519999766,
+      "pnl": -352372.1,
+      "return": -0.35240000000000005,
+      "equity": 647627.9,
       "holdings": [
-        {
-          "code": "600027",
-          "name": "华电国际",
-          "shares": 38700,
-          "buy_price": 5.16,
-          "buy_date": "2026-10-08",
-          "cost": 199743.92,
-          "defense": null
-        },
-        {
-          "code": "600023",
-          "name": "浙能电力",
-          "shares": 37100,
-          "buy_price": 5.38,
-          "buy_date": "2026-10-08",
-          "cost": 199649.9,
-          "defense": null
-        },
         {
           "code": "600977",
           "name": "中国电影",
@@ -68,10 +50,89 @@
           "buy_date": "2026-10-14",
           "cost": 764.01,
           "defense": null
+        },
+        {
+          "code": "002244",
+          "name": "滨江集团",
+          "shares": 20400,
+          "buy_price": 9.76,
+          "buy_date": "2026-10-16",
+          "cost": 199155.77,
+          "defense": null
+        },
+        {
+          "code": "600316",
+          "name": "洪都航空",
+          "shares": 5300,
+          "buy_price": 37.66,
+          "buy_date": "2026-10-16",
+          "cost": 199649.9,
+          "defense": null
+        },
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "shares": 26000,
+          "buy_price": 7.69,
+          "buy_date": "2026-10-16",
+          "cost": 199991.98,
+          "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-16 15:00:00",
+          "action": "BUY",
+          "code": "001979",
+          "name": "招商蛇口",
+          "price": 7.69,
+          "shares": 26000,
+          "fees": 51.98,
+          "reason": "主升浪捕捉 (斜率:29.3°)"
+        },
+        {
+          "time": "2026-10-16 15:00:00",
+          "action": "BUY",
+          "code": "600316",
+          "name": "洪都航空",
+          "price": 37.66,
+          "shares": 5300,
+          "fees": 51.9,
+          "reason": "主升浪捕捉 (斜率:29.8°)"
+        },
+        {
+          "time": "2026-10-16 15:00:00",
+          "action": "BUY",
+          "code": "002244",
+          "name": "滨江集团",
+          "price": 9.76,
+          "shares": 20400,
+          "fees": 51.77,
+          "reason": "主升浪捕捉 (斜率:36.3°)"
+        },
+        {
+          "time": "2026-10-16 15:00:00",
+          "action": "SELL",
+          "code": "600023",
+          "name": "浙能电力",
+          "price": 5.4,
+          "shares": 37100,
+          "fees": 152.26,
+          "pnl": 537.8399999999965,
+          "reason": "持仓超时 (8天)"
+        },
+        {
+          "time": "2026-10-16 15:00:00",
+          "action": "SELL",
+          "code": "600027",
+          "name": "华电国际",
+          "price": 5.18,
+          "shares": 38700,
+          "fees": 152.35,
+          "pnl": 569.7299999999814,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-10-15 15:00:00",
           "action": "SELL",
@@ -145,68 +206,17 @@
           "fees": 6.1,
           "pnl": -195.1199999999999,
           "reason": "硬止损 (-7.8%)"
-        },
-        {
-          "time": "2026-10-12 15:00:00",
-          "action": "SELL",
-          "code": "300676",
-          "name": "华大基因",
-          "price": 44.33,
-          "shares": 1900,
-          "fees": 64.01,
-          "pnl": -2252.470000000001,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-10-09 15:00:00",
-          "action": "BUY",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 13.93,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:31.5°)"
-        },
-        {
-          "time": "2026-10-09 15:00:00",
-          "action": "BUY",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 23.49,
-          "shares": 100,
-          "fees": 5.02,
-          "reason": "主升浪捕捉 (斜率:36.8°)"
-        },
-        {
-          "time": "2026-10-09 15:00:00",
-          "action": "BUY",
-          "code": "300676",
-          "name": "华大基因",
-          "price": 45.47,
-          "shares": 1900,
-          "fees": 22.46,
-          "reason": "主升浪捕捉 (斜率:45.0°)"
-        },
-        {
-          "time": "2026-10-08 15:00:00",
-          "action": "BUY",
-          "code": "600023",
-          "name": "浙能电力",
-          "price": 5.38,
-          "shares": 37100,
-          "fees": 51.9,
-          "reason": "主升浪捕捉 (斜率:25.0°)"
         }
       ],
-      "transaction_count": 396,
-      "updated_at": "2026-10-15 17:32:14"
+      "transaction_count": 401,
+      "updated_at": "2026-10-16 17:32:09"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -99306.58,
-      "return": -0.0993,
-      "equity": 900693.42,
+      "pnl": -98229.58,
+      "return": -0.09820000000000001,
+      "equity": 901770.42,
       "holdings": [
         {
           "code": "688180",
@@ -535,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-15 17:32:14"
+      "updated_at": "2026-10-16 17:32:09"
     }
   }
 }
