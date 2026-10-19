@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 10:04:33",
+  "generated_at": "2026-10-19 17:33:11",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.18935643564356436,
-    "breadth_3m": 0.3725247524752475,
-    "median_1m": -0.07585238279736534,
-    "median_3m": -0.043408123313186664,
-    "median_vol": 0.31067144796619733
+    "breadth_1m": 0.2376237623762376,
+    "breadth_3m": 0.3527227722772277,
+    "median_1m": -0.06090766011788856,
+    "median_3m": -0.050070377917989295,
+    "median_vol": 0.3166540272332351
   },
   "strategy_counts": {
-    "quality_v2": 51,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 202,
+    "quality_v2": 52,
+    "main_wave_v2": 2,
+    "left_reversal_v2": 290,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 9,
+    "quality_left_v2": 18,
     "hybrid_v2": 20,
-    "legacy_bottom": 429,
-    "legacy_xma": 422,
-    "legacy_main_wave": 3
+    "legacy_bottom": 453,
+    "legacy_xma": 375,
+    "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 46820.897519999766,
-      "pnl": -352372.1,
-      "return": -0.35240000000000005,
-      "equity": 647627.9,
+      "cash": 2828.827519999759,
+      "pnl": -355424.17,
+      "return": -0.3554,
+      "equity": 644575.8300000001,
       "holdings": [
-        {
-          "code": "600977",
-          "name": "中国电影",
-          "shares": 100,
-          "buy_price": 13.93,
-          "buy_date": "2026-10-09",
-          "cost": 1398.01,
-          "defense": null
-        },
         {
           "code": "600011",
           "name": "华能国际",
@@ -49,15 +40,6 @@
           "buy_price": 7.59,
           "buy_date": "2026-10-14",
           "cost": 764.01,
-          "defense": null
-        },
-        {
-          "code": "002244",
-          "name": "滨江集团",
-          "shares": 20400,
-          "buy_price": 9.76,
-          "buy_date": "2026-10-16",
-          "cost": 199155.77,
           "defense": null
         },
         {
@@ -77,10 +59,70 @@
           "buy_date": "2026-10-16",
           "cost": 199991.98,
           "defense": null
+        },
+        {
+          "code": "600312",
+          "name": "平高电气",
+          "shares": 9300,
+          "buy_price": 21.42,
+          "buy_date": "2026-10-19",
+          "cost": 199257.79,
+          "defense": null
+        },
+        {
+          "code": "300832",
+          "name": "新产业",
+          "shares": 800,
+          "buy_price": 53.32,
+          "buy_date": "2026-10-19",
+          "cost": 42667.09,
+          "defense": null
         }
       ],
       "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-19 15:00:00",
+          "action": "BUY",
+          "code": "300832",
+          "name": "新产业",
+          "price": 53.32,
+          "shares": 800,
+          "fees": 11.09,
+          "reason": "主升浪捕捉 (斜率:27.3°)"
+        },
+        {
+          "time": "2026-10-19 15:00:00",
+          "action": "BUY",
+          "code": "600312",
+          "name": "平高电气",
+          "price": 21.42,
+          "shares": 9300,
+          "fees": 51.79,
+          "reason": "主升浪捕捉 (斜率:29.8°)"
+        },
+        {
+          "time": "2026-10-19 15:00:00",
+          "action": "SELL",
+          "code": "002244",
+          "name": "滨江集团",
+          "price": 9.64,
+          "shares": 20400,
+          "fees": 149.46,
+          "pnl": -2649.2299999999814,
+          "reason": "技术形态恶化 (S点)"
+        },
+        {
+          "time": "2026-10-19 15:00:00",
+          "action": "SELL",
+          "code": "600977",
+          "name": "中国电影",
+          "price": 14.32,
+          "shares": 100,
+          "fees": 5.73,
+          "pnl": 28.25999999999999,
+          "reason": "持仓超时 (10天)"
+        },
         {
           "time": "2026-10-16 15:00:00",
           "action": "BUY",
@@ -164,59 +206,17 @@
           "shares": 100,
           "fees": 5.01,
           "reason": "主升浪捕捉 (斜率:26.3°)"
-        },
-        {
-          "time": "2026-10-14 15:00:00",
-          "action": "BUY",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 25.64,
-          "shares": 7400,
-          "fees": 49.33,
-          "reason": "主升浪捕捉 (斜率:52.3°)"
-        },
-        {
-          "time": "2026-10-13 15:00:00",
-          "action": "SELL",
-          "code": "001979",
-          "name": "招商蛇口",
-          "price": 7.43,
-          "shares": 25500,
-          "fees": 143.99,
-          "pnl": -10140.839999999997,
-          "reason": "硬止损 (-5.0%)"
-        },
-        {
-          "time": "2026-10-12 15:00:00",
-          "action": "BUY",
-          "code": "002487",
-          "name": "大金重工",
-          "price": 47.1,
-          "shares": 1800,
-          "fees": 22.04,
-          "reason": "主升浪捕捉 (斜率:60.8°)"
-        },
-        {
-          "time": "2026-10-12 15:00:00",
-          "action": "SELL",
-          "code": "600026",
-          "name": "中远海能",
-          "price": 21.65,
-          "shares": 100,
-          "fees": 6.1,
-          "pnl": -195.1199999999999,
-          "reason": "硬止损 (-7.8%)"
         }
       ],
-      "transaction_count": 401,
-      "updated_at": "2026-10-16 17:32:09"
+      "transaction_count": 405,
+      "updated_at": "2026-10-19 17:32:49"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -98229.58,
-      "return": -0.09820000000000001,
-      "equity": 901770.42,
+      "pnl": -93392.58,
+      "return": -0.0934,
+      "equity": 906607.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-16 17:32:09"
+      "updated_at": "2026-10-19 17:32:49"
     }
   }
 }
