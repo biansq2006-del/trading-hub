@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 11:32:04",
+  "generated_at": "2026-10-20 17:32:48",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.2376237623762376,
-    "breadth_3m": 0.3527227722772277,
-    "median_1m": -0.06090766011788856,
-    "median_3m": -0.050070377917989295,
-    "median_vol": 0.3166540272332351
+    "breadth_1m": 0.28217821782178215,
+    "breadth_3m": 0.2871287128712871,
+    "median_1m": -0.042962363984741736,
+    "median_3m": -0.06673575352486416,
+    "median_vol": 0.31239548365608394
   },
   "strategy_counts": {
-    "quality_v2": 52,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 290,
+    "quality_v2": 51,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 166,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 18,
+    "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 453,
-    "legacy_xma": 375,
+    "legacy_bottom": 309,
+    "legacy_xma": 360,
     "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 2828.827519999759,
-      "pnl": -355424.17,
-      "return": -0.3554,
-      "equity": 644575.8300000001,
+      "cash": 101.80751999976928,
+      "pnl": -368802.19,
+      "return": -0.3688,
+      "equity": 631197.81,
       "holdings": [
         {
           "code": "600011",
@@ -52,15 +52,6 @@
           "defense": null
         },
         {
-          "code": "001979",
-          "name": "招商蛇口",
-          "shares": 26000,
-          "buy_price": 7.69,
-          "buy_date": "2026-10-16",
-          "cost": 199991.98,
-          "defense": null
-        },
-        {
           "code": "600312",
           "name": "平高电气",
           "shares": 9300,
@@ -77,10 +68,40 @@
           "buy_date": "2026-10-19",
           "cost": 42667.09,
           "defense": null
+        },
+        {
+          "code": "688018",
+          "name": "乐鑫科技",
+          "shares": 1400,
+          "buy_price": 140.72,
+          "buy_date": "2026-10-20",
+          "cost": 197059.22,
+          "defense": null
         }
       ],
       "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-20 15:00:00",
+          "action": "BUY",
+          "code": "688018",
+          "name": "乐鑫科技",
+          "price": 140.72,
+          "shares": 1400,
+          "fees": 51.22,
+          "reason": "主升浪捕捉 (斜率:58.9°)"
+        },
+        {
+          "time": "2026-10-20 15:00:00",
+          "action": "SELL",
+          "code": "001979",
+          "name": "招商蛇口",
+          "price": 7.48,
+          "shares": 26000,
+          "fees": 147.8,
+          "pnl": -5659.779999999999,
+          "reason": "技术形态恶化 (S点)"
+        },
         {
           "time": "2026-10-19 15:00:00",
           "action": "BUY",
@@ -185,38 +206,17 @@
           "fees": 137.84,
           "pnl": -8549.169999999984,
           "reason": "硬止损 (-4.4%)"
-        },
-        {
-          "time": "2026-10-15 15:00:00",
-          "action": "SELL",
-          "code": "002487",
-          "name": "大金重工",
-          "price": 35.32,
-          "shares": 1800,
-          "fees": 48.32,
-          "pnl": -21274.359999999993,
-          "reason": "硬止损 (-25.0%)"
-        },
-        {
-          "time": "2026-10-14 15:00:00",
-          "action": "BUY",
-          "code": "600011",
-          "name": "华能国际",
-          "price": 7.59,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:26.3°)"
         }
       ],
-      "transaction_count": 405,
-      "updated_at": "2026-10-19 17:32:49"
+      "transaction_count": 407,
+      "updated_at": "2026-10-20 17:32:25"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -93392.58,
-      "return": -0.0934,
-      "equity": 906607.42,
+      "pnl": -88309.58,
+      "return": -0.0883,
+      "equity": 911690.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-19 17:32:49"
+      "updated_at": "2026-10-20 17:32:25"
     }
   }
 }
