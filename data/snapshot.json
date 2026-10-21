@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21 14:40:23",
+  "generated_at": "2026-10-21 17:33:15",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.28217821782178215,
-    "breadth_3m": 0.2871287128712871,
-    "median_1m": -0.042962363984741736,
-    "median_3m": -0.06673575352486416,
-    "median_vol": 0.31239548365608394
+    "breadth_1m": 0.2301980198019802,
+    "breadth_3m": 0.28217821782178215,
+    "median_1m": -0.050429307682277824,
+    "median_3m": -0.07090188767554395,
+    "median_vol": 0.3140155410877667
   },
   "strategy_counts": {
-    "quality_v2": 51,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 166,
+    "quality_v2": 53,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 115,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 2,
+    "quality_left_v2": 3,
     "hybrid_v2": 20,
-    "legacy_bottom": 309,
-    "legacy_xma": 360,
-    "legacy_main_wave": 2
+    "legacy_bottom": 301,
+    "legacy_xma": 383,
+    "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 101.80751999976928,
-      "pnl": -368802.19,
-      "return": -0.3688,
-      "equity": 631197.81,
+      "pnl": -365249.19,
+      "return": -0.3652,
+      "equity": 634750.81,
       "holdings": [
         {
           "code": "600011",
@@ -209,14 +209,14 @@
         }
       ],
       "transaction_count": 407,
-      "updated_at": "2026-10-20 17:32:25"
+      "updated_at": "2026-10-21 17:32:52"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -88309.58,
-      "return": -0.0883,
-      "equity": 911690.42,
+      "pnl": -86159.58,
+      "return": -0.0862,
+      "equity": 913840.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-20 17:32:25"
+      "updated_at": "2026-10-21 17:32:52"
     }
   }
 }
