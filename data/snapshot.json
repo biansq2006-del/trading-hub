@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 15:38:30",
+  "generated_at": "2026-10-22 17:32:45",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,49 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.2301980198019802,
-    "breadth_3m": 0.28217821782178215,
-    "median_1m": -0.050429307682277824,
-    "median_3m": -0.07090188767554395,
-    "median_vol": 0.3140155410877667
+    "breadth_1m": 0.21534653465346534,
+    "breadth_3m": 0.29207920792079206,
+    "median_1m": -0.05555555555555558,
+    "median_3m": -0.05643138420063887,
+    "median_vol": 0.31771360638402724
   },
   "strategy_counts": {
-    "quality_v2": 53,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 115,
+    "quality_v2": 50,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 29,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 3,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 301,
-    "legacy_xma": 383,
+    "legacy_bottom": 302,
+    "legacy_xma": 465,
     "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 101.80751999976928,
-      "pnl": -365249.19,
-      "return": -0.3652,
-      "equity": 634750.81,
+      "cash": 191391.49751999977,
+      "pnl": -369455.5,
+      "return": -0.36950000000000005,
+      "equity": 630544.5,
       "holdings": [
-        {
-          "code": "600011",
-          "name": "华能国际",
-          "shares": 100,
-          "buy_price": 7.59,
-          "buy_date": "2026-10-14",
-          "cost": 764.01,
-          "defense": null
-        },
-        {
-          "code": "600316",
-          "name": "洪都航空",
-          "shares": 5300,
-          "buy_price": 37.66,
-          "buy_date": "2026-10-16",
-          "cost": 199649.9,
-          "defense": null
-        },
         {
           "code": "600312",
           "name": "平高电气",
@@ -79,8 +61,30 @@
           "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 3,
       "transactions": [
+        {
+          "time": "2026-10-22 15:00:00",
+          "action": "SELL",
+          "code": "600316",
+          "name": "洪都航空",
+          "price": 35.98,
+          "shares": 5300,
+          "fees": 144.93,
+          "pnl": -9100.829999999987,
+          "reason": "硬止损 (-4.5%)"
+        },
+        {
+          "time": "2026-10-22 15:00:00",
+          "action": "SELL",
+          "code": "600011",
+          "name": "华能国际",
+          "price": 7.46,
+          "shares": 100,
+          "fees": 5.38,
+          "pnl": -23.389999999999986,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-10-20 15:00:00",
           "action": "BUY",
@@ -184,39 +188,17 @@
           "fees": 152.26,
           "pnl": 537.8399999999965,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-10-16 15:00:00",
-          "action": "SELL",
-          "code": "600027",
-          "name": "华电国际",
-          "price": 5.18,
-          "shares": 38700,
-          "fees": 152.35,
-          "pnl": 569.7299999999814,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-10-15 15:00:00",
-          "action": "SELL",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 24.51,
-          "shares": 7400,
-          "fees": 137.84,
-          "pnl": -8549.169999999984,
-          "reason": "硬止损 (-4.4%)"
         }
       ],
-      "transaction_count": 407,
-      "updated_at": "2026-10-21 17:32:52"
+      "transaction_count": 409,
+      "updated_at": "2026-10-22 17:32:23"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -86159.58,
-      "return": -0.0862,
-      "equity": 913840.42,
+      "pnl": -98822.58,
+      "return": -0.09880000000000001,
+      "equity": 901177.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +527,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-21 17:32:52"
+      "updated_at": "2026-10-22 17:32:23"
     }
   }
 }
