@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 14:40:18",
+  "generated_at": "2026-10-23 21:26:22",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.21534653465346534,
-    "breadth_3m": 0.29207920792079206,
-    "median_1m": -0.05555555555555558,
-    "median_3m": -0.05643138420063887,
-    "median_vol": 0.31771360638402724
+    "breadth_1m": 0.29455445544554454,
+    "breadth_3m": 0.2834158415841584,
+    "median_1m": -0.0413539775937124,
+    "median_3m": -0.05910231673476107,
+    "median_vol": 0.3355344365768475
   },
   "strategy_counts": {
-    "quality_v2": 50,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 29,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_v2": 46,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 361,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 17,
     "hybrid_v2": 20,
-    "legacy_bottom": 302,
-    "legacy_xma": 465,
-    "legacy_main_wave": 1
+    "legacy_bottom": 457,
+    "legacy_xma": 330,
+    "legacy_main_wave": 12
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 191391.49751999977,
-      "pnl": -369455.5,
-      "return": -0.36950000000000005,
-      "equity": 630544.5,
+      "cash": 8.607519999764918,
+      "pnl": -347279.39,
+      "return": -0.34729999999999994,
+      "equity": 652720.61,
       "holdings": [
         {
           "code": "600312",
@@ -59,10 +59,48 @@
           "buy_date": "2026-10-20",
           "cost": 197059.22,
           "defense": null
+        },
+        {
+          "code": "301269",
+          "name": "华大九天",
+          "shares": 1700,
+          "buy_price": 108.2,
+          "buy_date": "2026-10-23",
+          "cost": 183987.82,
+          "defense": null
+        },
+        {
+          "code": "600977",
+          "name": "中国电影",
+          "shares": 500,
+          "buy_price": 14.78,
+          "buy_date": "2026-10-23",
+          "cost": 7395.07,
+          "defense": null
         }
       ],
-      "holding_count": 3,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-23 15:00:00",
+          "action": "BUY",
+          "code": "600977",
+          "name": "中国电影",
+          "price": 14.78,
+          "shares": 500,
+          "fees": 5.07,
+          "reason": "主升浪捕捉 (斜率:36.4°)"
+        },
+        {
+          "time": "2026-10-23 15:00:00",
+          "action": "BUY",
+          "code": "301269",
+          "name": "华大九天",
+          "price": 108.2,
+          "shares": 1700,
+          "fees": 47.82,
+          "reason": "主升浪捕捉 (斜率:50.7°)"
+        },
         {
           "time": "2026-10-22 15:00:00",
           "action": "SELL",
@@ -167,38 +205,17 @@
           "shares": 5300,
           "fees": 51.9,
           "reason": "主升浪捕捉 (斜率:29.8°)"
-        },
-        {
-          "time": "2026-10-16 15:00:00",
-          "action": "BUY",
-          "code": "002244",
-          "name": "滨江集团",
-          "price": 9.76,
-          "shares": 20400,
-          "fees": 51.77,
-          "reason": "主升浪捕捉 (斜率:36.3°)"
-        },
-        {
-          "time": "2026-10-16 15:00:00",
-          "action": "SELL",
-          "code": "600023",
-          "name": "浙能电力",
-          "price": 5.4,
-          "shares": 37100,
-          "fees": 152.26,
-          "pnl": 537.8399999999965,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 409,
-      "updated_at": "2026-10-22 17:32:23"
+      "transaction_count": 411,
+      "updated_at": "2026-10-23 21:25:46"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -98822.58,
-      "return": -0.09880000000000001,
-      "equity": 901177.42,
+      "pnl": -81766.58,
+      "return": -0.0818,
+      "equity": 918233.42,
       "holdings": [
         {
           "code": "688180",
@@ -527,7 +544,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-22 17:32:23"
+      "updated_at": "2026-10-23 21:25:46"
     }
   }
 }
