@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-26 14:56:16",
+  "generated_at": "2026-10-26 17:33:10",
   "stock_count": 808,
   "regime": {
-    "state": "防守",
-    "code": "defensive",
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
     "primary": "质量选股",
-    "secondary": "现金管理",
-    "exposure": "10% - 25%",
-    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.29455445544554454,
-    "breadth_3m": 0.2834158415841584,
-    "median_1m": -0.0413539775937124,
-    "median_3m": -0.05910231673476107,
-    "median_vol": 0.3355344365768475
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.34282178217821785,
+    "breadth_3m": 0.27103960396039606,
+    "median_1m": -0.0338552567757025,
+    "median_3m": -0.06593463017162143,
+    "median_vol": 0.3422804325835477
   },
   "strategy_counts": {
-    "quality_v2": 46,
-    "main_wave_v2": 6,
-    "left_reversal_v2": 361,
+    "quality_v2": 45,
+    "main_wave_v2": 7,
+    "left_reversal_v2": 237,
     "quality_main_wave_v2": 1,
-    "quality_left_v2": 17,
+    "quality_left_v2": 22,
     "hybrid_v2": 20,
-    "legacy_bottom": 457,
-    "legacy_xma": 330,
-    "legacy_main_wave": 12
+    "legacy_bottom": 454,
+    "legacy_xma": 316,
+    "legacy_main_wave": 7
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 8.607519999764918,
-      "pnl": -347279.39,
-      "return": -0.34729999999999994,
-      "equity": 652720.61,
+      "cash": 12.067519999764045,
+      "pnl": -352139.93,
+      "return": -0.3521,
+      "equity": 647860.0700000001,
       "holdings": [
         {
           "code": "600312",
@@ -40,15 +40,6 @@
           "buy_price": 21.42,
           "buy_date": "2026-10-19",
           "cost": 199257.79,
-          "defense": null
-        },
-        {
-          "code": "300832",
-          "name": "新产业",
-          "shares": 800,
-          "buy_price": 53.32,
-          "buy_date": "2026-10-19",
-          "cost": 42667.09,
           "defense": null
         },
         {
@@ -77,10 +68,40 @@
           "buy_date": "2026-10-23",
           "cost": 7395.07,
           "defense": null
+        },
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "shares": 3700,
+          "buy_price": 13.38,
+          "buy_date": "2026-10-26",
+          "cost": 49518.87,
+          "defense": null
         }
       ],
       "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-26 15:00:00",
+          "action": "BUY",
+          "code": "601857",
+          "name": "中国石油",
+          "price": 13.38,
+          "shares": 3700,
+          "fees": 12.87,
+          "reason": "主升浪捕捉 (斜率:50.1°)"
+        },
+        {
+          "time": "2026-10-26 15:00:00",
+          "action": "SELL",
+          "code": "300832",
+          "name": "新产业",
+          "price": 61.95,
+          "shares": 800,
+          "fees": 37.67,
+          "pnl": 6855.240000000005,
+          "reason": "硬止盈 (+16.2%)"
+        },
         {
           "time": "2026-10-23 15:00:00",
           "action": "BUY",
@@ -185,37 +206,17 @@
           "fees": 5.73,
           "pnl": 28.25999999999999,
           "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-10-16 15:00:00",
-          "action": "BUY",
-          "code": "001979",
-          "name": "招商蛇口",
-          "price": 7.69,
-          "shares": 26000,
-          "fees": 51.98,
-          "reason": "主升浪捕捉 (斜率:29.3°)"
-        },
-        {
-          "time": "2026-10-16 15:00:00",
-          "action": "BUY",
-          "code": "600316",
-          "name": "洪都航空",
-          "price": 37.66,
-          "shares": 5300,
-          "fees": 51.9,
-          "reason": "主升浪捕捉 (斜率:29.8°)"
         }
       ],
-      "transaction_count": 411,
-      "updated_at": "2026-10-23 21:25:46"
+      "transaction_count": 413,
+      "updated_at": "2026-10-26 17:32:49"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -81766.58,
-      "return": -0.0818,
-      "equity": 918233.42,
+      "pnl": -89261.58,
+      "return": -0.08929999999999999,
+      "equity": 910738.42,
       "holdings": [
         {
           "code": "688180",
@@ -544,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-23 21:25:46"
+      "updated_at": "2026-10-26 17:32:49"
     }
   }
 }
