@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-10-27 14:49:46",
+  "generated_at": "2026-10-27 17:34:54",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
+    "state": "防守",
+    "code": "defensive",
     "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.34282178217821785,
-    "breadth_3m": 0.27103960396039606,
-    "median_1m": -0.0338552567757025,
-    "median_3m": -0.06593463017162143,
-    "median_vol": 0.3422804325835477
+    "secondary": "现金管理",
+    "exposure": "10% - 25%",
+    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
+    "breadth_1m": 0.26485148514851486,
+    "breadth_3m": 0.22277227722772278,
+    "median_1m": -0.05980157781087553,
+    "median_3m": -0.08552163449686478,
+    "median_vol": 0.34404209859567736
   },
   "strategy_counts": {
-    "quality_v2": 45,
-    "main_wave_v2": 7,
-    "left_reversal_v2": 237,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 22,
+    "quality_v2": 56,
+    "main_wave_v2": 2,
+    "left_reversal_v2": 66,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 18,
     "hybrid_v2": 20,
-    "legacy_bottom": 454,
-    "legacy_xma": 316,
-    "legacy_main_wave": 7
+    "legacy_bottom": 455,
+    "legacy_xma": 409,
+    "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 12.067519999764045,
-      "pnl": -352139.93,
-      "return": -0.3521,
-      "equity": 647860.0700000001,
+      "cash": 1341.3675199997379,
+      "pnl": -379415.63,
+      "return": -0.37939999999999996,
+      "equity": 620584.37,
       "holdings": [
-        {
-          "code": "600312",
-          "name": "平高电气",
-          "shares": 9300,
-          "buy_price": 21.42,
-          "buy_date": "2026-10-19",
-          "cost": 199257.79,
-          "defense": null
-        },
         {
           "code": "688018",
           "name": "乐鑫科技",
@@ -49,15 +40,6 @@
           "buy_price": 140.72,
           "buy_date": "2026-10-20",
           "cost": 197059.22,
-          "defense": null
-        },
-        {
-          "code": "301269",
-          "name": "华大九天",
-          "shares": 1700,
-          "buy_price": 108.2,
-          "buy_date": "2026-10-23",
-          "cost": 183987.82,
           "defense": null
         },
         {
@@ -77,10 +59,70 @@
           "buy_date": "2026-10-26",
           "cost": 49518.87,
           "defense": null
+        },
+        {
+          "code": "603658",
+          "name": "安图生物",
+          "shares": 5200,
+          "buy_price": 38.19,
+          "buy_date": "2026-10-27",
+          "cost": 198639.63,
+          "defense": null
+        },
+        {
+          "code": "600295",
+          "name": "鄂尔多斯",
+          "shares": 11700,
+          "buy_price": 14.65,
+          "buy_date": "2026-10-27",
+          "cost": 171449.57,
+          "defense": null
         }
       ],
       "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-10-27 15:00:00",
+          "action": "BUY",
+          "code": "600295",
+          "name": "鄂尔多斯",
+          "price": 14.65,
+          "shares": 11700,
+          "fees": 44.57,
+          "reason": "主升浪捕捉 (斜率:26.3°)"
+        },
+        {
+          "time": "2026-10-27 15:00:00",
+          "action": "BUY",
+          "code": "603658",
+          "name": "安图生物",
+          "price": 38.19,
+          "shares": 5200,
+          "fees": 51.63,
+          "reason": "主升浪捕捉 (斜率:40.2°)"
+        },
+        {
+          "time": "2026-10-27 15:00:00",
+          "action": "SELL",
+          "code": "301269",
+          "name": "华大九天",
+          "price": 103.82,
+          "shares": 1700,
+          "fees": 134.14,
+          "pnl": -7627.960000000021,
+          "reason": "硬止损 (-4.0%)"
+        },
+        {
+          "time": "2026-10-27 15:00:00",
+          "action": "SELL",
+          "code": "600312",
+          "name": "平高电气",
+          "price": 20.99,
+          "shares": 9300,
+          "fees": 148.36,
+          "pnl": -4199.149999999994,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-10-26 15:00:00",
           "action": "BUY",
@@ -164,59 +206,17 @@
           "fees": 147.8,
           "pnl": -5659.779999999999,
           "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-10-19 15:00:00",
-          "action": "BUY",
-          "code": "300832",
-          "name": "新产业",
-          "price": 53.32,
-          "shares": 800,
-          "fees": 11.09,
-          "reason": "主升浪捕捉 (斜率:27.3°)"
-        },
-        {
-          "time": "2026-10-19 15:00:00",
-          "action": "BUY",
-          "code": "600312",
-          "name": "平高电气",
-          "price": 21.42,
-          "shares": 9300,
-          "fees": 51.79,
-          "reason": "主升浪捕捉 (斜率:29.8°)"
-        },
-        {
-          "time": "2026-10-19 15:00:00",
-          "action": "SELL",
-          "code": "002244",
-          "name": "滨江集团",
-          "price": 9.64,
-          "shares": 20400,
-          "fees": 149.46,
-          "pnl": -2649.2299999999814,
-          "reason": "技术形态恶化 (S点)"
-        },
-        {
-          "time": "2026-10-19 15:00:00",
-          "action": "SELL",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 14.32,
-          "shares": 100,
-          "fees": 5.73,
-          "pnl": 28.25999999999999,
-          "reason": "持仓超时 (10天)"
         }
       ],
-      "transaction_count": 413,
-      "updated_at": "2026-10-26 17:32:49"
+      "transaction_count": 417,
+      "updated_at": "2026-10-27 17:34:32"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -89261.58,
-      "return": -0.08929999999999999,
-      "equity": 910738.42,
+      "pnl": -103685.58,
+      "return": -0.10369999999999999,
+      "equity": 896314.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +545,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-26 17:32:49"
+      "updated_at": "2026-10-27 17:34:32"
     }
   }
 }
