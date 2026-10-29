@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 14:40:18",
+  "generated_at": "2026-10-29 09:48:18",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.26485148514851486,
-    "breadth_3m": 0.22277227722772278,
-    "median_1m": -0.05980157781087553,
-    "median_3m": -0.08552163449686478,
-    "median_vol": 0.34404209859567736
+    "breadth_1m": 0.22772277227722773,
+    "breadth_3m": 0.2202970297029703,
+    "median_1m": -0.0672635929771429,
+    "median_3m": -0.0884967686122844,
+    "median_vol": 0.34665299969033736
   },
   "strategy_counts": {
-    "quality_v2": 56,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 66,
+    "quality_v2": 51,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 183,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 18,
+    "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 455,
-    "legacy_xma": 409,
-    "legacy_main_wave": 2
+    "legacy_bottom": 145,
+    "legacy_xma": 389,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 1341.3675199997379,
-      "pnl": -379415.63,
-      "return": -0.37939999999999996,
-      "equity": 620584.37,
+      "cash": 887.0975199997285,
+      "pnl": -371108.9,
+      "return": -0.3711,
+      "equity": 628891.1,
       "holdings": [
-        {
-          "code": "688018",
-          "name": "乐鑫科技",
-          "shares": 1400,
-          "buy_price": 140.72,
-          "buy_date": "2026-10-20",
-          "cost": 197059.22,
-          "defense": null
-        },
         {
           "code": "600977",
           "name": "中国电影",
@@ -77,10 +68,59 @@
           "buy_date": "2026-10-27",
           "cost": 171449.57,
           "defense": null
+        },
+        {
+          "code": "002472",
+          "name": "双环传动",
+          "shares": 4400,
+          "buy_price": 45.1,
+          "buy_date": "2026-10-28",
+          "cost": 198491.59,
+          "defense": null
+        },
+        {
+          "code": "601808",
+          "name": "中海油服",
+          "shares": 100,
+          "buy_price": 13.76,
+          "buy_date": "2026-10-28",
+          "cost": 1381.01,
+          "defense": null
         }
       ],
-      "holding_count": 5,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-10-28 15:00:00",
+          "action": "BUY",
+          "code": "601808",
+          "name": "中海油服",
+          "price": 13.76,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "主升浪捕捉 (斜率:31.3°)"
+        },
+        {
+          "time": "2026-10-28 15:00:00",
+          "action": "BUY",
+          "code": "002472",
+          "name": "双环传动",
+          "price": 45.1,
+          "shares": 4400,
+          "fees": 51.59,
+          "reason": "主升浪捕捉 (斜率:44.4°)"
+        },
+        {
+          "time": "2026-10-28 15:00:00",
+          "action": "SELL",
+          "code": "688018",
+          "name": "乐鑫科技",
+          "price": 142.55,
+          "shares": 1400,
+          "fees": 151.67,
+          "pnl": 2359.109999999986,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-10-27 15:00:00",
           "action": "BUY",
@@ -174,49 +214,17 @@
           "fees": 144.93,
           "pnl": -9100.829999999987,
           "reason": "硬止损 (-4.5%)"
-        },
-        {
-          "time": "2026-10-22 15:00:00",
-          "action": "SELL",
-          "code": "600011",
-          "name": "华能国际",
-          "price": 7.46,
-          "shares": 100,
-          "fees": 5.38,
-          "pnl": -23.389999999999986,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-10-20 15:00:00",
-          "action": "BUY",
-          "code": "688018",
-          "name": "乐鑫科技",
-          "price": 140.72,
-          "shares": 1400,
-          "fees": 51.22,
-          "reason": "主升浪捕捉 (斜率:58.9°)"
-        },
-        {
-          "time": "2026-10-20 15:00:00",
-          "action": "SELL",
-          "code": "001979",
-          "name": "招商蛇口",
-          "price": 7.48,
-          "shares": 26000,
-          "fees": 147.8,
-          "pnl": -5659.779999999999,
-          "reason": "技术形态恶化 (S点)"
         }
       ],
-      "transaction_count": 417,
-      "updated_at": "2026-10-27 17:34:32"
+      "transaction_count": 420,
+      "updated_at": "2026-10-29 09:47:19"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -103685.58,
-      "return": -0.10369999999999999,
-      "equity": 896314.42,
+      "pnl": -94117.58,
+      "return": -0.0941,
+      "equity": 905882.42,
       "holdings": [
         {
           "code": "688180",
@@ -545,7 +553,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-27 17:34:32"
+      "updated_at": "2026-10-29 09:47:19"
     }
   }
 }
