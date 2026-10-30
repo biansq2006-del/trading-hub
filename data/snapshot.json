@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 14:40:20",
+  "generated_at": "2026-10-30 17:33:53",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,30 +8,30 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.22772277227722773,
-    "breadth_3m": 0.27970297029702973,
-    "median_1m": -0.07638331996792297,
-    "median_3m": -0.06909085763341855,
-    "median_vol": 0.35387821134440783
+    "breadth_1m": 0.24876237623762376,
+    "breadth_3m": 0.2202970297029703,
+    "median_1m": -0.08459615918976393,
+    "median_3m": -0.09926163221120593,
+    "median_vol": 0.3696640798562679
   },
   "strategy_counts": {
-    "quality_v2": 51,
+    "quality_v2": 52,
     "main_wave_v2": 6,
-    "left_reversal_v2": 58,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 3,
+    "left_reversal_v2": 124,
+    "quality_main_wave_v2": 2,
+    "quality_left_v2": 7,
     "hybrid_v2": 20,
-    "legacy_bottom": 255,
-    "legacy_xma": 423,
+    "legacy_bottom": 358,
+    "legacy_xma": 466,
     "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 416.2575199997227,
-      "pnl": -382522.74,
-      "return": -0.3825,
-      "equity": 617477.26,
+      "pnl": -368372.74,
+      "return": -0.36840000000000006,
+      "equity": 631627.26,
       "holdings": [
         {
           "code": "600977",
@@ -226,14 +226,14 @@
         }
       ],
       "transaction_count": 423,
-      "updated_at": "2026-10-30 09:30:42"
+      "updated_at": "2026-10-30 17:33:30"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -109183.58,
-      "return": -0.1092,
-      "equity": 890816.42,
+      "pnl": -120343.58,
+      "return": -0.12029999999999999,
+      "equity": 879656.42,
       "holdings": [
         {
           "code": "688180",
@@ -562,7 +562,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-30 09:30:42"
+      "updated_at": "2026-10-30 17:33:30"
     }
   }
 }
