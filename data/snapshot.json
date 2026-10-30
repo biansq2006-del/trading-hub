@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 11:51:53",
+  "generated_at": "2026-10-30 09:30:57",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -9,29 +9,29 @@
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
     "breadth_1m": 0.22772277227722773,
-    "breadth_3m": 0.2202970297029703,
-    "median_1m": -0.0672635929771429,
-    "median_3m": -0.0884967686122844,
-    "median_vol": 0.34665299969033736
+    "breadth_3m": 0.27970297029702973,
+    "median_1m": -0.07638331996792297,
+    "median_3m": -0.06909085763341855,
+    "median_vol": 0.35387821134440783
   },
   "strategy_counts": {
-    "quality_v2": 51,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 183,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 2,
+    "quality_v2": 53,
+    "main_wave_v2": 6,
+    "left_reversal_v2": 58,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 3,
     "hybrid_v2": 20,
-    "legacy_bottom": 145,
-    "legacy_xma": 389,
-    "legacy_main_wave": 4
+    "legacy_bottom": 255,
+    "legacy_xma": 423,
+    "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 887.0975199997285,
-      "pnl": -371108.9,
-      "return": -0.3711,
-      "equity": 628891.1,
+      "cash": 416.2575199997227,
+      "pnl": -382522.74,
+      "return": -0.3825,
+      "equity": 617477.26,
       "holdings": [
         {
           "code": "600977",
@@ -70,15 +70,6 @@
           "defense": null
         },
         {
-          "code": "002472",
-          "name": "双环传动",
-          "shares": 4400,
-          "buy_price": 45.1,
-          "buy_date": "2026-10-28",
-          "cost": 198491.59,
-          "defense": null
-        },
-        {
           "code": "601808",
           "name": "中海油服",
           "shares": 100,
@@ -86,10 +77,59 @@
           "buy_date": "2026-10-28",
           "cost": 1381.01,
           "defense": null
+        },
+        {
+          "code": "300979",
+          "name": "华利集团",
+          "shares": 4900,
+          "buy_price": 38.55,
+          "buy_date": "2026-10-29",
+          "cost": 188944.11,
+          "defense": null
+        },
+        {
+          "code": "003816",
+          "name": "中国广核",
+          "shares": 100,
+          "buy_price": 4.9,
+          "buy_date": "2026-10-29",
+          "cost": 495.0,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-10-29 15:00:00",
+          "action": "BUY",
+          "code": "003816",
+          "name": "中国广核",
+          "price": 4.9,
+          "shares": 100,
+          "fees": 5.0,
+          "reason": "主升浪捕捉 (斜率:39.0°)"
+        },
+        {
+          "time": "2026-10-29 15:00:00",
+          "action": "BUY",
+          "code": "300979",
+          "name": "华利集团",
+          "price": 38.55,
+          "shares": 4900,
+          "fees": 49.11,
+          "reason": "主升浪捕捉 (斜率:40.2°)"
+        },
+        {
+          "time": "2026-10-29 15:00:00",
+          "action": "SELL",
+          "code": "002472",
+          "name": "双环传动",
+          "price": 42.98,
+          "shares": 4400,
+          "fees": 143.73,
+          "pnl": -9523.320000000007,
+          "reason": "硬止损 (-4.7%)"
+        },
         {
           "time": "2026-10-28 15:00:00",
           "action": "BUY",
@@ -183,48 +223,17 @@
           "fees": 37.67,
           "pnl": 6855.240000000005,
           "reason": "硬止盈 (+16.2%)"
-        },
-        {
-          "time": "2026-10-23 15:00:00",
-          "action": "BUY",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 14.78,
-          "shares": 500,
-          "fees": 5.07,
-          "reason": "主升浪捕捉 (斜率:36.4°)"
-        },
-        {
-          "time": "2026-10-23 15:00:00",
-          "action": "BUY",
-          "code": "301269",
-          "name": "华大九天",
-          "price": 108.2,
-          "shares": 1700,
-          "fees": 47.82,
-          "reason": "主升浪捕捉 (斜率:50.7°)"
-        },
-        {
-          "time": "2026-10-22 15:00:00",
-          "action": "SELL",
-          "code": "600316",
-          "name": "洪都航空",
-          "price": 35.98,
-          "shares": 5300,
-          "fees": 144.93,
-          "pnl": -9100.829999999987,
-          "reason": "硬止损 (-4.5%)"
         }
       ],
-      "transaction_count": 420,
-      "updated_at": "2026-10-29 09:47:19"
+      "transaction_count": 423,
+      "updated_at": "2026-10-30 09:30:42"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -94117.58,
-      "return": -0.0941,
-      "equity": 905882.42,
+      "pnl": -109183.58,
+      "return": -0.1092,
+      "equity": 890816.42,
       "holdings": [
         {
           "code": "688180",
@@ -553,7 +562,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-29 09:47:19"
+      "updated_at": "2026-10-30 09:30:42"
     }
   }
 }
