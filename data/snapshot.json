@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 15:29:14",
+  "generated_at": "2026-11-02 17:33:48",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.24876237623762376,
-    "breadth_3m": 0.2202970297029703,
-    "median_1m": -0.08459615918976393,
-    "median_3m": -0.09926163221120593,
-    "median_vol": 0.3696640798562679
+    "breadth_1m": 0.3341584158415842,
+    "breadth_3m": 0.2722772277227723,
+    "median_1m": -0.05275390684730419,
+    "median_3m": -0.07012305149147996,
+    "median_vol": 0.38757768107848334
   },
   "strategy_counts": {
     "quality_v2": 52,
     "main_wave_v2": 6,
-    "left_reversal_v2": 124,
-    "quality_main_wave_v2": 2,
+    "left_reversal_v2": 289,
+    "quality_main_wave_v2": 0,
     "quality_left_v2": 7,
     "hybrid_v2": 20,
-    "legacy_bottom": 358,
-    "legacy_xma": 466,
+    "legacy_bottom": 389,
+    "legacy_xma": 371,
     "legacy_main_wave": 6
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 416.2575199997227,
-      "pnl": -368372.74,
-      "return": -0.36840000000000006,
-      "equity": 631627.26,
+      "cash": 1000.3375199997226,
+      "pnl": -370601.66,
+      "return": -0.37060000000000004,
+      "equity": 629398.3400000001,
       "holdings": [
-        {
-          "code": "600977",
-          "name": "中国电影",
-          "shares": 500,
-          "buy_price": 14.78,
-          "buy_date": "2026-10-23",
-          "cost": 7395.07,
-          "defense": null
-        },
         {
           "code": "601857",
           "name": "中国石油",
@@ -95,10 +86,40 @@
           "buy_date": "2026-10-29",
           "cost": 495.0,
           "defense": null
+        },
+        {
+          "code": "603369",
+          "name": "今世缘",
+          "shares": 200,
+          "buy_price": 34.76,
+          "buy_date": "2026-11-02",
+          "cost": 6957.07,
+          "defense": null
         }
       ],
       "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-11-02 15:00:00",
+          "action": "BUY",
+          "code": "603369",
+          "name": "今世缘",
+          "price": 34.76,
+          "shares": 200,
+          "fees": 5.07,
+          "reason": "主升浪捕捉 (斜率:54.1°)"
+        },
+        {
+          "time": "2026-11-02 15:00:00",
+          "action": "SELL",
+          "code": "600977",
+          "name": "中国电影",
+          "price": 15.1,
+          "shares": 500,
+          "fees": 8.85,
+          "pnl": 146.07999999999993,
+          "reason": "持仓超时 (10天)"
+        },
         {
           "time": "2026-10-29 15:00:00",
           "action": "BUY",
@@ -202,38 +223,17 @@
           "fees": 148.36,
           "pnl": -4199.149999999994,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-10-26 15:00:00",
-          "action": "BUY",
-          "code": "601857",
-          "name": "中国石油",
-          "price": 13.38,
-          "shares": 3700,
-          "fees": 12.87,
-          "reason": "主升浪捕捉 (斜率:50.1°)"
-        },
-        {
-          "time": "2026-10-26 15:00:00",
-          "action": "SELL",
-          "code": "300832",
-          "name": "新产业",
-          "price": 61.95,
-          "shares": 800,
-          "fees": 37.67,
-          "pnl": 6855.240000000005,
-          "reason": "硬止盈 (+16.2%)"
         }
       ],
-      "transaction_count": 423,
-      "updated_at": "2026-10-30 17:33:30"
+      "transaction_count": 425,
+      "updated_at": "2026-11-02 17:33:26"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 105.41563000028896,
-      "pnl": -120343.58,
-      "return": -0.12029999999999999,
-      "equity": 879656.42,
+      "pnl": -108259.58,
+      "return": -0.10830000000000001,
+      "equity": 891740.42,
       "holdings": [
         {
           "code": "688180",
@@ -562,7 +562,7 @@
         }
       ],
       "transaction_count": 100,
-      "updated_at": "2026-10-30 17:33:30"
+      "updated_at": "2026-11-02 17:33:26"
     }
   }
 }
