@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-11-03 14:53:56",
+  "generated_at": "2026-11-03 17:43:45",
   "stock_count": 808,
   "regime": {
-    "state": "防守",
-    "code": "defensive",
+    "state": "混合偏防守",
+    "code": "mixed-defensive",
     "primary": "质量选股",
-    "secondary": "现金管理",
-    "exposure": "10% - 25%",
-    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.3341584158415842,
-    "breadth_3m": 0.2722772277227723,
-    "median_1m": -0.05275390684730419,
-    "median_3m": -0.07012305149147996,
-    "median_vol": 0.38757768107848334
+    "secondary": "质量左侧观察",
+    "exposure": "20% - 35%",
+    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
+    "breadth_1m": 0.39851485148514854,
+    "breadth_3m": 0.24752475247524752,
+    "median_1m": -0.03160480686165623,
+    "median_3m": -0.08096923817428275,
+    "median_vol": 0.38672546543727554
   },
   "strategy_counts": {
-    "quality_v2": 52,
-    "main_wave_v2": 6,
-    "left_reversal_v2": 289,
-    "quality_main_wave_v2": 0,
+    "quality_v2": 49,
+    "main_wave_v2": 8,
+    "left_reversal_v2": 228,
+    "quality_main_wave_v2": 1,
     "quality_left_v2": 7,
     "hybrid_v2": 20,
-    "legacy_bottom": 389,
-    "legacy_xma": 371,
-    "legacy_main_wave": 6
+    "legacy_bottom": 390,
+    "legacy_xma": 345,
+    "legacy_main_wave": 10
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 1000.3375199997226,
-      "pnl": -370601.66,
-      "return": -0.37060000000000004,
-      "equity": 629398.3400000001,
+      "cash": 223.93751999971983,
+      "pnl": -365167.06,
+      "return": -0.3652,
+      "equity": 634832.94,
       "holdings": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "shares": 3700,
-          "buy_price": 13.38,
-          "buy_date": "2026-10-26",
-          "cost": 49518.87,
-          "defense": null
-        },
         {
           "code": "603658",
           "name": "安图生物",
@@ -95,10 +86,59 @@
           "buy_date": "2026-11-02",
           "cost": 6957.07,
           "defense": null
+        },
+        {
+          "code": "300413",
+          "name": "芒果超媒",
+          "shares": 1800,
+          "buy_price": 27.8,
+          "buy_date": "2026-11-03",
+          "cost": 50053.01,
+          "defense": null
+        },
+        {
+          "code": "000400",
+          "name": "许继电气",
+          "shares": 100,
+          "buy_price": 24.79,
+          "buy_date": "2026-11-03",
+          "cost": 2484.02,
+          "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 8,
       "transactions": [
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "BUY",
+          "code": "000400",
+          "name": "许继电气",
+          "price": 24.79,
+          "shares": 100,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:40.3°)"
+        },
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "BUY",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 27.8,
+          "shares": 1800,
+          "fees": 13.01,
+          "reason": "主升浪捕捉 (斜率:59.9°)"
+        },
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "SELL",
+          "code": "601857",
+          "name": "中国石油",
+          "price": 14.0,
+          "shares": 3700,
+          "fees": 39.37,
+          "pnl": 2241.7599999999948,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-02 15:00:00",
           "action": "BUY",
@@ -191,49 +231,17 @@
           "shares": 11700,
           "fees": 44.57,
           "reason": "主升浪捕捉 (斜率:26.3°)"
-        },
-        {
-          "time": "2026-10-27 15:00:00",
-          "action": "BUY",
-          "code": "603658",
-          "name": "安图生物",
-          "price": 38.19,
-          "shares": 5200,
-          "fees": 51.63,
-          "reason": "主升浪捕捉 (斜率:40.2°)"
-        },
-        {
-          "time": "2026-10-27 15:00:00",
-          "action": "SELL",
-          "code": "301269",
-          "name": "华大九天",
-          "price": 103.82,
-          "shares": 1700,
-          "fees": 134.14,
-          "pnl": -7627.960000000021,
-          "reason": "硬止损 (-4.0%)"
-        },
-        {
-          "time": "2026-10-27 15:00:00",
-          "action": "SELL",
-          "code": "600312",
-          "name": "平高电气",
-          "price": 20.99,
-          "shares": 9300,
-          "fees": 148.36,
-          "pnl": -4199.149999999994,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 425,
-      "updated_at": "2026-11-02 17:33:26"
+      "transaction_count": 428,
+      "updated_at": "2026-11-03 17:43:10"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 105.41563000028896,
-      "pnl": -108259.58,
-      "return": -0.10830000000000001,
-      "equity": 891740.42,
+      "cash": 63.92563000028895,
+      "pnl": -111687.07,
+      "return": -0.1117,
+      "equity": 888312.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -279,15 +287,6 @@
           "buy_date": "2026-03-27",
           "cost": 595.0059,
           "defense": 5.76
-        },
-        {
-          "code": "000039",
-          "name": "中集集团",
-          "shares": 100,
-          "buy_price": 10.72,
-          "buy_date": "2026-04-03",
-          "cost": 1077.01072,
-          "defense": 10.33
         },
         {
           "code": "002145",
@@ -432,10 +431,59 @@
           "buy_date": "2026-09-29",
           "cost": 566.01,
           "defense": 5.35
+        },
+        {
+          "code": "601118",
+          "name": "海南橡胶",
+          "shares": 100,
+          "buy_price": 5.2,
+          "buy_date": "2026-11-03",
+          "cost": 525.01,
+          "defense": 5.07
+        },
+        {
+          "code": "600516",
+          "name": "方大炭素",
+          "shares": 100,
+          "buy_price": 4.46,
+          "buy_date": "2026-11-03",
+          "cost": 451.0,
+          "defense": 4.35
         }
       ],
-      "holding_count": 22,
+      "holding_count": 23,
       "transactions": [
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "BUY",
+          "code": "600516",
+          "name": "方大炭素",
+          "price": 4.46,
+          "shares": 100,
+          "fees": 5.0,
+          "reason": "B_伏击 (乖离率:-11.2%)"
+        },
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "BUY",
+          "code": "601118",
+          "name": "海南橡胶",
+          "price": 5.2,
+          "shares": 100,
+          "fees": 5.01,
+          "reason": "B_伏击 (乖离率:-15.9%)"
+        },
+        {
+          "time": "2026-11-03 15:00:00",
+          "action": "SELL",
+          "code": "000039",
+          "name": "中集集团",
+          "price": 9.4,
+          "shares": 100,
+          "fees": 5.48,
+          "pnl": -142.49072,
+          "reason": "S_落袋 (触碰上轨阻力区)"
+        },
         {
           "time": "2026-09-29 15:00:00",
           "action": "BUY",
@@ -528,41 +576,10 @@
           "shares": 1200,
           "fees": 13.21,
           "reason": "B_伏击 (乖离率:-11.8%)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "SELL",
-          "code": "301611",
-          "name": "珂玛科技",
-          "price": 85.79,
-          "shares": 600,
-          "fees": 39.12,
-          "pnl": -1768.9500000000044,
-          "reason": "破位止损 (跌破抄底价 ¥87.10)"
-        },
-        {
-          "time": "2026-09-10 15:00:00",
-          "action": "BUY",
-          "code": "688728",
-          "name": "格科微",
-          "price": 14.01,
-          "shares": 200,
-          "fees": 5.03,
-          "reason": "B_伏击 (乖离率:-7.9%)"
-        },
-        {
-          "time": "2026-09-10 15:00:00",
-          "action": "BUY",
-          "code": "600460",
-          "name": "士兰微",
-          "price": 30.24,
-          "shares": 100,
-          "fees": 5.03,
-          "reason": "B_伏击 (乖离率:-8.0%)"
         }
       ],
-      "transaction_count": 100,
-      "updated_at": "2026-11-02 17:33:26"
+      "transaction_count": 103,
+      "updated_at": "2026-11-03 17:43:10"
     }
   }
 }
