@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 14:40:17",
+  "generated_at": "2026-11-04 17:33:58",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,58 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.39851485148514854,
-    "breadth_3m": 0.24752475247524752,
-    "median_1m": -0.03160480686165623,
-    "median_3m": -0.08096923817428275,
-    "median_vol": 0.38672546543727554
+    "breadth_1m": 0.4306930693069307,
+    "breadth_3m": 0.2636138613861386,
+    "median_1m": -0.01790896706941492,
+    "median_3m": -0.06045285627862762,
+    "median_vol": 0.3951408433170204
   },
   "strategy_counts": {
-    "quality_v2": 49,
-    "main_wave_v2": 8,
-    "left_reversal_v2": 228,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 7,
+    "quality_v2": 47,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 198,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 3,
     "hybrid_v2": 20,
-    "legacy_bottom": 390,
-    "legacy_xma": 345,
-    "legacy_main_wave": 10
+    "legacy_bottom": 249,
+    "legacy_xma": 258,
+    "legacy_main_wave": 7
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 223.93751999971983,
-      "pnl": -365167.06,
-      "return": -0.3652,
-      "equity": 634832.94,
+      "cash": 557.2175199997027,
+      "pnl": -355480.78,
+      "return": -0.3555,
+      "equity": 644519.22,
       "holdings": [
-        {
-          "code": "603658",
-          "name": "安图生物",
-          "shares": 5200,
-          "buy_price": 38.19,
-          "buy_date": "2026-10-27",
-          "cost": 198639.63,
-          "defense": null
-        },
-        {
-          "code": "600295",
-          "name": "鄂尔多斯",
-          "shares": 11700,
-          "buy_price": 14.65,
-          "buy_date": "2026-10-27",
-          "cost": 171449.57,
-          "defense": null
-        },
-        {
-          "code": "601808",
-          "name": "中海油服",
-          "shares": 100,
-          "buy_price": 13.76,
-          "buy_date": "2026-10-28",
-          "cost": 1381.01,
-          "defense": null
-        },
         {
           "code": "300979",
           "name": "华利集团",
@@ -67,15 +40,6 @@
           "buy_price": 38.55,
           "buy_date": "2026-10-29",
           "cost": 188944.11,
-          "defense": null
-        },
-        {
-          "code": "003816",
-          "name": "中国广核",
-          "shares": 100,
-          "buy_price": 4.9,
-          "buy_date": "2026-10-29",
-          "cost": 495.0,
           "defense": null
         },
         {
@@ -104,10 +68,111 @@
           "buy_date": "2026-11-03",
           "cost": 2484.02,
           "defense": null
+        },
+        {
+          "code": "688018",
+          "name": "乐鑫科技",
+          "shares": 1200,
+          "buy_price": 155.26,
+          "buy_date": "2026-11-04",
+          "cost": 186360.44,
+          "defense": null
+        },
+        {
+          "code": "603160",
+          "name": "汇顶科技",
+          "shares": 3200,
+          "buy_price": 61.54,
+          "buy_date": "2026-11-04",
+          "cost": 196979.2,
+          "defense": null
+        },
+        {
+          "code": "002945",
+          "name": "华林证券",
+          "shares": 300,
+          "buy_price": 16.02,
+          "buy_date": "2026-11-04",
+          "cost": 4811.05,
+          "defense": null
         }
       ],
-      "holding_count": 8,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "BUY",
+          "code": "002945",
+          "name": "华林证券",
+          "price": 16.02,
+          "shares": 300,
+          "fees": 5.05,
+          "reason": "主升浪捕捉 (斜率:35.1°)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "BUY",
+          "code": "603160",
+          "name": "汇顶科技",
+          "price": 61.54,
+          "shares": 3200,
+          "fees": 51.2,
+          "reason": "主升浪捕捉 (斜率:37.9°)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "BUY",
+          "code": "688018",
+          "name": "乐鑫科技",
+          "price": 155.26,
+          "shares": 1200,
+          "fees": 48.44,
+          "reason": "主升浪捕捉 (斜率:57.1°)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "SELL",
+          "code": "003816",
+          "name": "中国广核",
+          "price": 4.69,
+          "shares": 100,
+          "fees": 5.24,
+          "pnl": -31.24000000000001,
+          "reason": "硬止损 (-4.3%)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "SELL",
+          "code": "601808",
+          "name": "中海油服",
+          "price": 13.23,
+          "shares": 100,
+          "fees": 5.67,
+          "pnl": -63.680000000000064,
+          "reason": "技术形态恶化 (S点)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "SELL",
+          "code": "600295",
+          "name": "鄂尔多斯",
+          "price": 15.77,
+          "shares": 11700,
+          "fees": 140.23,
+          "pnl": 12919.199999999983,
+          "reason": "持仓超时 (8天)"
+        },
+        {
+          "time": "2026-11-04 15:00:00",
+          "action": "SELL",
+          "code": "603658",
+          "name": "安图生物",
+          "price": 38.94,
+          "shares": 5200,
+          "fees": 153.89,
+          "pnl": 3694.4799999999814,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-03 15:00:00",
           "action": "BUY",
@@ -159,89 +224,17 @@
           "fees": 8.85,
           "pnl": 146.07999999999993,
           "reason": "持仓超时 (10天)"
-        },
-        {
-          "time": "2026-10-29 15:00:00",
-          "action": "BUY",
-          "code": "003816",
-          "name": "中国广核",
-          "price": 4.9,
-          "shares": 100,
-          "fees": 5.0,
-          "reason": "主升浪捕捉 (斜率:39.0°)"
-        },
-        {
-          "time": "2026-10-29 15:00:00",
-          "action": "BUY",
-          "code": "300979",
-          "name": "华利集团",
-          "price": 38.55,
-          "shares": 4900,
-          "fees": 49.11,
-          "reason": "主升浪捕捉 (斜率:40.2°)"
-        },
-        {
-          "time": "2026-10-29 15:00:00",
-          "action": "SELL",
-          "code": "002472",
-          "name": "双环传动",
-          "price": 42.98,
-          "shares": 4400,
-          "fees": 143.73,
-          "pnl": -9523.320000000007,
-          "reason": "硬止损 (-4.7%)"
-        },
-        {
-          "time": "2026-10-28 15:00:00",
-          "action": "BUY",
-          "code": "601808",
-          "name": "中海油服",
-          "price": 13.76,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "主升浪捕捉 (斜率:31.3°)"
-        },
-        {
-          "time": "2026-10-28 15:00:00",
-          "action": "BUY",
-          "code": "002472",
-          "name": "双环传动",
-          "price": 45.1,
-          "shares": 4400,
-          "fees": 51.59,
-          "reason": "主升浪捕捉 (斜率:44.4°)"
-        },
-        {
-          "time": "2026-10-28 15:00:00",
-          "action": "SELL",
-          "code": "688018",
-          "name": "乐鑫科技",
-          "price": 142.55,
-          "shares": 1400,
-          "fees": 151.67,
-          "pnl": 2359.109999999986,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-10-27 15:00:00",
-          "action": "BUY",
-          "code": "600295",
-          "name": "鄂尔多斯",
-          "price": 14.65,
-          "shares": 11700,
-          "fees": 44.57,
-          "reason": "主升浪捕捉 (斜率:26.3°)"
         }
       ],
-      "transaction_count": 428,
-      "updated_at": "2026-11-03 17:43:10"
+      "transaction_count": 435,
+      "updated_at": "2026-11-04 17:33:36"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 63.92563000028895,
-      "pnl": -111687.07,
-      "return": -0.1117,
-      "equity": 888312.9299999999,
+      "pnl": -87323.07,
+      "return": -0.0873,
+      "equity": 912676.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -579,7 +572,7 @@
         }
       ],
       "transaction_count": 103,
-      "updated_at": "2026-11-03 17:43:10"
+      "updated_at": "2026-11-04 17:33:36"
     }
   }
 }
