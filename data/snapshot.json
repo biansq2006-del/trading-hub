@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 14:40:22",
+  "generated_at": "2026-11-05 17:32:47",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,30 +8,30 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.4306930693069307,
-    "breadth_3m": 0.2636138613861386,
-    "median_1m": -0.01790896706941492,
-    "median_3m": -0.06045285627862762,
-    "median_vol": 0.3951408433170204
+    "breadth_1m": 0.4430693069306931,
+    "breadth_3m": 0.27970297029702973,
+    "median_1m": -0.015200135545880235,
+    "median_3m": -0.06285403733199563,
+    "median_vol": 0.4077129785064497
   },
   "strategy_counts": {
-    "quality_v2": 47,
+    "quality_v2": 41,
     "main_wave_v2": 3,
-    "left_reversal_v2": 198,
+    "left_reversal_v2": 98,
     "quality_main_wave_v2": 0,
     "quality_left_v2": 3,
     "hybrid_v2": 20,
-    "legacy_bottom": 249,
-    "legacy_xma": 258,
-    "legacy_main_wave": 7
+    "legacy_bottom": 127,
+    "legacy_xma": 198,
+    "legacy_main_wave": 10
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 557.2175199997027,
-      "pnl": -355480.78,
-      "return": -0.3555,
-      "equity": 644519.22,
+      "cash": 232.96751999970002,
+      "pnl": -334589.03,
+      "return": -0.3346,
+      "equity": 665410.97,
       "holdings": [
         {
           "code": "300979",
@@ -49,15 +49,6 @@
           "buy_price": 34.76,
           "buy_date": "2026-11-02",
           "cost": 6957.07,
-          "defense": null
-        },
-        {
-          "code": "300413",
-          "name": "芒果超媒",
-          "shares": 1800,
-          "buy_price": 27.8,
-          "buy_date": "2026-11-03",
-          "cost": 50053.01,
           "defense": null
         },
         {
@@ -95,10 +86,40 @@
           "buy_date": "2026-11-04",
           "cost": 4811.05,
           "defense": null
+        },
+        {
+          "code": "003021",
+          "name": "兆威机电",
+          "shares": 600,
+          "buy_price": 98.78,
+          "buy_date": "2026-11-05",
+          "cost": 59283.41,
+          "defense": null
         }
       ],
       "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-11-05 15:00:00",
+          "action": "BUY",
+          "code": "003021",
+          "name": "兆威机电",
+          "price": 98.78,
+          "shares": 600,
+          "fees": 15.41,
+          "reason": "主升浪捕捉 (斜率:64.4°)"
+        },
+        {
+          "time": "2026-11-05 15:00:00",
+          "action": "SELL",
+          "code": "300413",
+          "name": "芒果超媒",
+          "price": 32.78,
+          "shares": 1800,
+          "fees": 44.84,
+          "pnl": 8906.150000000001,
+          "reason": "硬止盈 (+17.9%)"
+        },
         {
           "time": "2026-11-04 15:00:00",
           "action": "BUY",
@@ -203,38 +224,17 @@
           "fees": 39.37,
           "pnl": 2241.7599999999948,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-11-02 15:00:00",
-          "action": "BUY",
-          "code": "603369",
-          "name": "今世缘",
-          "price": 34.76,
-          "shares": 200,
-          "fees": 5.07,
-          "reason": "主升浪捕捉 (斜率:54.1°)"
-        },
-        {
-          "time": "2026-11-02 15:00:00",
-          "action": "SELL",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 15.1,
-          "shares": 500,
-          "fees": 8.85,
-          "pnl": 146.07999999999993,
-          "reason": "持仓超时 (10天)"
         }
       ],
-      "transaction_count": 435,
-      "updated_at": "2026-11-04 17:33:36"
+      "transaction_count": 437,
+      "updated_at": "2026-11-05 17:32:25"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 63.92563000028895,
-      "pnl": -87323.07,
-      "return": -0.0873,
-      "equity": 912676.9299999999,
+      "pnl": -79836.07,
+      "return": -0.07980000000000001,
+      "equity": 920163.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -572,7 +572,7 @@
         }
       ],
       "transaction_count": 103,
-      "updated_at": "2026-11-04 17:33:36"
+      "updated_at": "2026-11-05 17:32:25"
     }
   }
 }
