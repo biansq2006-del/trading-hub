@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06 14:40:18",
+  "generated_at": "2026-11-06 18:39:34",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.4430693069306931,
-    "breadth_3m": 0.27970297029702973,
-    "median_1m": -0.015200135545880235,
-    "median_3m": -0.06285403733199563,
-    "median_vol": 0.4077129785064497
+    "breadth_1m": 0.4282178217821782,
+    "breadth_3m": 0.24876237623762376,
+    "median_1m": -0.019187261174076375,
+    "median_3m": -0.07699256049109443,
+    "median_vol": 0.40437172997188553
   },
   "strategy_counts": {
-    "quality_v2": 41,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 98,
+    "quality_v2": 40,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 107,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 3,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 127,
-    "legacy_xma": 198,
-    "legacy_main_wave": 10
+    "legacy_bottom": 91,
+    "legacy_xma": 241,
+    "legacy_main_wave": 2
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 232.96751999970002,
-      "pnl": -334589.03,
-      "return": -0.3346,
-      "equity": 665410.97,
+      "cash": 198532.1475199997,
+      "pnl": -332208.85,
+      "return": -0.3322,
+      "equity": 667791.15,
       "holdings": [
-        {
-          "code": "300979",
-          "name": "华利集团",
-          "shares": 4900,
-          "buy_price": 38.55,
-          "buy_date": "2026-10-29",
-          "cost": 188944.11,
-          "defense": null
-        },
         {
           "code": "603369",
           "name": "今世缘",
@@ -97,8 +88,19 @@
           "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-11-06 15:00:00",
+          "action": "SELL",
+          "code": "300979",
+          "name": "华利集团",
+          "price": 40.5,
+          "shares": 4900,
+          "fees": 150.82,
+          "pnl": 9355.070000000007,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-05 15:00:00",
           "action": "BUY",
@@ -213,28 +215,17 @@
           "shares": 1800,
           "fees": 13.01,
           "reason": "主升浪捕捉 (斜率:59.9°)"
-        },
-        {
-          "time": "2026-11-03 15:00:00",
-          "action": "SELL",
-          "code": "601857",
-          "name": "中国石油",
-          "price": 14.0,
-          "shares": 3700,
-          "fees": 39.37,
-          "pnl": 2241.7599999999948,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 437,
-      "updated_at": "2026-11-05 17:32:25"
+      "transaction_count": 438,
+      "updated_at": "2026-11-06 18:39:10"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 63.92563000028895,
-      "pnl": -79836.07,
-      "return": -0.07980000000000001,
-      "equity": 920163.9299999999,
+      "pnl": -90183.07,
+      "return": -0.0902,
+      "equity": 909816.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -572,7 +563,7 @@
         }
       ],
       "transaction_count": 103,
-      "updated_at": "2026-11-05 17:32:25"
+      "updated_at": "2026-11-06 18:39:10"
     }
   }
 }
