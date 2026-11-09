@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 14:40:18",
+  "generated_at": "2026-11-09 17:33:12",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,30 +8,30 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.4282178217821782,
-    "breadth_3m": 0.24876237623762376,
-    "median_1m": -0.019187261174076375,
-    "median_3m": -0.07699256049109443,
-    "median_vol": 0.40437172997188553
+    "breadth_1m": 0.3787128712871287,
+    "breadth_3m": 0.2623762376237624,
+    "median_1m": -0.030371523146089596,
+    "median_3m": -0.08209421261255168,
+    "median_vol": 0.40349650166592
   },
   "strategy_counts": {
-    "quality_v2": 40,
+    "quality_v2": 45,
     "main_wave_v2": 0,
-    "left_reversal_v2": 107,
+    "left_reversal_v2": 48,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 91,
-    "legacy_xma": 241,
-    "legacy_main_wave": 2
+    "legacy_bottom": 37,
+    "legacy_xma": 260,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 198532.1475199997,
-      "pnl": -332208.85,
-      "return": -0.3322,
-      "equity": 667791.15,
+      "cash": 203093.81751999972,
+      "pnl": -331142.18,
+      "return": -0.3311,
+      "equity": 668857.8200000001,
       "holdings": [
         {
           "code": "603369",
@@ -70,15 +70,6 @@
           "defense": null
         },
         {
-          "code": "002945",
-          "name": "华林证券",
-          "shares": 300,
-          "buy_price": 16.02,
-          "buy_date": "2026-11-04",
-          "cost": 4811.05,
-          "defense": null
-        },
-        {
           "code": "003021",
           "name": "兆威机电",
           "shares": 600,
@@ -88,8 +79,19 @@
           "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 5,
       "transactions": [
+        {
+          "time": "2026-11-09 15:00:00",
+          "action": "SELL",
+          "code": "002945",
+          "name": "华林证券",
+          "price": 15.23,
+          "shares": 300,
+          "fees": 7.33,
+          "pnl": -249.3800000000001,
+          "reason": "硬止损 (-4.9%)"
+        },
         {
           "time": "2026-11-06 15:00:00",
           "action": "SELL",
@@ -205,27 +207,17 @@
           "shares": 100,
           "fees": 5.02,
           "reason": "主升浪捕捉 (斜率:40.3°)"
-        },
-        {
-          "time": "2026-11-03 15:00:00",
-          "action": "BUY",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 27.8,
-          "shares": 1800,
-          "fees": 13.01,
-          "reason": "主升浪捕捉 (斜率:59.9°)"
         }
       ],
-      "transaction_count": 438,
-      "updated_at": "2026-11-06 18:39:10"
+      "transaction_count": 439,
+      "updated_at": "2026-11-09 17:32:49"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 63.92563000028895,
-      "pnl": -90183.07,
-      "return": -0.0902,
-      "equity": 909816.9299999999,
+      "pnl": -94218.07,
+      "return": -0.0942,
+      "equity": 905781.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -563,7 +555,7 @@
         }
       ],
       "transaction_count": 103,
-      "updated_at": "2026-11-06 18:39:10"
+      "updated_at": "2026-11-09 17:32:49"
     }
   }
 }
