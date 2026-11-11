@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 14:40:22",
+  "generated_at": "2026-11-11 17:33:19",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.38613861386138615,
-    "breadth_3m": 0.25495049504950495,
-    "median_1m": -0.024040391067730538,
-    "median_3m": -0.09054718549681057,
-    "median_vol": 0.3953663875377075
+    "breadth_1m": 0.37995049504950495,
+    "breadth_3m": 0.2537128712871287,
+    "median_1m": -0.02740255515109513,
+    "median_3m": -0.09219331987100537,
+    "median_vol": 0.39469640597701405
   },
   "strategy_counts": {
-    "quality_v2": 41,
-    "main_wave_v2": 4,
-    "left_reversal_v2": 83,
+    "quality_v2": 42,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 99,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 1,
+    "quality_left_v2": 4,
     "hybrid_v2": 20,
-    "legacy_bottom": 46,
-    "legacy_xma": 245,
-    "legacy_main_wave": 8
+    "legacy_bottom": 28,
+    "legacy_xma": 241,
+    "legacy_main_wave": 3
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 107.03751999973838,
-      "pnl": -309957.96,
-      "return": -0.31,
-      "equity": 690042.04,
+      "cash": 381.807519999762,
+      "pnl": -336832.19,
+      "return": -0.3368,
+      "equity": 663167.81,
       "holdings": [
-        {
-          "code": "000400",
-          "name": "许继电气",
-          "shares": 100,
-          "buy_price": 24.79,
-          "buy_date": "2026-11-03",
-          "cost": 2484.02,
-          "defense": null
-        },
         {
           "code": "603160",
           "name": "汇顶科技",
@@ -70,15 +61,6 @@
           "defense": null
         },
         {
-          "code": "688772",
-          "name": "珠海冠宇",
-          "shares": 11200,
-          "buy_price": 17.8,
-          "buy_date": "2026-11-10",
-          "cost": 199411.83,
-          "defense": null
-        },
-        {
           "code": "603341",
           "name": "龙旗科技",
           "shares": 700,
@@ -95,10 +77,70 @@
           "buy_date": "2026-11-10",
           "cost": 3231.03,
           "defense": null
+        },
+        {
+          "code": "688322",
+          "name": "奥比中光",
+          "shares": 1400,
+          "buy_price": 120.28,
+          "buy_date": "2026-11-11",
+          "cost": 168435.78,
+          "defense": null
+        },
+        {
+          "code": "002472",
+          "name": "双环传动",
+          "shares": 400,
+          "buy_price": 44.59,
+          "buy_date": "2026-11-11",
+          "cost": 17841.18,
+          "defense": null
         }
       ],
       "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-11-11 15:00:00",
+          "action": "BUY",
+          "code": "002472",
+          "name": "双环传动",
+          "price": 44.59,
+          "shares": 400,
+          "fees": 5.18,
+          "reason": "主升浪捕捉 (斜率:51.5°)"
+        },
+        {
+          "time": "2026-11-11 15:00:00",
+          "action": "BUY",
+          "code": "688322",
+          "name": "奥比中光",
+          "price": 120.28,
+          "shares": 1400,
+          "fees": 43.78,
+          "reason": "主升浪捕捉 (斜率:67.2°)"
+        },
+        {
+          "time": "2026-11-11 15:00:00",
+          "action": "SELL",
+          "code": "688772",
+          "name": "珠海冠宇",
+          "price": 16.45,
+          "shares": 11200,
+          "fees": 140.02,
+          "pnl": -15311.849999999977,
+          "reason": "硬止损 (-7.6%)"
+        },
+        {
+          "time": "2026-11-11 15:00:00",
+          "action": "SELL",
+          "code": "000400",
+          "name": "许继电气",
+          "price": 24.58,
+          "shares": 100,
+          "fees": 6.25,
+          "pnl": -32.26999999999998,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-10 15:00:00",
           "action": "BUY",
@@ -182,58 +224,17 @@
           "fees": 150.82,
           "pnl": 9355.070000000007,
           "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-11-05 15:00:00",
-          "action": "BUY",
-          "code": "003021",
-          "name": "兆威机电",
-          "price": 98.78,
-          "shares": 600,
-          "fees": 15.41,
-          "reason": "主升浪捕捉 (斜率:64.4°)"
-        },
-        {
-          "time": "2026-11-05 15:00:00",
-          "action": "SELL",
-          "code": "300413",
-          "name": "芒果超媒",
-          "price": 32.78,
-          "shares": 1800,
-          "fees": 44.84,
-          "pnl": 8906.150000000001,
-          "reason": "硬止盈 (+17.9%)"
-        },
-        {
-          "time": "2026-11-04 15:00:00",
-          "action": "BUY",
-          "code": "002945",
-          "name": "华林证券",
-          "price": 16.02,
-          "shares": 300,
-          "fees": 5.05,
-          "reason": "主升浪捕捉 (斜率:35.1°)"
-        },
-        {
-          "time": "2026-11-04 15:00:00",
-          "action": "BUY",
-          "code": "603160",
-          "name": "汇顶科技",
-          "price": 61.54,
-          "shares": 3200,
-          "fees": 51.2,
-          "reason": "主升浪捕捉 (斜率:37.9°)"
         }
       ],
-      "transaction_count": 445,
-      "updated_at": "2026-11-10 17:46:45"
+      "transaction_count": 449,
+      "updated_at": "2026-11-11 17:32:58"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 63.92563000028895,
-      "pnl": -93719.07,
-      "return": -0.09369999999999999,
-      "equity": 906280.9299999999,
+      "pnl": -95973.07,
+      "return": -0.096,
+      "equity": 904026.9299999999,
       "holdings": [
         {
           "code": "688180",
@@ -571,7 +572,7 @@
         }
       ],
       "transaction_count": 103,
-      "updated_at": "2026-11-10 17:46:45"
+      "updated_at": "2026-11-11 17:32:58"
     }
   }
 }
