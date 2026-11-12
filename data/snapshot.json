@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 14:40:19",
+  "generated_at": "2026-11-12 17:33:19",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.37995049504950495,
-    "breadth_3m": 0.2537128712871287,
-    "median_1m": -0.02740255515109513,
-    "median_3m": -0.09219331987100537,
-    "median_vol": 0.39469640597701405
+    "breadth_1m": 0.349009900990099,
+    "breadth_3m": 0.23514851485148514,
+    "median_1m": -0.03258341759352884,
+    "median_3m": -0.1081229142416057,
+    "median_vol": 0.39460822066784534
   },
   "strategy_counts": {
-    "quality_v2": 42,
+    "quality_v2": 40,
     "main_wave_v2": 0,
-    "left_reversal_v2": 99,
+    "left_reversal_v2": 10,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 4,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 28,
-    "legacy_xma": 241,
-    "legacy_main_wave": 3
+    "legacy_bottom": 32,
+    "legacy_xma": 321,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 381.807519999762,
-      "pnl": -336832.19,
-      "return": -0.3368,
-      "equity": 663167.81,
+      "cash": 558816.2775199998,
+      "pnl": -378977.72,
+      "return": -0.379,
+      "equity": 621022.28,
       "holdings": [
-        {
-          "code": "603160",
-          "name": "汇顶科技",
-          "shares": 3200,
-          "buy_price": 61.54,
-          "buy_date": "2026-11-04",
-          "cost": 196979.2,
-          "defense": null
-        },
         {
           "code": "003021",
           "name": "兆威机电",
@@ -52,24 +43,6 @@
           "defense": null
         },
         {
-          "code": "688608",
-          "name": "恒玄科技",
-          "shares": 1400,
-          "buy_price": 135.91,
-          "buy_date": "2026-11-10",
-          "cost": 190323.47,
-          "defense": null
-        },
-        {
-          "code": "603341",
-          "name": "龙旗科技",
-          "shares": 700,
-          "buy_price": 40.12,
-          "buy_date": "2026-11-10",
-          "cost": 28091.3,
-          "defense": null
-        },
-        {
           "code": "600977",
           "name": "中国电影",
           "shares": 200,
@@ -77,28 +50,65 @@
           "buy_date": "2026-11-10",
           "cost": 3231.03,
           "defense": null
-        },
-        {
-          "code": "688322",
-          "name": "奥比中光",
-          "shares": 1400,
-          "buy_price": 120.28,
-          "buy_date": "2026-11-11",
-          "cost": 168435.78,
-          "defense": null
-        },
-        {
-          "code": "002472",
-          "name": "双环传动",
-          "shares": 400,
-          "buy_price": 44.59,
-          "buy_date": "2026-11-11",
-          "cost": 17841.18,
-          "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 2,
       "transactions": [
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "002472",
+          "name": "双环传动",
+          "price": 42.06,
+          "shares": 400,
+          "fees": 13.58,
+          "pnl": -1030.760000000002,
+          "reason": "硬止损 (-5.7%)"
+        },
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "688322",
+          "name": "奥比中光",
+          "price": 105.0,
+          "shares": 1400,
+          "fees": 111.72,
+          "pnl": -21547.5,
+          "reason": "硬止损 (-12.7%)"
+        },
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "603341",
+          "name": "龙旗科技",
+          "price": 37.48,
+          "shares": 700,
+          "fees": 19.94,
+          "pnl": -1875.239999999998,
+          "reason": "硬止损 (-6.6%)"
+        },
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "688608",
+          "name": "恒玄科技",
+          "price": 127.2,
+          "shares": 1400,
+          "fees": 135.34,
+          "pnl": -12378.809999999998,
+          "reason": "硬止损 (-6.4%)"
+        },
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "603160",
+          "name": "汇顶科技",
+          "price": 59.6,
+          "shares": 3200,
+          "fees": 144.95,
+          "pnl": -6404.150000000023,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-11 15:00:00",
           "action": "BUY",
@@ -170,71 +180,17 @@
           "shares": 11200,
           "fees": 51.83,
           "reason": "主升浪捕捉 (斜率:56.8°)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "BUY",
-          "code": "688608",
-          "name": "恒玄科技",
-          "price": 135.91,
-          "shares": 1400,
-          "fees": 49.47,
-          "reason": "主升浪捕捉 (斜率:59.0°)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "SELL",
-          "code": "688018",
-          "name": "乐鑫科技",
-          "price": 176.15,
-          "shares": 1200,
-          "fees": 160.65,
-          "pnl": 24858.910000000003,
-          "reason": "硬止盈 (+13.5%)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "SELL",
-          "code": "603369",
-          "name": "今世缘",
-          "price": 34.3,
-          "shares": 200,
-          "fees": 8.5,
-          "pnl": -105.56999999999971,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-11-09 15:00:00",
-          "action": "SELL",
-          "code": "002945",
-          "name": "华林证券",
-          "price": 15.23,
-          "shares": 300,
-          "fees": 7.33,
-          "pnl": -249.3800000000001,
-          "reason": "硬止损 (-4.9%)"
-        },
-        {
-          "time": "2026-11-06 15:00:00",
-          "action": "SELL",
-          "code": "300979",
-          "name": "华利集团",
-          "price": 40.5,
-          "shares": 4900,
-          "fees": 150.82,
-          "pnl": 9355.070000000007,
-          "reason": "持仓超时 (8天)"
         }
       ],
-      "transaction_count": 449,
-      "updated_at": "2026-11-11 17:32:58"
+      "transaction_count": 454,
+      "updated_at": "2026-11-12 17:32:54"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 63.92563000028895,
-      "pnl": -95973.07,
-      "return": -0.096,
-      "equity": 904026.9299999999,
+      "cash": 486.7056300002889,
+      "pnl": -105973.29,
+      "return": -0.106,
+      "equity": 894026.71,
       "holdings": [
         {
           "code": "688180",
@@ -433,19 +389,21 @@
           "buy_date": "2026-11-03",
           "cost": 525.01,
           "defense": 5.07
-        },
-        {
-          "code": "600516",
-          "name": "方大炭素",
-          "shares": 100,
-          "buy_price": 4.46,
-          "buy_date": "2026-11-03",
-          "cost": 451.0,
-          "defense": 4.35
         }
       ],
-      "holding_count": 23,
+      "holding_count": 22,
       "transactions": [
+        {
+          "time": "2026-11-12 15:00:00",
+          "action": "SELL",
+          "code": "600516",
+          "name": "方大炭素",
+          "price": 4.28,
+          "shares": 100,
+          "fees": 5.22,
+          "pnl": -28.220000000000027,
+          "reason": "破位止损 (跌破抄底价 ¥4.35)"
+        },
         {
           "time": "2026-11-03 15:00:00",
           "action": "BUY",
@@ -559,20 +517,10 @@
           "shares": 100,
           "fees": 5.01,
           "reason": "B_伏击 (乖离率:-8.1%)"
-        },
-        {
-          "time": "2026-09-11 15:00:00",
-          "action": "BUY",
-          "code": "300679",
-          "name": "电连技术",
-          "price": 42.35,
-          "shares": 1200,
-          "fees": 13.21,
-          "reason": "B_伏击 (乖离率:-11.8%)"
         }
       ],
-      "transaction_count": 103,
-      "updated_at": "2026-11-11 17:32:58"
+      "transaction_count": 104,
+      "updated_at": "2026-11-12 17:32:54"
     }
   }
 }
