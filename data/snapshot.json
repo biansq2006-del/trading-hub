@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 14:50:06",
+  "generated_at": "2026-11-13 21:30:26",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.349009900990099,
-    "breadth_3m": 0.23514851485148514,
-    "median_1m": -0.03258341759352884,
-    "median_3m": -0.1081229142416057,
-    "median_vol": 0.39460822066784534
+    "breadth_1m": 0.40594059405940597,
+    "breadth_3m": 0.22277227722772278,
+    "median_1m": -0.023475083544489683,
+    "median_3m": -0.1226502797888626,
+    "median_vol": 0.381560450461075
   },
   "strategy_counts": {
-    "quality_v2": 40,
-    "main_wave_v2": 0,
-    "left_reversal_v2": 10,
-    "quality_main_wave_v2": 0,
-    "quality_left_v2": 0,
+    "quality_v2": 41,
+    "main_wave_v2": 3,
+    "left_reversal_v2": 23,
+    "quality_main_wave_v2": 1,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 32,
-    "legacy_xma": 321,
-    "legacy_main_wave": 0
+    "legacy_bottom": 77,
+    "legacy_xma": 375,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 558816.2775199998,
-      "pnl": -378977.72,
-      "return": -0.379,
-      "equity": 621022.28,
+      "cash": 54652.5875199998,
+      "pnl": -380447.41,
+      "return": -0.3804,
+      "equity": 619552.5900000001,
       "holdings": [
-        {
-          "code": "003021",
-          "name": "兆威机电",
-          "shares": 600,
-          "buy_price": 98.78,
-          "buy_date": "2026-11-05",
-          "cost": 59283.41,
-          "defense": null
-        },
         {
           "code": "600977",
           "name": "中国电影",
@@ -50,10 +41,78 @@
           "buy_date": "2026-11-10",
           "cost": 3231.03,
           "defense": null
+        },
+        {
+          "code": "000596",
+          "name": "古井贡酒",
+          "shares": 1700,
+          "buy_price": 112.0,
+          "buy_date": "2026-11-13",
+          "cost": 190449.5,
+          "defense": null
+        },
+        {
+          "code": "688617",
+          "name": "惠泰医疗",
+          "shares": 600,
+          "buy_price": 286.87,
+          "buy_date": "2026-11-13",
+          "cost": 172166.75,
+          "defense": null
+        },
+        {
+          "code": "300251",
+          "name": "光线传媒",
+          "shares": 15200,
+          "buy_price": 13.09,
+          "buy_date": "2026-11-13",
+          "cost": 199019.73,
+          "defense": null
         }
       ],
-      "holding_count": 2,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-11-13 15:00:00",
+          "action": "BUY",
+          "code": "300251",
+          "name": "光线传媒",
+          "price": 13.09,
+          "shares": 15200,
+          "fees": 51.73,
+          "reason": "主升浪捕捉 (斜率:31.9°)"
+        },
+        {
+          "time": "2026-11-13 15:00:00",
+          "action": "BUY",
+          "code": "688617",
+          "name": "惠泰医疗",
+          "price": 286.87,
+          "shares": 600,
+          "fees": 44.75,
+          "reason": "主升浪捕捉 (斜率:34.8°)"
+        },
+        {
+          "time": "2026-11-13 15:00:00",
+          "action": "BUY",
+          "code": "000596",
+          "name": "古井贡酒",
+          "price": 112.0,
+          "shares": 1700,
+          "fees": 49.5,
+          "reason": "主升浪捕捉 (斜率:54.8°)"
+        },
+        {
+          "time": "2026-11-13 15:00:00",
+          "action": "SELL",
+          "code": "003021",
+          "name": "兆威机电",
+          "price": 95.86,
+          "shares": 600,
+          "fees": 43.71,
+          "pnl": -1811.1200000000026,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-12 15:00:00",
           "action": "SELL",
@@ -139,58 +198,17 @@
           "fees": 140.02,
           "pnl": -15311.849999999977,
           "reason": "硬止损 (-7.6%)"
-        },
-        {
-          "time": "2026-11-11 15:00:00",
-          "action": "SELL",
-          "code": "000400",
-          "name": "许继电气",
-          "price": 24.58,
-          "shares": 100,
-          "fees": 6.25,
-          "pnl": -32.26999999999998,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "BUY",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 16.13,
-          "shares": 200,
-          "fees": 5.03,
-          "reason": "主升浪捕捉 (斜率:30.3°)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "BUY",
-          "code": "603341",
-          "name": "龙旗科技",
-          "price": 40.12,
-          "shares": 700,
-          "fees": 7.3,
-          "reason": "主升浪捕捉 (斜率:39.0°)"
-        },
-        {
-          "time": "2026-11-10 15:00:00",
-          "action": "BUY",
-          "code": "688772",
-          "name": "珠海冠宇",
-          "price": 17.8,
-          "shares": 11200,
-          "fees": 51.83,
-          "reason": "主升浪捕捉 (斜率:56.8°)"
         }
       ],
-      "transaction_count": 454,
-      "updated_at": "2026-11-12 17:32:54"
+      "transaction_count": 458,
+      "updated_at": "2026-11-13 21:29:50"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 486.7056300002889,
-      "pnl": -105973.29,
-      "return": -0.106,
-      "equity": 894026.71,
+      "pnl": -118386.29,
+      "return": -0.1184,
+      "equity": 881613.71,
       "holdings": [
         {
           "code": "688180",
@@ -520,7 +538,7 @@
         }
       ],
       "transaction_count": 104,
-      "updated_at": "2026-11-12 17:32:54"
+      "updated_at": "2026-11-13 21:29:50"
     }
   }
 }
