@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 14:40:27",
+  "generated_at": "2026-11-16 17:33:57",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,30 +8,30 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.40594059405940597,
-    "breadth_3m": 0.22277227722772278,
-    "median_1m": -0.023475083544489683,
-    "median_3m": -0.1226502797888626,
-    "median_vol": 0.381560450461075
+    "breadth_1m": 0.38985148514851486,
+    "breadth_3m": 0.2400990099009901,
+    "median_1m": -0.030630017370076534,
+    "median_3m": -0.12096824482006019,
+    "median_vol": 0.38419378534392806
   },
   "strategy_counts": {
-    "quality_v2": 41,
-    "main_wave_v2": 3,
-    "left_reversal_v2": 23,
+    "quality_v2": 43,
+    "main_wave_v2": 5,
+    "left_reversal_v2": 94,
     "quality_main_wave_v2": 1,
-    "quality_left_v2": 1,
+    "quality_left_v2": 2,
     "hybrid_v2": 20,
-    "legacy_bottom": 77,
-    "legacy_xma": 375,
-    "legacy_main_wave": 4
+    "legacy_bottom": 212,
+    "legacy_xma": 389,
+    "legacy_main_wave": 7
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 54652.5875199998,
-      "pnl": -380447.41,
-      "return": -0.3804,
-      "equity": 619552.5900000001,
+      "cash": 215.74751999981072,
+      "pnl": -390267.25,
+      "return": -0.39030000000000004,
+      "equity": 609732.75,
       "holdings": [
         {
           "code": "600977",
@@ -61,17 +61,95 @@
           "defense": null
         },
         {
-          "code": "300251",
-          "name": "光线传媒",
-          "shares": 15200,
-          "buy_price": 13.09,
-          "buy_date": "2026-11-13",
-          "cost": 199019.73,
+          "code": "688169",
+          "name": "石头科技",
+          "shares": 1400,
+          "buy_price": 133.66,
+          "buy_date": "2026-11-16",
+          "cost": 187172.65,
+          "defense": null
+        },
+        {
+          "code": "688036",
+          "name": "传音控股",
+          "shares": 800,
+          "buy_price": 63.66,
+          "buy_date": "2026-11-16",
+          "cost": 50941.24,
+          "defense": null
+        },
+        {
+          "code": "000400",
+          "name": "许继电气",
+          "shares": 100,
+          "buy_price": 26.19,
+          "buy_date": "2026-11-16",
+          "cost": 2624.03,
+          "defense": null
+        },
+        {
+          "code": "601717",
+          "name": "中创智领",
+          "shares": 100,
+          "buy_price": 15.75,
+          "buy_date": "2026-11-16",
+          "cost": 1580.02,
           "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 7,
       "transactions": [
+        {
+          "time": "2026-11-16 15:00:00",
+          "action": "BUY",
+          "code": "601717",
+          "name": "中创智领",
+          "price": 15.75,
+          "shares": 100,
+          "fees": 5.02,
+          "reason": "主升浪捕捉 (斜率:33.9°)"
+        },
+        {
+          "time": "2026-11-16 15:00:00",
+          "action": "BUY",
+          "code": "000400",
+          "name": "许继电气",
+          "price": 26.19,
+          "shares": 100,
+          "fees": 5.03,
+          "reason": "主升浪捕捉 (斜率:35.9°)"
+        },
+        {
+          "time": "2026-11-16 15:00:00",
+          "action": "BUY",
+          "code": "688036",
+          "name": "传音控股",
+          "price": 63.66,
+          "shares": 800,
+          "fees": 13.24,
+          "reason": "主升浪捕捉 (斜率:47.5°)"
+        },
+        {
+          "time": "2026-11-16 15:00:00",
+          "action": "BUY",
+          "code": "688169",
+          "name": "石头科技",
+          "price": 133.66,
+          "shares": 1400,
+          "fees": 48.65,
+          "reason": "主升浪捕捉 (斜率:49.1°)"
+        },
+        {
+          "time": "2026-11-16 15:00:00",
+          "action": "SELL",
+          "code": "300251",
+          "name": "光线传媒",
+          "price": 12.37,
+          "shares": 15200,
+          "fees": 142.9,
+          "pnl": -11138.630000000005,
+          "reason": "硬止损 (-5.5%)"
+        },
         {
           "time": "2026-11-13 15:00:00",
           "action": "BUY",
@@ -145,70 +223,17 @@
           "fees": 19.94,
           "pnl": -1875.239999999998,
           "reason": "硬止损 (-6.6%)"
-        },
-        {
-          "time": "2026-11-12 15:00:00",
-          "action": "SELL",
-          "code": "688608",
-          "name": "恒玄科技",
-          "price": 127.2,
-          "shares": 1400,
-          "fees": 135.34,
-          "pnl": -12378.809999999998,
-          "reason": "硬止损 (-6.4%)"
-        },
-        {
-          "time": "2026-11-12 15:00:00",
-          "action": "SELL",
-          "code": "603160",
-          "name": "汇顶科技",
-          "price": 59.6,
-          "shares": 3200,
-          "fees": 144.95,
-          "pnl": -6404.150000000023,
-          "reason": "持仓超时 (8天)"
-        },
-        {
-          "time": "2026-11-11 15:00:00",
-          "action": "BUY",
-          "code": "002472",
-          "name": "双环传动",
-          "price": 44.59,
-          "shares": 400,
-          "fees": 5.18,
-          "reason": "主升浪捕捉 (斜率:51.5°)"
-        },
-        {
-          "time": "2026-11-11 15:00:00",
-          "action": "BUY",
-          "code": "688322",
-          "name": "奥比中光",
-          "price": 120.28,
-          "shares": 1400,
-          "fees": 43.78,
-          "reason": "主升浪捕捉 (斜率:67.2°)"
-        },
-        {
-          "time": "2026-11-11 15:00:00",
-          "action": "SELL",
-          "code": "688772",
-          "name": "珠海冠宇",
-          "price": 16.45,
-          "shares": 11200,
-          "fees": 140.02,
-          "pnl": -15311.849999999977,
-          "reason": "硬止损 (-7.6%)"
         }
       ],
-      "transaction_count": 458,
-      "updated_at": "2026-11-13 21:29:50"
+      "transaction_count": 463,
+      "updated_at": "2026-11-16 17:33:22"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 486.7056300002889,
-      "pnl": -118386.29,
-      "return": -0.1184,
-      "equity": 881613.71,
+      "pnl": -136236.29,
+      "return": -0.1362,
+      "equity": 863763.71,
       "holdings": [
         {
           "code": "688180",
@@ -538,7 +563,7 @@
         }
       ],
       "transaction_count": 104,
-      "updated_at": "2026-11-13 21:29:50"
+      "updated_at": "2026-11-16 17:33:22"
     }
   }
 }
