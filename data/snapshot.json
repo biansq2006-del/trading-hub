@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 14:40:18",
+  "generated_at": "2026-11-17 21:11:44",
   "stock_count": 808,
   "regime": {
     "state": "混合偏防守",
@@ -8,40 +8,31 @@
     "secondary": "质量左侧观察",
     "exposure": "20% - 35%",
     "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.38985148514851486,
-    "breadth_3m": 0.2400990099009901,
-    "median_1m": -0.030630017370076534,
-    "median_3m": -0.12096824482006019,
-    "median_vol": 0.38419378534392806
+    "breadth_1m": 0.36386138613861385,
+    "breadth_3m": 0.2376237623762376,
+    "median_1m": -0.03809148256022077,
+    "median_3m": -0.12701605283352468,
+    "median_vol": 0.3793516169101477
   },
   "strategy_counts": {
-    "quality_v2": 43,
-    "main_wave_v2": 5,
-    "left_reversal_v2": 94,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 2,
+    "quality_v2": 44,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 183,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 5,
     "hybrid_v2": 20,
-    "legacy_bottom": 212,
-    "legacy_xma": 389,
-    "legacy_main_wave": 7
+    "legacy_bottom": 249,
+    "legacy_xma": 402,
+    "legacy_main_wave": 4
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 215.74751999981072,
-      "pnl": -390267.25,
-      "return": -0.39030000000000004,
-      "equity": 609732.75,
+      "cash": 3275.187519999811,
+      "pnl": -377756.81,
+      "return": -0.3778,
+      "equity": 622243.19,
       "holdings": [
-        {
-          "code": "600977",
-          "name": "中国电影",
-          "shares": 200,
-          "buy_price": 16.13,
-          "buy_date": "2026-11-10",
-          "cost": 3231.03,
-          "defense": null
-        },
         {
           "code": "000596",
           "name": "古井贡酒",
@@ -97,8 +88,19 @@
           "defense": null
         }
       ],
-      "holding_count": 7,
+      "holding_count": 6,
       "transactions": [
+        {
+          "time": "2026-11-17 15:00:00",
+          "action": "SELL",
+          "code": "600977",
+          "name": "中国电影",
+          "price": 15.33,
+          "shares": 200,
+          "fees": 6.56,
+          "pnl": -171.59000000000015,
+          "reason": "硬止损 (-5.0%)"
+        },
         {
           "time": "2026-11-16 15:00:00",
           "action": "BUY",
@@ -212,28 +214,17 @@
           "fees": 111.72,
           "pnl": -21547.5,
           "reason": "硬止损 (-12.7%)"
-        },
-        {
-          "time": "2026-11-12 15:00:00",
-          "action": "SELL",
-          "code": "603341",
-          "name": "龙旗科技",
-          "price": 37.48,
-          "shares": 700,
-          "fees": 19.94,
-          "pnl": -1875.239999999998,
-          "reason": "硬止损 (-6.6%)"
         }
       ],
-      "transaction_count": 463,
-      "updated_at": "2026-11-16 17:33:22"
+      "transaction_count": 464,
+      "updated_at": "2026-11-17 21:11:08"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 486.7056300002889,
-      "pnl": -136236.29,
-      "return": -0.1362,
-      "equity": 863763.71,
+      "cash": 22.70563000028892,
+      "pnl": -137228.29,
+      "return": -0.13720000000000002,
+      "equity": 862771.71,
       "holdings": [
         {
           "code": "688180",
@@ -432,10 +423,29 @@
           "buy_date": "2026-11-03",
           "cost": 525.01,
           "defense": 5.07
+        },
+        {
+          "code": "000630",
+          "name": "铜陵有色",
+          "shares": 100,
+          "buy_price": 4.59,
+          "buy_date": "2026-11-17",
+          "cost": 464.0,
+          "defense": 4.41
         }
       ],
-      "holding_count": 22,
+      "holding_count": 23,
       "transactions": [
+        {
+          "time": "2026-11-17 15:00:00",
+          "action": "BUY",
+          "code": "000630",
+          "name": "铜陵有色",
+          "price": 4.59,
+          "shares": 100,
+          "fees": 5.0,
+          "reason": "B_伏击 (乖离率:-6.1%)"
+        },
         {
           "time": "2026-11-12 15:00:00",
           "action": "SELL",
@@ -550,20 +560,10 @@
           "fees": 58.82,
           "pnl": 15565.119999999995,
           "reason": "S_落袋 (触碰上轨阻力区)"
-        },
-        {
-          "time": "2026-09-14 15:00:00",
-          "action": "BUY",
-          "code": "000725",
-          "name": "京东方A",
-          "price": 5.3,
-          "shares": 100,
-          "fees": 5.01,
-          "reason": "B_伏击 (乖离率:-8.1%)"
         }
       ],
-      "transaction_count": 104,
-      "updated_at": "2026-11-16 17:33:22"
+      "transaction_count": 105,
+      "updated_at": "2026-11-17 21:11:08"
     }
   }
 }
