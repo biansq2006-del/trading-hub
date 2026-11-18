@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-18 14:40:36",
+  "generated_at": "2026-11-18 21:41:54",
   "stock_count": 808,
   "regime": {
-    "state": "混合偏防守",
-    "code": "mixed-defensive",
+    "state": "防守",
+    "code": "defensive",
     "primary": "质量选股",
-    "secondary": "质量左侧观察",
-    "exposure": "20% - 35%",
-    "note": "中期扩散偏弱，左侧只观察止跌，右侧等待市场宽度改善。",
-    "breadth_1m": 0.36386138613861385,
-    "breadth_3m": 0.2376237623762376,
-    "median_1m": -0.03809148256022077,
-    "median_3m": -0.12701605283352468,
-    "median_vol": 0.3793516169101477
+    "secondary": "现金管理",
+    "exposure": "10% - 25%",
+    "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
+    "breadth_1m": 0.33910891089108913,
+    "breadth_3m": 0.23267326732673269,
+    "median_1m": -0.04249352273742524,
+    "median_3m": -0.12341552782729251,
+    "median_vol": 0.37980396132161315
   },
   "strategy_counts": {
-    "quality_v2": 44,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 183,
+    "quality_v2": 48,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 96,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 5,
+    "quality_left_v2": 1,
     "hybrid_v2": 20,
-    "legacy_bottom": 249,
-    "legacy_xma": 402,
-    "legacy_main_wave": 4
+    "legacy_bottom": 280,
+    "legacy_xma": 422,
+    "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
       "cash": 3275.187519999811,
-      "pnl": -377756.81,
-      "return": -0.3778,
-      "equity": 622243.19,
+      "pnl": -391418.81,
+      "return": -0.3914,
+      "equity": 608581.19,
       "holdings": [
         {
           "code": "000596",
@@ -217,14 +217,14 @@
         }
       ],
       "transaction_count": 464,
-      "updated_at": "2026-11-17 21:11:08"
+      "updated_at": "2026-11-18 21:41:19"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 22.70563000028892,
-      "pnl": -137228.29,
-      "return": -0.13720000000000002,
-      "equity": 862771.71,
+      "pnl": -135069.29,
+      "return": -0.1351,
+      "equity": 864930.71,
       "holdings": [
         {
           "code": "688180",
@@ -563,7 +563,7 @@
         }
       ],
       "transaction_count": 105,
-      "updated_at": "2026-11-17 21:11:08"
+      "updated_at": "2026-11-18 21:41:19"
     }
   }
 }
