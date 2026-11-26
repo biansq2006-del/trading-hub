@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25 15:19:16",
+  "generated_at": "2026-11-26 14:50:36",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,58 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.30816831683168316,
-    "breadth_3m": 0.21534653465346534,
-    "median_1m": -0.06162414927995946,
-    "median_3m": -0.1372047372365034,
-    "median_vol": 0.3791132723480648
+    "breadth_1m": 0.2784653465346535,
+    "breadth_3m": 0.2004950495049505,
+    "median_1m": -0.07038577086770365,
+    "median_3m": -0.14892320068151688,
+    "median_vol": 0.37031283913652935
   },
   "strategy_counts": {
-    "quality_v2": 58,
-    "main_wave_v2": 2,
-    "left_reversal_v2": 311,
-    "quality_main_wave_v2": 1,
-    "quality_left_v2": 5,
+    "quality_v2": 60,
+    "main_wave_v2": 1,
+    "left_reversal_v2": 70,
+    "quality_main_wave_v2": 0,
+    "quality_left_v2": 0,
     "hybrid_v2": 20,
-    "legacy_bottom": 423,
-    "legacy_xma": 448,
-    "legacy_main_wave": 3
+    "legacy_bottom": 422,
+    "legacy_xma": 519,
+    "legacy_main_wave": 1
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 442.64751999980035,
-      "pnl": -421836.35,
-      "return": -0.4218,
-      "equity": 578163.65,
+      "cash": 4898.26751999979,
+      "pnl": -420645.73,
+      "return": -0.42060000000000003,
+      "equity": 579354.27,
       "holdings": [
-        {
-          "code": "000400",
-          "name": "许继电气",
-          "shares": 100,
-          "buy_price": 26.19,
-          "buy_date": "2026-11-16",
-          "cost": 2624.03,
-          "defense": null
-        },
-        {
-          "code": "601717",
-          "name": "中创智领",
-          "shares": 100,
-          "buy_price": 15.75,
-          "buy_date": "2026-11-16",
-          "cost": 1580.02,
-          "defense": null
-        },
-        {
-          "code": "603816",
-          "name": "顾家家居",
-          "shares": 6900,
-          "buy_price": 26.9,
-          "buy_date": "2026-11-19",
-          "cost": 185658.26,
-          "defense": null
-        },
         {
           "code": "600066",
           "name": "宇通客车",
@@ -86,10 +59,62 @@
           "buy_date": "2026-11-20",
           "cost": 10213.1,
           "defense": null
+        },
+        {
+          "code": "600600",
+          "name": "青岛啤酒",
+          "shares": 3200,
+          "buy_price": 55.42,
+          "buy_date": "2026-11-25",
+          "cost": 177390.11,
+          "defense": null
         }
       ],
-      "holding_count": 6,
+      "holding_count": 4,
       "transactions": [
+        {
+          "time": "2026-11-25 15:00:00",
+          "action": "BUY",
+          "code": "600600",
+          "name": "青岛啤酒",
+          "price": 55.42,
+          "shares": 3200,
+          "fees": 46.11,
+          "reason": "主升浪捕捉 (斜率:29.0°)"
+        },
+        {
+          "time": "2026-11-24 15:00:00",
+          "action": "SELL",
+          "code": "603816",
+          "name": "顾家家居",
+          "price": 25.77,
+          "shares": 6900,
+          "fees": 135.14,
+          "pnl": -7980.400000000023,
+          "reason": "硬止损 (-4.2%)"
+        },
+        {
+          "time": "2026-11-24 15:00:00",
+          "action": "SELL",
+          "code": "601717",
+          "name": "中创智领",
+          "price": 15.58,
+          "shares": 100,
+          "fees": 5.79,
+          "pnl": -27.809999999999945,
+          "reason": "持仓超时 (8天)"
+        },
+        {
+          "time": "2026-11-24 15:00:00",
+          "action": "SELL",
+          "code": "000400",
+          "name": "许继电气",
+          "price": 26.22,
+          "shares": 100,
+          "fees": 6.34,
+          "pnl": -8.370000000000346,
+          "reason": "持仓超时 (8天)"
+        },
         {
           "time": "2026-11-20 15:00:00",
           "action": "BUY",
@@ -173,58 +198,17 @@
           "fees": 138.76,
           "pnl": -8008.260000000009,
           "reason": "硬止损 (-4.1%)"
-        },
-        {
-          "time": "2026-11-17 15:00:00",
-          "action": "SELL",
-          "code": "600977",
-          "name": "中国电影",
-          "price": 15.33,
-          "shares": 200,
-          "fees": 6.56,
-          "pnl": -171.59000000000015,
-          "reason": "硬止损 (-5.0%)"
-        },
-        {
-          "time": "2026-11-16 15:00:00",
-          "action": "BUY",
-          "code": "601717",
-          "name": "中创智领",
-          "price": 15.75,
-          "shares": 100,
-          "fees": 5.02,
-          "reason": "主升浪捕捉 (斜率:33.9°)"
-        },
-        {
-          "time": "2026-11-16 15:00:00",
-          "action": "BUY",
-          "code": "000400",
-          "name": "许继电气",
-          "price": 26.19,
-          "shares": 100,
-          "fees": 5.03,
-          "reason": "主升浪捕捉 (斜率:35.9°)"
-        },
-        {
-          "time": "2026-11-16 15:00:00",
-          "action": "BUY",
-          "code": "688036",
-          "name": "传音控股",
-          "price": 63.66,
-          "shares": 800,
-          "fees": 13.24,
-          "reason": "主升浪捕捉 (斜率:47.5°)"
         }
       ],
-      "transaction_count": 472,
-      "updated_at": "2026-11-23 23:57:48"
+      "transaction_count": 476,
+      "updated_at": "2026-11-25 21:50:12"
     },
     "left": {
       "initial": 1000000.0,
-      "cash": 21.485630000288893,
-      "pnl": -148142.51,
-      "return": -0.1481,
-      "equity": 851857.49,
+      "cash": 233.37563000028888,
+      "pnl": -177744.62,
+      "return": -0.1777,
+      "equity": 822255.38,
       "holdings": [
         {
           "code": "688180",
@@ -425,15 +409,6 @@
           "defense": 5.07
         },
         {
-          "code": "600208",
-          "name": "衢州发展",
-          "shares": 100,
-          "buy_price": 2.28,
-          "buy_date": "2026-11-23",
-          "cost": 233.0,
-          "defense": 2.19
-        },
-        {
           "code": "000785",
           "name": "居然智家",
           "shares": 100,
@@ -443,8 +418,19 @@
           "defense": 1.82
         }
       ],
-      "holding_count": 24,
+      "holding_count": 23,
       "transactions": [
+        {
+          "time": "2026-11-25 15:00:00",
+          "action": "SELL",
+          "code": "600208",
+          "name": "衢州发展",
+          "price": 2.17,
+          "shares": 100,
+          "fees": 5.11,
+          "pnl": -21.110000000000014,
+          "reason": "破位止损 (跌破抄底价 ¥2.19)"
+        },
         {
           "time": "2026-11-23 15:00:00",
           "action": "BUY",
@@ -558,20 +544,10 @@
           "fees": 51.53,
           "pnl": -2169.699999999997,
           "reason": "破位止损 (跌破抄底价 ¥57.22)"
-        },
-        {
-          "time": "2026-09-23 15:00:00",
-          "action": "BUY",
-          "code": "300803",
-          "name": "指南针",
-          "price": 58.25,
-          "shares": 1200,
-          "fees": 18.17,
-          "reason": "B_伏击 (乖离率:-21.9%)"
         }
       ],
-      "transaction_count": 108,
-      "updated_at": "2026-11-23 23:57:48"
+      "transaction_count": 109,
+      "updated_at": "2026-11-25 21:50:12"
     }
   }
 }
