@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 14:50:36",
+  "generated_at": "2026-11-27 14:40:59",
   "stock_count": 808,
   "regime": {
     "state": "防守",
@@ -8,40 +8,31 @@
     "secondary": "现金管理",
     "exposure": "10% - 25%",
     "note": "短期下跌扩散明显，不把下跌加速误判为左侧机会。",
-    "breadth_1m": 0.2784653465346535,
-    "breadth_3m": 0.2004950495049505,
-    "median_1m": -0.07038577086770365,
-    "median_3m": -0.14892320068151688,
-    "median_vol": 0.37031283913652935
+    "breadth_1m": 0.24257425742574257,
+    "breadth_3m": 0.20297029702970298,
+    "median_1m": -0.08338216673886678,
+    "median_3m": -0.15303931779341606,
+    "median_vol": 0.36951324815666425
   },
   "strategy_counts": {
-    "quality_v2": 60,
-    "main_wave_v2": 1,
-    "left_reversal_v2": 70,
+    "quality_v2": 61,
+    "main_wave_v2": 0,
+    "left_reversal_v2": 103,
     "quality_main_wave_v2": 0,
-    "quality_left_v2": 0,
+    "quality_left_v2": 4,
     "hybrid_v2": 20,
-    "legacy_bottom": 422,
-    "legacy_xma": 519,
-    "legacy_main_wave": 1
+    "legacy_bottom": 354,
+    "legacy_xma": 533,
+    "legacy_main_wave": 0
   },
   "legacy_accounts": {
     "right": {
       "initial": 1000000.0,
-      "cash": 4898.26751999979,
-      "pnl": -420645.73,
-      "return": -0.42060000000000003,
-      "equity": 579354.27,
+      "cash": 195373.3975199998,
+      "pnl": -421582.6,
+      "return": -0.4216,
+      "equity": 578417.4,
       "holdings": [
-        {
-          "code": "600066",
-          "name": "宇通客车",
-          "shares": 6000,
-          "buy_price": 32.81,
-          "buy_date": "2026-11-20",
-          "cost": 196911.18,
-          "defense": null
-        },
         {
           "code": "601398",
           "name": "工商银行",
@@ -70,8 +61,19 @@
           "defense": null
         }
       ],
-      "holding_count": 4,
+      "holding_count": 3,
       "transactions": [
+        {
+          "time": "2026-11-26 15:00:00",
+          "action": "SELL",
+          "code": "600066",
+          "name": "宇通客车",
+          "price": 31.77,
+          "shares": 6000,
+          "fees": 144.87,
+          "pnl": -6436.049999999988,
+          "reason": "技术形态恶化 (S点)"
+        },
         {
           "time": "2026-11-25 15:00:00",
           "action": "BUY",
@@ -187,28 +189,17 @@
           "shares": 6900,
           "fees": 48.26,
           "reason": "主升浪捕捉 (斜率:41.0°)"
-        },
-        {
-          "time": "2026-11-19 15:00:00",
-          "action": "SELL",
-          "code": "000596",
-          "name": "古井贡酒",
-          "price": 107.4,
-          "shares": 1700,
-          "fees": 138.76,
-          "pnl": -8008.260000000009,
-          "reason": "硬止损 (-4.1%)"
         }
       ],
-      "transaction_count": 476,
-      "updated_at": "2026-11-25 21:50:12"
+      "transaction_count": 477,
+      "updated_at": "2026-11-26 17:32:27"
     },
     "left": {
       "initial": 1000000.0,
       "cash": 233.37563000028888,
-      "pnl": -177744.62,
-      "return": -0.1777,
-      "equity": 822255.38,
+      "pnl": -182137.62,
+      "return": -0.1821,
+      "equity": 817862.38,
       "holdings": [
         {
           "code": "688180",
@@ -547,7 +538,7 @@
         }
       ],
       "transaction_count": 109,
-      "updated_at": "2026-11-25 21:50:12"
+      "updated_at": "2026-11-26 17:32:27"
     }
   }
 }
